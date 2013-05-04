@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8A7C45A-56DF-4EEF-8A31-F268D136D99C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Doxim.L10N</RootNamespace>
+    <AssemblyName>DoximLocalization</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Js\JsRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>JsRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Js</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Js\JsRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>JsRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Js</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\BusinessLogicRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BusinessLogicRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\BusinessLogicRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>BusinessLogicRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\CommonRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\CommonRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\ModelRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ModelRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\DefsRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DefsRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\DataAccessRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DataAccessRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\DataAccessRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DataAccessRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\DefsRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DefsRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\ExceptionsRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExceptionsRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\ExceptionsRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExceptionsRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\MiscRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MiscRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\MiscRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MiscRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Lib\ModelRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ModelRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Web\AdminRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AdminRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Web</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Web\AdminRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AdminRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Web</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Web\CommonRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Web</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Web\CommonRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Web</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Web\MiscRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MiscRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Web</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Web\MiscRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MiscRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Web</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Web\WebRes.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>WebRes.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Web</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Web\WebRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>WebRes.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Doxim.L10N.Web</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Js\JsRes.fr.Designer.cs">
+      <DependentUpon>JsRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Js\JsRes.Designer.cs">
+      <DependentUpon>JsRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\BusinessLogicRes.Designer.cs">
+      <DependentUpon>BusinessLogicRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\BusinessLogicRes.fr.Designer.cs">
+      <DependentUpon>BusinessLogicRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\CommonRes.Designer.cs">
+      <DependentUpon>CommonRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\CommonRes.fr.Designer.cs">
+      <DependentUpon>CommonRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\ModelRes.fr.Designer.cs">
+      <DependentUpon>ModelRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\DefsRes.fr.Designer.cs">
+      <DependentUpon>DefsRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\DataAccessRes.Designer.cs">
+      <DependentUpon>DataAccessRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\DataAccessRes.fr.Designer.cs">
+      <DependentUpon>DataAccessRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\DefsRes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DefsRes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Lib\ExceptionsRes.Designer.cs">
+      <DependentUpon>ExceptionsRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\ExceptionsRes.fr.Designer.cs">
+      <DependentUpon>ExceptionsRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\MiscRes.Designer.cs">
+      <DependentUpon>MiscRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\MiscRes.fr.Designer.cs">
+      <DependentUpon>MiscRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Lib\ModelRes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelRes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Web\AdminRes.Designer.cs">
+      <DependentUpon>AdminRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Web\AdminRes.fr.Designer.cs">
+      <DependentUpon>AdminRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Web\CommonRes.Designer.cs">
+      <DependentUpon>CommonRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Web\CommonRes.fr.Designer.cs">
+      <DependentUpon>CommonRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Web\MiscRes.Designer.cs">
+      <DependentUpon>MiscRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Web\MiscRes.fr.Designer.cs">
+      <DependentUpon>MiscRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Web\WebRes.Designer.cs">
+      <DependentUpon>WebRes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Web\WebRes.fr.Designer.cs">
+      <DependentUpon>WebRes.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

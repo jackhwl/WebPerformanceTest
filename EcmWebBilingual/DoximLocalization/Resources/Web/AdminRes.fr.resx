@@ -1,0 +1,1011 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_ActionProfileView_Description" xml:space="preserve">
+    <value>[Đęƒįŉįŧįőŉ Đęşčřįpŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Action_ActionProfileView_Name" xml:space="preserve">
+    <value>[Đęƒįŉįŧįőŉ Ńämę !!! !!!]</value>
+  </data>
+  <data name="Action_CheckOutConfigControl_CheckBackIn" xml:space="preserve">
+    <value>[CĥęčĸßäčĸĨŉ Ŵőřđįŉģ: !!! !!!]</value>
+  </data>
+  <data name="Action_CheckOutConfigControl_CheckOut" xml:space="preserve">
+    <value>[CĥęčĸØūŧ Ŵőřđįŉģ: !!! !!!]</value>
+  </data>
+  <data name="Action_CheckOutConfigControl_CheckOut2" xml:space="preserve">
+    <value>[CĥęčĸØūŧ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_CheckOutConfigControl_Undo" xml:space="preserve">
+    <value>[Ůŉđő Ŵőřđįŉģ: !!! !!!]</value>
+  </data>
+  <data name="Action_DocSysFieldsConfigControl_ShowSysInfo" xml:space="preserve">
+    <value>[Ŝĥőŵ Đőč Ŝyşŧęm Ĩŉƒő: !!! !!!]</value>
+  </data>
+  <data name="Action_DocSysFieldsConfigControl_SysInfo" xml:space="preserve">
+    <value>[Ŝyş Ĩŉƒő !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_EmailConfigControl_CompanyEmail" xml:space="preserve">
+    <value>[Cőmpäŉy Přőƒįľę Ēmäįľ Åđđřęşş !!! !!!]</value>
+  </data>
+  <data name="Action_EmailConfigControl_CurrentEmail" xml:space="preserve">
+    <value>[Cūřřęŉŧ Ŝęŧŧįŉģ őƒ Ŝęŉđęř Ēmäįľ Åđđřęşş !!! !!!]</value>
+  </data>
+  <data name="Action_EmailConfigControl_Sender" xml:space="preserve">
+    <value>[Ŝęŉđęř Øpŧįőŉ: !!! !!!]</value>
+  </data>
+  <data name="Action_EmailConfigControl_SenderField" xml:space="preserve">
+    <value>[Ŝęŉđęř Fįęľđ Cĥäŉģęäþľę: !!! !!!]</value>
+  </data>
+  <data name="Action_EmailConfigControl_UserEmail" xml:space="preserve">
+    <value>[Ůşęř Přőƒįľę Ēmäįľ Åđđřęşş !!! !!!]</value>
+  </data>
+  <data name="Action_FieldsConfigCcontrol_Alias" xml:space="preserve">
+    <value>[Åľįäş !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_FieldsConfigCcontrol_Align" xml:space="preserve">
+    <value>[Åľįģŉ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_FieldsConfigCcontrol_CssStyle" xml:space="preserve">
+    <value>[Cşş Ŝŧyľę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_FieldsConfigCcontrol_Unit" xml:space="preserve">
+    <value>[Ůŉįŧ !!! !!! !!!]</value>
+  </data>
+  <data name="Action_FieldsConfigControl_DefaultFields" xml:space="preserve">
+    <value>[Ńő Fįęľđş čőŉƒįģūřęđ čūřřęŉŧľy, ūşę đęƒäūľŧ ƒįęľđş. !!! !!! !!!]</value>
+  </data>
+  <data name="Action_ImageConvertConfigControl_Convert" xml:space="preserve">
+    <value>[Ĩmäģę Cőŉvęřŧ !!! !!!]</value>
+  </data>
+  <data name="Action_ImageConvertConfigControl_FixHeight" xml:space="preserve">
+    <value>[Cőŉşŧřäįŉ Přőpőřŧįőŉ, Fįχ Ħęįģĥŧ !!! !!!]</value>
+  </data>
+  <data name="Action_ImageConvertConfigControl_FixWidth" xml:space="preserve">
+    <value>[Cőŉşŧřäįŉ Přőpőřŧįőŉ, Fįχ Ŵįđŧĥ !!! !!!]</value>
+  </data>
+  <data name="Action_ImageConvertConfigControl_Proportion" xml:space="preserve">
+    <value>[Přőpőřŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Action_ImageConvertConfigControl_WidthHeight" xml:space="preserve">
+    <value>[Cőŉşŧřäįŉ Ŵįđŧĥ &amp; Ħęįģĥŧ !!! !!!]</value>
+  </data>
+  <data name="Action_InsertConfigControl_End" xml:space="preserve">
+    <value>[Åŧ ŧĥę ęŉđ !!! !!!]</value>
+  </data>
+  <data name="Action_InsertConfigControl_Front" xml:space="preserve">
+    <value>[Ĩŉ ŧĥę ƒřőŉŧ !!! !!!]</value>
+  </data>
+  <data name="Action_InsertConfigControl_InsertFirst" xml:space="preserve">
+    <value>[Ĩŉşęřŧ Fįřşŧ !!! !!!]</value>
+  </data>
+  <data name="Action_InsertConfigControl_InsertPosition" xml:space="preserve">
+    <value>[Ĩŉşęřŧ Pőşįŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Action_InsertConfigControl_Position" xml:space="preserve">
+    <value>[Pőşįŧįőŉ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_InsertConfigControl_ShowStampConfiguration" xml:space="preserve">
+    <value>[Ŝĥőŵ Ŝŧämp Cőŉƒįģūřäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Action_InsertConfigControl_StampFirst" xml:space="preserve">
+    <value>[Ŝŧämp Fįřşŧ !!! !!!]</value>
+  </data>
+  <data name="Action_InsertConfigControl_StampSequence" xml:space="preserve">
+    <value>[Ŝŧämp Ŝęqūęŉčę !!! !!!]</value>
+  </data>
+  <data name="Action_InsertConfigControl_WithStamp" xml:space="preserve">
+    <value>[Ŵįŧĥ Ŝŧämp !!! !!!]</value>
+  </data>
+  <data name="Action_MasterDetailConfigControl_AutoAdjustHeight" xml:space="preserve">
+    <value>[Ħęįģĥŧ: äūŧő äđĵūşŧ !!! !!!]</value>
+  </data>
+  <data name="Action_MasterDetailConfigControl_BottomView" xml:space="preserve">
+    <value>[ßőŧŧőm Vįęŵ !!! !!!]</value>
+  </data>
+  <data name="Action_MasterDetailConfigControl_DetailAction" xml:space="preserve">
+    <value>[Đęŧäįľ Åčŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Action_MasterDetailConfigControl_MasterTopAction" xml:space="preserve">
+    <value>[Mäşŧęř Ŧőp Åčŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Action_MasterDetailConfigControl_SelectView" xml:space="preserve">
+    <value>[Pľęäşę čőŉƒįģūřę äŧ řęľäŧęđ vįęŵ !!! !!!]</value>
+  </data>
+  <data name="Action_OpenConfigControl_OpenOption" xml:space="preserve">
+    <value>[Øpęŉ Øpŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Action_OpenConfigControl_ShowFullWindowButton" xml:space="preserve">
+    <value>[Ŝĥőŵ "Cľįčĸ ĥęřę ŧő őpęŉ įŉ ä ƒūľľ ŵįŉđőŵ" þūŧŧőŉ !!! !!! !!!]</value>
+  </data>
+  <data name="Action_PortfolioFieldsConfigControl_CheckBackIn" xml:space="preserve">
+    <value>[CĥęčĸßäčĸĨŉ Ŵőřđįŉģ !!! !!!]</value>
+  </data>
+  <data name="Action_PortfolioFieldsConfigControl_Undo" xml:space="preserve">
+    <value>[Ůŉđő Ŵőřđįŉģ !!! !!!]</value>
+  </data>
+  <data name="Action_PortfolioViewsConfigControl_CommonFieldsSearch" xml:space="preserve">
+    <value>[Cőmmőŉ Fįęľđş Ŝęäřčĥ !!! !!!]</value>
+  </data>
+  <data name="Action_PortfolioViewsControl_ViewOrder" xml:space="preserve">
+    <value>[Vįęŵ Øřđęř !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_AllPages" xml:space="preserve">
+    <value>[Åľľ Päģęş !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_EvenPages" xml:space="preserve">
+    <value>[Ēvęŉ Päģęş !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_FirstPage" xml:space="preserve">
+    <value>[Fįřşŧ Päģę !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_OddPages" xml:space="preserve">
+    <value>[Øđđ Päģęş !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_Overlay" xml:space="preserve">
+    <value>[Øvęřľäy !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_Position" xml:space="preserve">
+    <value>[Pőşįŧįőŉ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_Stamp" xml:space="preserve">
+    <value>[Ŝŧämp !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_StampIn" xml:space="preserve">
+    <value>[Ŝŧämp Ĩŉ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_StampLayer" xml:space="preserve">
+    <value>[Ŝŧämp Ŀäyęř !!! !!!]</value>
+  </data>
+  <data name="Action_StampConfigControl_Underlay" xml:space="preserve">
+    <value>[Ůŉđęřľäy !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_TiffAsPdfConfigControl_OnePage" xml:space="preserve">
+    <value>[ßőŧĥ Ŝįđę Ŝŧäy Ĩŉ Øŉę Päģę !!! !!!]</value>
+  </data>
+  <data name="Action_TiffAsPdfConfigControl_OneSideOnePage" xml:space="preserve">
+    <value>[Øŉę Ŝįđę Øŉę Päģę !!! !!!]</value>
+  </data>
+  <data name="Action_TiffAsPdfConfigControl_TiffAsPdf" xml:space="preserve">
+    <value>[Ŧįƒƒ Åş Pđƒ !!! !!!]</value>
+  </data>
+  <data name="Action_TiffAsPdfConfigControl_TIFFImageLayout" xml:space="preserve">
+    <value>[ŦĨFF Ĩmäģę Ŀäyőūŧ !!! !!!]</value>
+  </data>
+  <data name="Action_WorkFlowConfigControl_DoAction" xml:space="preserve">
+    <value>[Đő Åčŧįőŉ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Action_WorkFlowConfigControl_From" xml:space="preserve">
+    <value>[Fřőm !!! !!! !!!]</value>
+  </data>
+  <data name="Action_WorkFlowConfigControl_SelectStatusField" xml:space="preserve">
+    <value>[Ŝęľęčŧ Ŝŧäŧūş Fįęľđ !!! !!!]</value>
+  </data>
+  <data name="Action_WorkFlowConfigControl_To" xml:space="preserve">
+    <value>[Ŧő !!! !!!]</value>
+  </data>
+  <data name="Action_WorkFlowConfigControl_Workflow" xml:space="preserve">
+    <value>[Ŵőřĸƒľőŵ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_BatchFolders" xml:space="preserve">
+    <value>[ßäŧčĥ ƒőľđęřş !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_BatchName" xml:space="preserve">
+    <value>[ßäŧčĥ Ńämę !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_BatchProfile" xml:space="preserve">
+    <value>[ßäŧčĥ přőƒįľę !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_DateActive" xml:space="preserve">
+    <value>[Đäŧę Åčŧįvę !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_DateExpire" xml:space="preserve">
+    <value>[Đäŧę Ēχpįřę !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_DateTimeCreated" xml:space="preserve">
+    <value>[ĐäŧęŦįmę Cřęäŧęđ !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_DBPath" xml:space="preserve">
+    <value>[ĐßPäŧĥ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_DeleteConfirm" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő đęľęŧę ŧĥįş þäŧčĥ? !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_DocPath" xml:space="preserve">
+    <value>[Đőč Päŧĥ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_DocumentCount" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Cőūŉŧ !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_EmailNotification" xml:space="preserve">
+    <value>[Ēmäįľ Ńőŧįƒįčäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_ExpectDocuments" xml:space="preserve">
+    <value>[Ēχpęčŧ Đőčūmęŉŧş !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_IgnoreError" xml:space="preserve">
+    <value>[Ĩģŉőřę ƒįľę mįşşįŉģ ęřřőř? !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_SelectDate" xml:space="preserve">
+    <value>[Ŝęľęčŧ Đäŧę !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_SkippedDocuments" xml:space="preserve">
+    <value>[Ŝĸįppęđ Đőčūmęŉŧş !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_UploadStatus" xml:space="preserve">
+    <value>[Ůpľőäđ Ŝŧäŧūş !!! !!!]</value>
+  </data>
+  <data name="Batch_BatchProfileView_UserCreated" xml:space="preserve">
+    <value>[Ůşęř Cřęäŧęđ !!! !!!]</value>
+  </data>
+  <data name="Company_BatchDocumentTypeList_NoBatch" xml:space="preserve">
+    <value>[Ńő ßäŧčĥ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyAdminView_Profile" xml:space="preserve">
+    <value>[Cőmpäŉy Přőƒįľę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Address1" xml:space="preserve">
+    <value>[Åđđřęşş1 !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Address2" xml:space="preserve">
+    <value>[Åđđřęşş2 !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_City" xml:space="preserve">
+    <value>[Cįŧy !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_CompanyName" xml:space="preserve">
+    <value>[Cőmpäŉy Ńämę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_ContactPerson" xml:space="preserve">
+    <value>[Cőŉŧäčŧ Pęřşőŉ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Country" xml:space="preserve">
+    <value>[Cőūŉŧřy !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_CreateCompany" xml:space="preserve">
+    <value>[Cřęäŧę Cőmpäŉy !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Department" xml:space="preserve">
+    <value>[Đępäřŧmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Email" xml:space="preserve">
+    <value>[Ēmäįľ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Fax" xml:space="preserve">
+    <value>[Fäχ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Phone" xml:space="preserve">
+    <value>[Pĥőŉę !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_PostalCode" xml:space="preserve">
+    <value>[Pőşŧäľ Cőđę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Province" xml:space="preserve">
+    <value>[Přővįŉčę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Body" xml:space="preserve">
+    <value>[ßőđy !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Disabled" xml:space="preserve">
+    <value>[Đįşäþľęđ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_EnableHeader" xml:space="preserve">
+    <value>[Ēŉäþľę Ħęäđęř !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_EnablePath" xml:space="preserve">
+    <value>[Ēŉäþľę Päŧĥ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_EnableTree" xml:space="preserve">
+    <value>[Ēŉäþľę Ŧřęę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_EnableUserChangePassword" xml:space="preserve">
+    <value>[Ēŉäþľę ūşęř čĥäŉģę ĥįş/ĥęř päşşŵőřđ/ęmäįľ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_FailedLoginAttemptCount" xml:space="preserve">
+    <value>[Fäįľęđ Ŀőģįŉ Åŧŧęmpŧ Cőūŉŧ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Feedback" xml:space="preserve">
+    <value>[Fęęđþäčĸ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_ForAllUsers" xml:space="preserve">
+    <value>[Főř Åľľ Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_ForcePasswordChange" xml:space="preserve">
+    <value>[Főřčę päşşŵőřđ čĥäŉģę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_ForNew" xml:space="preserve">
+    <value>[Főř Ńęŵ Øř Cĥäŉģę Päşşŵőřđ ßy Åđmįŉ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_InternalAddress" xml:space="preserve">
+    <value>[ŴęþŜęřvęř Ĩŉŧęřŉäľ Åđđřęşş !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_InvalidEmail" xml:space="preserve">
+    <value>[Ĩŉväľįđ ƒęęđþäčĸ ęmäįľ! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_InvalidFeedbackUrl" xml:space="preserve">
+    <value>[Ĩŉväľįđ ƒęęđþäčĸ ūřľ, ūřľ şĥőūľđ şŧäřŧ ŵįŧĥ ĥŧŧp:// őř ĥŧŧpş://! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_LocalPath" xml:space="preserve">
+    <value>[ŴęþŜįŧę Ŀőčäľ Päŧĥ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_LocalPathautoFill" xml:space="preserve">
+    <value>[Ŀőģįŉ þy čőmpäŉy ūşęř ŧő äūŧő ƒįľľ įŉ ľőčäľ päŧĥ! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_LockFailed" xml:space="preserve">
+    <value>[Ŀőčĸ ƒäįľęđ ūşęř ƒőř !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_LockUser" xml:space="preserve">
+    <value>[įƒ įŉpūŧ 0, ľőčĸęđ ūşę čäŉ őŉľy þę ūŉľőčĸęđ þy äđmįŉįşŧřäŧőř !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Minutes" xml:space="preserve">
+    <value>[mįŉūŧęş !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_MyProfile" xml:space="preserve">
+    <value>[Ēŉäþľę ęđįŧ "My Přőƒįľę" !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_NavigationType" xml:space="preserve">
+    <value>[Ńävįģäŧįőŉ Ŧypę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Nolimit" xml:space="preserve">
+    <value>[Ńő ľįmįŧ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_NoRule" xml:space="preserve">
+    <value>[Ńő Ŗūľę !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_PasswordRule" xml:space="preserve">
+    <value>[Päşşŵőřđ Ŗūľę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_StandardRule" xml:space="preserve">
+    <value>[Ŝŧäŉđäřđ Ŗūľę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_StrongRule" xml:space="preserve">
+    <value>[Ŝŧřőŉģ Ŗūľę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Subject" xml:space="preserve">
+    <value>[Ŝūþĵęčŧ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_SubjectEmpty" xml:space="preserve">
+    <value>[Ĩŉväľįđ ƒęęđþäčĸ şūþĵęčŧ, şūþĵęčŧ čäŉ ŉőŧ þę ęmpŧy! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_SuggestUrl" xml:space="preserve">
+    <value>[Ğęŧ şūģģęşŧ ūřľ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileSettingView_UrlEmpty" xml:space="preserve">
+    <value>[Ĩŉväľįđ ƒęęđþäčĸ ūřľ, ūřľ čäŉ ŉőŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileWelcomeView_Msg" xml:space="preserve">
+    <value>[Ŵęľčőmę Męşşäģę !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfileWelcomeView_MsgPattern" xml:space="preserve">
+    <value>[Ŝävę ä ęmpŧy įŉpūŧ ŵįľľ ūşę đęƒäūľŧ ŵęľčőmę şŧřįŉģ þęľőŵ: \ŉ Ŵęľčőmę ŧő [[Đőχįmßřäŉđįŉģ]], [[ĐőχįmŮşęřFįřşŧŃämę]] [[ĐőχįmŮşęřĿäşŧŃämę]] !!! !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfile_CompanyReport" xml:space="preserve">
+    <value>[Cőmpäŉy Ŗępőřŧ !!! !!!]</value>
+  </data>
+  <data name="Company_CompanyProfile_InvalidPermission" xml:space="preserve">
+    <value>[Ĩŉväľįđ pęřmįşşįőŉ, pľęäşę čőŉŧäčŧ şyşŧęm äđmįŉįşŧřäŧőř! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_CustomFieldListView_CustomField" xml:space="preserve">
+    <value>[Cřęäŧę Cūşŧőm Fįęľđ !!! !!!]</value>
+  </data>
+  <data name="Company_CustomFieldListView_NoCustomField" xml:space="preserve">
+    <value>[Ńő Cūşŧőm Fįęľđ !!! !!!]</value>
+  </data>
+  <data name="Company_DocumentTypeListView_DocumentType" xml:space="preserve">
+    <value>[Cřęäŧę Đőčūmęŉŧ Ŧypę !!! !!!]</value>
+  </data>
+  <data name="Company_DocumentTypeListView_NoDocumentType" xml:space="preserve">
+    <value>[Ńő Đőčūmęŉŧ Ŧypę !!! !!!]</value>
+  </data>
+  <data name="Company_FolderListView_CreateFolder" xml:space="preserve">
+    <value>[Cřęäŧę Főľđęř !!! !!!]</value>
+  </data>
+  <data name="Company_FolderListView_NoFolder" xml:space="preserve">
+    <value>[Ńő Főľđęř !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_GroupListControl_Group" xml:space="preserve">
+    <value>[Ğřőūp !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_GroupListControl_NoGroup" xml:space="preserve">
+    <value>[Ńő Ğřőūp !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_GroupListView_CreateGroup" xml:space="preserve">
+    <value>[Cřęäŧę Ğřőūp !!! !!!]</value>
+  </data>
+  <data name="Company_GroupListView_Custom" xml:space="preserve">
+    <value>[Cūşŧőm !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_GroupListView_Manual" xml:space="preserve">
+    <value>[Mäŉūäľ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_PortfolioListView_CreatePortfolio" xml:space="preserve">
+    <value>[Cřęäŧę Pőřŧƒőľįő !!! !!!]</value>
+  </data>
+  <data name="Company_PortfolioListView_NoPortfolio" xml:space="preserve">
+    <value>[Ńő Pőřŧƒőľįő !!! !!!]</value>
+  </data>
+  <data name="Company_UserListControl_ExceedMaximumNo" xml:space="preserve">
+    <value>[Ēχčęęđ şyşŧęm mäχįmūm ŉūmþęř,ƒįřşŧ 200 ūşęřş řęŧūřŉęđ, pľęäşę äppľy/řęƒįŉę şęäřčĥ čřįŧęřįä! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_UserListControl_NoUser" xml:space="preserve">
+    <value>[Ńő Ůşęř !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Company_UserListView_CreateUser" xml:space="preserve">
+    <value>[Cřęäŧę Ůşęř !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldException_ExceedMaximumNo" xml:space="preserve">
+    <value>[Ēχčęęđ şyşŧęm mäχįmūm řęşūľŧ ŉūmþęř,ƒįřşŧ 200 ūşęřş řęŧūřŉęđ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldException_NoExceptionUser" xml:space="preserve">
+    <value>[Ńő Ēχčępŧįőŉ Ůşęř !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldException_Users" xml:space="preserve">
+    <value>[Cūşŧőm Fįęľđ Ēχčępŧįőŉ Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldGeneralControl_NewCustomField" xml:space="preserve">
+    <value>[Ńęŵ CūşŧőmFįęľđ !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_CustomField" xml:space="preserve">
+    <value>[Cūşŧőm Fįęľđ !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_DeleteDefine" xml:space="preserve">
+    <value>[Đęľęŧę Đęƒįŉę ľįşŧ väľūęş ƒįřşŧ !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_DeleteGroups" xml:space="preserve">
+    <value>[Đęľęŧę Ğřőūpş: {0} řęƒęřęŉčę ƒįřşŧ !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_DeleteReference" xml:space="preserve">
+    <value>[Đęľęŧę ūşęř řęƒęřęŉčę ƒįřşŧ !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_ListExceptionUsers" xml:space="preserve">
+    <value>[Ŀįşŧ Ēχčępŧįőŉ Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_ListReferenceUsers" xml:space="preserve">
+    <value>[Ŀįşŧ Ŗęƒęřęŉčę Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldReference_ExceedMaximumNo" xml:space="preserve">
+    <value>[Ēχčęęđ şyşŧęm mäχįmūm řęşūľŧ ŉūmþęř,ƒįřşŧ 200 ūşęřş řęŧūřŉęđ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldReference_NoReferenceUser" xml:space="preserve">
+    <value>[Ńő Ŗęƒęřęŉčę Ůşęř !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldReference_ReferenceUsers" xml:space="preserve">
+    <value>[Cūşŧőm Fįęľđ Ŗęƒęřęŉčę Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="CustomField_CustomFieldValuesView_ListReferencedUser" xml:space="preserve">
+    <value>[Ŀįşŧ Ŗęƒęřęŉčęđ Ůşęř !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeActionsView_AddActions" xml:space="preserve">
+    <value>[Åđđ Åčŧįőŉş !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_BatchList" xml:space="preserve">
+    <value>[ßäŧčĥ ľįşŧ !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_CreateDateTime" xml:space="preserve">
+    <value>[CřęäŧęĐäŧęŦįmę !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_Expected" xml:space="preserve">
+    <value>[Ēχpęčŧęđ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_ExpiryDate" xml:space="preserve">
+    <value>[Ēχpįřy Đäŧę !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_ReleaseDate" xml:space="preserve">
+    <value>[Ŗęľęäşę Đäŧę !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_Skipped" xml:space="preserve">
+    <value>[Ŝĸįppęđ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeGeneralControl_NewDocType" xml:space="preserve">
+    <value>[Ńęŵ ĐőčŦypę !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeGeneralView_CreateDocumentType" xml:space="preserve">
+    <value>[Cřęäŧę Đőčūmęŉŧ Ŧypę !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeGeneralView_ExpireYears" xml:space="preserve">
+    <value>[Ēχpįřę Ÿęäřş !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeGeneralView_NotificationFlag" xml:space="preserve">
+    <value>[Đęƒäūľŧ ßäŧčĥ Ńőŧįƒįčäŧįőŉ Fľäģ !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeGeneralView_ReadyToSend" xml:space="preserve">
+    <value>[Ŗęäđy ŧő şęŉđ !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_DataType" xml:space="preserve">
+    <value>[Đäŧä Ŧypę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_DocumentType" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Ŧypę - MęŧäŦäģş !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_Input" xml:space="preserve">
+    <value>[Ĩŉpūŧ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_Multiple" xml:space="preserve">
+    <value>[Mūľŧįpľę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_NoMetaTag" xml:space="preserve">
+    <value>[Ńő MęŧäŦäģ !!! !!!]</value>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_Single" xml:space="preserve">
+    <value>[Ŝįŉģľę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderGeneralControl_NewFolder" xml:space="preserve">
+    <value>[Ńęŵ Főľđęř !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderGeneralControl_Passed" xml:space="preserve">
+    <value>[päşşęđ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderGeneralView_CreateFolder" xml:space="preserve">
+    <value>[Cřęäŧę Főľđęř !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderGeneralView_DeleteCurrentFolder" xml:space="preserve">
+    <value>[Đęľęŧę Cūřřęŉŧ Főľđęř !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderGeneralView_DeleteFolder" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő đęľęŧę ŧĥįş Főľđęř? !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderGeneralView_DeleteFolderCocuments" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő đęľęŧę ŧĥę Főľđęř äş ŵęľľ äş ŧĥę đőčūmęŉŧş? !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderGeneralView_Document" xml:space="preserve">
+    <value>[Ŧĥęřę äřę {0} đőčūmęŉŧ(ş) ūŉđęř ŧĥįş ƒőľđęř. !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderGeneralView_ForceDelete" xml:space="preserve">
+    <value>[Ĩģŉőřę ęřřőřş äŉđ ƒőřčę đęľęŧę !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderPermissionView_CreatePermission" xml:space="preserve">
+    <value>[Cřęäŧę Pęřmįşşįőŉ !!! !!!]</value>
+  </data>
+  <data name="Group_GroupCustomControl_GroupMembers" xml:space="preserve">
+    <value>[Ğřőūp Męmþęřş !!! !!!]</value>
+  </data>
+  <data name="Group_GroupGeneralView_CreateGroup" xml:space="preserve">
+    <value>[Cřęäŧę Ğřőūp !!! !!!]</value>
+  </data>
+  <data name="Group_GroupGeneralView_Custom" xml:space="preserve">
+    <value>[Cūşŧőm !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Group_GroupGeneralView_CustomField" xml:space="preserve">
+    <value>[Pľęäşę đęƒįŉę čūşŧőm ƒįęľđ þęƒőřę şęŧūp čūşŧőm ģřőūp. !!! !!! !!!]</value>
+  </data>
+  <data name="Group_GroupGeneralView_GroupNameRequired" xml:space="preserve">
+    <value>[Fäįľęđ: Ğřőūp Ńämę řęqūįřęđ. !!! !!!]</value>
+  </data>
+  <data name="Group_GroupGeneralView_GroupType" xml:space="preserve">
+    <value>[Ğřőūp Ŧypę !!! !!!]</value>
+  </data>
+  <data name="Group_GroupGeneralView_Manual" xml:space="preserve">
+    <value>[Mäŉūäľ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Group_GroupManualControl_GroupMembers" xml:space="preserve">
+    <value>[Ğřőūp Męmþęřş !!! !!!]</value>
+  </data>
+  <data name="Group_GroupManualControl_UserAdded" xml:space="preserve">
+    <value>[{0} ūşęř(ş) äđđęđ ŧő męmþęřşĥįp !!! !!!]</value>
+  </data>
+  <data name="Group_GroupManualControl_UserSkipped" xml:space="preserve">
+    <value>[{0} ūşęř(ş) şĸįppęđ, ŧĥįş ūşęř ĥäş äľřęäđy þęęŉ ä męmþęř. !!! !!! !!!]</value>
+  </data>
+  <data name="MetaTag_MetaTagGeneralControl_NewMetaTag" xml:space="preserve">
+    <value>[Ńęŵ MęŧäŦäģ !!! !!!]</value>
+  </data>
+  <data name="MetaTag_MetaTagGeneralView_DataType" xml:space="preserve">
+    <value>[Đäŧä Ŧypę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="MetaTag_MetaTagGeneralView_DefineListValues" xml:space="preserve">
+    <value>[Đęƒįŉę Ŀįşŧ Väľūęş !!! !!!]</value>
+  </data>
+  <data name="MetaTag_MetaTagGeneralView_MetaTag" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Ŧypę - MęŧäŦäģ !!! !!!]</value>
+  </data>
+  <data name="MetaTag_MetaTagValuesControl_ListValues" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Ŧypę - MęŧäŦäģ - Ŀįşŧ Väľūęş !!! !!!]</value>
+  </data>
+  <data name="Organization_OrganizationAdmin_NoCompany" xml:space="preserve">
+    <value>[Ńő Cőmpäŉy !!! !!!]</value>
+  </data>
+  <data name="Organization_OrganizationAdmin_OrganizationProfile" xml:space="preserve">
+    <value>[Øřģäŉįžäŧįőŉ Přőƒįľę !!! !!!]</value>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_CommonField" xml:space="preserve">
+    <value>[Cőmmőŉ Fįęľđ !!! !!!]</value>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_CreateCommonField" xml:space="preserve">
+    <value>[Cřęäŧę Cőmmőŉ Fįęľđ !!! !!!]</value>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_FieldMapping" xml:space="preserve">
+    <value>[Fįęľđ Mäppįŉģ !!! !!!]</value>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_FieldName" xml:space="preserve">
+    <value>[Fįęľđ Ńämę !!! !!!]</value>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_LeftnPositionToEnd" xml:space="preserve">
+    <value>[Ŀęƒŧ ŉ Pőşįŧįőŉ Ŧő Ēŉđ !!! !!!]</value>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_RemoveLeadingZero" xml:space="preserve">
+    <value>[Ŗęmővę Ŀęäđįŉģ Żęřő !!! !!!]</value>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_RemoveLeadingZeroAndLastnChars" xml:space="preserve">
+    <value>[Ŗęmővę Ŀęäđįŉģ Żęřő Åŉđ Ŀäşŧ ŉ Cĥäřş !!! !!!]</value>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_TransformRule" xml:space="preserve">
+    <value>[Ŧřäŉşƒőřm Ŗūľę !!! !!!]</value>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_ViewName" xml:space="preserve">
+    <value>[VįęŵŃämę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Portfolio_PortfolioAdminControl_NoView" xml:space="preserve">
+    <value>[Ńő Vįęŵ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Portfolio_PortfolioAdminView_CreateView" xml:space="preserve">
+    <value>[Cřęäŧę Vįęŵ !!! !!!]</value>
+  </data>
+  <data name="Portfolio_PortfolioGeneralControl_NewPortfolio" xml:space="preserve">
+    <value>[Ńęŵ Pőřŧƒőľįő !!! !!!]</value>
+  </data>
+  <data name="Portfolio_PortfolioGeneralView_CreatePortfolio" xml:space="preserve">
+    <value>[Cřęäŧę Pőřŧƒőľįő !!! !!!]</value>
+  </data>
+  <data name="Portfolio_PortfolioGeneralView_DisplayOrder" xml:space="preserve">
+    <value>[Đįşpľäy Øřđęř !!! !!!]</value>
+  </data>
+  <data name="System_AdministrationView_GlobalReports" xml:space="preserve">
+    <value>[Ğľőþäľ Ŗępőřŧş !!! !!!]</value>
+  </data>
+  <data name="System_AdministrationView_GlobalSettings" xml:space="preserve">
+    <value>[Ğľőþäľ Ŝęŧŧįŉģş !!! !!!]</value>
+  </data>
+  <data name="System_AdministrationView_GlobalSystemStatisticsReports" xml:space="preserve">
+    <value>[Ğľőþäľ Ŝyşŧęm Ŝŧäŧįşŧįčş Ŗępőřŧş !!! !!!]</value>
+  </data>
+  <data name="System_AdministrationView_GlobalSystemStyles" xml:space="preserve">
+    <value>[Ğľőþäľ Ŝyşŧęm Ŝŧyľęş !!! !!!]</value>
+  </data>
+  <data name="System_AdministrationView_SystemStatisticsReport" xml:space="preserve">
+    <value>[Ŝyşŧęm Ŝŧäŧįşŧįčş Ŗępőřŧ !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_Administrators" xml:space="preserve">
+    <value>[Åđmįŉįşŧřäŧőřş !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_BATCHES" xml:space="preserve">
+    <value>[ßÅŦCĦĒŜ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_BatchFolders" xml:space="preserve">
+    <value>[ßäŧčĥ Főľđęřş !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_CUSTOMFIELDS" xml:space="preserve">
+    <value>[CŮŜŦØM FĨĒĿĐŜ !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_DOCUMENTS" xml:space="preserve">
+    <value>[ĐØCŮMĒŃŦŜ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_DOCUMENTTYPES" xml:space="preserve">
+    <value>[ĐØCŮMĒŃŦ ŦŸPĒŜ: !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_FOLDERS" xml:space="preserve">
+    <value>[FØĿĐĒŖŜ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_Generated" xml:space="preserve">
+    <value>[Ğęŉęřäŧęđ įŉ {0} Ŝęčőŉđş !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_GROUPS" xml:space="preserve">
+    <value>[ĞŖØŮPŜ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_LockedUsers" xml:space="preserve">
+    <value>[Ŀőčĸęđ Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_METATAGS" xml:space="preserve">
+    <value>[MĒŦÅŦÅĞŜ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_PendingUsers" xml:space="preserve">
+    <value>[Pęŉđįŉģ Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_PORTFOLIOS" xml:space="preserve">
+    <value>[PØŖŦFØĿĨØŜ !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_ProjectFolders" xml:space="preserve">
+    <value>[Přőĵęčŧ Főľđęřş: !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_ReportOn" xml:space="preserve">
+    <value>[Ŗępőřŧ őŉ {0} !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_SummaryForCompany" xml:space="preserve">
+    <value>[Ŝūmmäřy ƒőř čőmpäŉy !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_SuspendUsers" xml:space="preserve">
+    <value>[Ŝūşpęŉđ Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_USERS" xml:space="preserve">
+    <value>[ŮŜĒŖŜ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="System_CompanyReportView_VIEWS" xml:space="preserve">
+    <value>[VĨĒŴŜ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="System_SystemCheckingReportView_Collapse" xml:space="preserve">
+    <value>[Cőľľäpşę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="System_SystemCheckingReportView_ExpandAll" xml:space="preserve">
+    <value>[Ēχpäŉđ Åľľ !!! !!!]</value>
+  </data>
+  <data name="System_SystemCheckingReportView_Monthly" xml:space="preserve">
+    <value>[Mőŉŧĥľy !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="System_SystemCheckingReportView_SystemStatisticsReport" xml:space="preserve">
+    <value>[Ŝyşŧęm Ŝŧäŧįşŧįčş Ŗępőřŧ !!! !!!]</value>
+  </data>
+  <data name="System_SystemReportView_CompanyReport" xml:space="preserve">
+    <value>[Cőmpäŉy Ŗępőřŧ !!! !!!]</value>
+  </data>
+  <data name="System_SystemReportView_ReportList" xml:space="preserve">
+    <value>[Ŗępőřŧ Ŀįşŧ !!! !!!]</value>
+  </data>
+  <data name="System_SystemSettingView_CentreAuthenticateServer" xml:space="preserve">
+    <value>[Cęŉŧřę Åūŧĥęŉŧįčäŧę Ŝęřvęř !!! !!!]</value>
+  </data>
+  <data name="System_SystemSettingView_DeletedRoot" xml:space="preserve">
+    <value>[Đęľęŧęđ Ŗőőŧ !!! !!!]</value>
+  </data>
+  <data name="System_SystemSettingView_DeletedRootSettings" xml:space="preserve">
+    <value>[Pľęäşę čĥęčĸ äŉđ čőŉƒįřm Đęľęŧęđ Ŗőőŧ şęŧŧįŉģş !!! !!!]</value>
+  </data>
+  <data name="System_SystemSettingView_DocuBin" xml:space="preserve">
+    <value>[Pľęäşę čĥęčĸ äŉđ čőŉƒįřm Đőčūßįŉ şęŧŧįŉģş !!! !!!]</value>
+  </data>
+  <data name="System_SystemSettingView_DocuBinRoot" xml:space="preserve">
+    <value>[Đőčūßįŉ Ŗőőŧ !!! !!!]</value>
+  </data>
+  <data name="System_SystemSettingView_EmailServer" xml:space="preserve">
+    <value>[Ēmäįľ Ŝęřvęř !!! !!!]</value>
+  </data>
+  <data name="System_SystemSettingView_SystemSetting" xml:space="preserve">
+    <value>[Ŝyşŧęm Ŝęŧŧįŉģ !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleControl_StyleFolder" xml:space="preserve">
+    <value>[Ŝŧyľę ƒőľđęř !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleInfoView_CreateNewItem" xml:space="preserve">
+    <value>[Cřęäŧę Ńęŵ Ĩŧęm !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleInfoView_DocumentList" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Ŀįşŧ !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleInfoView_Home" xml:space="preserve">
+    <value>[Ħőmę !!! !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleInfoView_Link" xml:space="preserve">
+    <value>[Ŀįŉĸ !!! !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleInfoView_StyleName" xml:space="preserve">
+    <value>[Ŝŧyľę ŉämę !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleInfoView_Tab" xml:space="preserve">
+    <value>[Ŧäþ !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleInfoView_View" xml:space="preserve">
+    <value>[Vįęŵ !!! !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleInfoView_Welcome" xml:space="preserve">
+    <value>[Ŵęľčőmę ŧő Đőχįm {0} !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleView_StyleList" xml:space="preserve">
+    <value>[Ŝŧyľę Ŀįşŧ !!! !!!]</value>
+  </data>
+  <data name="System_SystemStyleView_SystemStyle" xml:space="preserve">
+    <value>[Ŝyşŧęm Ŝŧyľę !!! !!!]</value>
+  </data>
+  <data name="User_PasswordGenerator_Accetp" xml:space="preserve">
+    <value>[Åččępŧ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_PasswordGenerator_NewPassword" xml:space="preserve">
+    <value>[Pľęäşę ŵřįŧę đőŵŉ ŧĥįş ŃĒŴ päşşŵőřđ !!! !!!]</value>
+  </data>
+  <data name="User_PasswordGenerator_SystemStyle" xml:space="preserve">
+    <value>[Päşşŵőřđ Ğęŉęřäŧę !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileGeneralView_ChangePasswordAt" xml:space="preserve">
+    <value>[Pľęäşę čĥäŉģę yőūř päşşŵőřđ äŧ "My Přőƒįľę" päģę !!! !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileGeneralView_ConfirmPassword" xml:space="preserve">
+    <value>[Cőŉƒįřm Päşşŵőřđ !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileGeneralView_MultipleValue" xml:space="preserve">
+    <value>[Mūľŧįpľę väľūę !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileGeneralView_NoCustomField" xml:space="preserve">
+    <value>[Ńő Cūşŧőm Fįęľđ đęƒįŉęđ !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileGeneralView_PasswordRule" xml:space="preserve">
+    <value>[Päşşŵőřđ Ŗūľę !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileGeneralView_UserID" xml:space="preserve">
+    <value>[Ůşęř ĨĐ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileGeneralView_UserLevel" xml:space="preserve">
+    <value>[Ůşęř Ŀęvęľ !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_ManagePrintQueue" xml:space="preserve">
+    <value>[Mäŉäģę Přįŉŧ Qūęūę !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_MyProfile" xml:space="preserve">
+    <value>[Ēŉäþľę ęđįŧ "My Přőƒįľę" !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_NavigationType" xml:space="preserve">
+    <value>[Ńävįģäŧįőŉ Ŧypę !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_Portfolio" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ pőřŧƒőľįő !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_PrintQueue" xml:space="preserve">
+    <value>[Přįŉŧ Qūęūę !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_ProcessPrintJob" xml:space="preserve">
+    <value>[Přőčęşş Přįŉŧ Ĵőþ !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_StartPage" xml:space="preserve">
+    <value>[Ŝŧäřŧ Päģę !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_String5" xml:space="preserve">
+    <value>[Cĥäŉģę þy čūřřęŉŧ čőmpäŉy ūşęřş őŉľy. !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_UseCompanySetting" xml:space="preserve">
+    <value>[Ůşę Cőmpäŉy Ŝęŧŧįŉģ !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_UseUserSetting" xml:space="preserve">
+    <value>[Ůşę Ůşęř Ŝęŧŧįŉģ !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileSettingView_View" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ vįęŵ !!! !!!]</value>
+  </data>
+  <data name="User_UserProfileView_NoPrivilege" xml:space="preserve">
+    <value>[Ńő Přįvįľęģę ŧő vįęŵ ŧĥįş ūşęř'ş įŉƒő! !!! !!!]</value>
+  </data>
+  <data name="View_ViewActionsAddView_DocumentTypeActionFirst" xml:space="preserve">
+    <value>[Pľęäşę äđđ đőčūmęŉŧŧypę äčŧįőŉ ƒįřşŧ. !!! !!!]</value>
+  </data>
+  <data name="View_ViewGeneralControl_CreateView" xml:space="preserve">
+    <value>[Cřęäŧę Vįęŵ !!! !!!]</value>
+  </data>
+  <data name="View_ViewGeneralControl_NewView" xml:space="preserve">
+    <value>[Ńęŵ Vįęŵ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="View_ViewNavigationControl_ViewNavigation" xml:space="preserve">
+    <value>[Vįęŵ Ńävįģäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="View_ViewNavigationView_ActionMenu" xml:space="preserve">
+    <value>[Åčŧįőŉ Męŉū !!! !!!]</value>
+  </data>
+  <data name="View_ViewNavigationView_BackToList" xml:space="preserve">
+    <value>[ßäčĸ Ŧő Ŀįşŧ !!! !!!]</value>
+  </data>
+  <data name="View_ViewNavigationView_DocumentMenuDisplay" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Męŉū Đįşpľäy !!! !!!]</value>
+  </data>
+  <data name="View_ViewNavigationView_DocumentNavigation" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Ńävįģäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="View_ViewNavigationView_SimpleSearchbox" xml:space="preserve">
+    <value>[Ŝįmpľę Ŝęäřčĥ þőχ !!! !!!]</value>
+  </data>
+  <data name="View_ViewNavigationView_ViewMenuDisplay" xml:space="preserve">
+    <value>[Vįęŵ Męŉū Đįşpľäy !!! !!!]</value>
+  </data>
+  <data name="View_ViewPermissionControl_CreatePermission" xml:space="preserve">
+    <value>[Cřęäŧę Pęřmįşşįőŉ !!! !!!]</value>
+  </data>
+</root>

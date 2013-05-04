@@ -1,0 +1,4 @@
+Field,Name,DataType,Result
+Tag_M2,ClearingDate,D,Conversion failed when converting date and/or time from character string. 
+Tag_M5,Item# MetaTag,I,Conversion failed when converting the varchar value 'Admin' to data type int. 
+Tag_M3,Amount,C,Cannot convert a char value to money. The char value has incorrect syntax. 

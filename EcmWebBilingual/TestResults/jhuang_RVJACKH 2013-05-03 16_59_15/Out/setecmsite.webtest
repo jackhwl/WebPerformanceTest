@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="SetEcmSite" Id="250fb157-230f-4832-b586-d1f5ce84e72d" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="" StopOnError="False" RecordedResultFile="WebTest1.c71ae285-cc6b-48bc-ba6a-eb77f2869fc5.rec.webtestresult">
+  <Items>
+    <Comment CommentText="English or French" />
+  </Items>
+  <ContextParameters>
+    <ContextParameter Name="WebServer" Value="http://RE71/Doxim" />
+    <ContextParameter Name="TestLanguage" Value="English" />
+  </ContextParameters>
+</WebTest>

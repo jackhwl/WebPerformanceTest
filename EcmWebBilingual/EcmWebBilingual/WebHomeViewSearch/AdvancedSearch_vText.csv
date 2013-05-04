@@ -1,0 +1,40 @@
+DataType,Alias,SearchField,IsOrNot,Condition,Value,Value2,Records,Header,FieldID,Not,ConditionCode
+Text,Trans #,Title (Trans #),IS,Contains,"1322",,Total: 8,Result for search criteria: [Trans #  Contains 1322 ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,"1218",,Total: 1,Result for search criteria: [Trans #  Contains 1218 ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,8_ON,,Total: 7,Result for search criteria: [Trans #  Contains 8_ON ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,8_oN,,Total: 7,Result for search criteria: [Trans #  Contains 8_oN ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,1356121_On,,Total: 1,Result for search criteria: [Trans #  Contains 1356121_On ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,1356121_On1,,No Document,Result for search criteria: [Trans #  Contains 1356121_On1 ],DocTitle,0,C
+Text,Trans #,Title (Trans #),Not,Contains,"1322",,Total: 62,Result for search criteria: [Trans # Not Contains 1322 ],DocTitle,1,C
+Text,Trans #,Title (Trans #),Not,Contains,1356121_On1,,Total: 70,Result for search criteria: [Trans # Not Contains 1356121_On1 ],DocTitle,1,C
+Text,Trans #,Title (Trans #),IS,Equals,1356121_On,,Total: 1,Result for search criteria: [Trans #  Equals 1356121_On ],DocTitle,0,=
+Text,Trans #,Title (Trans #),IS,Equals,1356121_On1,,No Document,Result for search criteria: [Trans #  Equals 1356121_On1 ],DocTitle,0,=
+Text,Trans #,Title (Trans #),IS,Equals,"1",,No Document,Result for search criteria: [Trans #  Equals 1 ],DocTitle,0,=
+Text,Trans #,Title (Trans #),IS,Equals,N,,No Document,Result for search criteria: [Trans #  Equals N ],DocTitle,0,=
+Text,Trans #,Title (Trans #),Not,Equals,N,,Total: 70,Result for search criteria: [Trans # Not Equals N ],DocTitle,1,=
+Text,Trans #,Title (Trans #),IS,Between,"100","110",Total: 14,Result for search criteria: [Trans #  Between 100  AND 110],DocTitle,0,B
+Text,Trans #,Title (Trans #),Not,Between,"100","110",Total: 56,Result for search criteria: [Trans # Not Between 100  AND 110],DocTitle,1,B
+Text,Trans #,Title (Trans #),Is,Great Than,"110",,Total: 56,Result for search criteria: [Trans #  Greater Than 110 ],DocTitle,0,>
+Text,Trans #,Title (Trans #),Not,Great Than,"110",,Total: 14,Result for search criteria: [Trans # Not Greater Than 110 ],DocTitle,1,>
+Text,Trans #,Title (Trans #),Is,Less Than,"110",,Total: 14,Result for search criteria: [Trans #  Less Than 110 ],DocTitle,0,<
+Text,Trans #,Title (Trans #),Not,Less Than,"110",,Total: 56,Result for search criteria: [Trans # Not Less Than 110 ],DocTitle,1,<
+Text,Trans #,Title (Trans #),Is,Is Null,,,No Document,Result for search criteria: [Trans #  Is Null  ],DocTitle,0,N
+Text,Trans #,Title (Trans #),Not,Is Null,,,Total: 70,Result for search criteria: [Trans # Not Is Null  ],DocTitle,1,N
+Text,Trans #,Title (Trans #),IS,Starts With,"100",,Total: 7,Result for search criteria: [Trans #  Starts With 100 ],DocTitle,0,S
+Text,Trans #,Title (Trans #),Not,Starts With,"100",,Total: 63,Result for search criteria: [Trans # Not Starts With 100 ],DocTitle,1,S
+Text,Trans #,Title (Trans #),IS,Ends With,"100",,Total: 1,Result for search criteria: [Trans #  Ends With 100 ],DocTitle,0,E
+Text,Trans #,Title (Trans #),Not,Ends With,"100",,Total: 69,Result for search criteria: [Trans # Not Ends With 100 ],DocTitle,1,E
+Text,Account #,Metatag (Account #),IS,Contains,"34567897",,Total: 7,Result for search criteria: [Account #  Contains 34567897 ],Tag_M1,0,C
+Text,Account #,Metatag (Account #),IS,Contains,"176",,Total: 7,Result for search criteria: [Account #  Contains 176 ],Tag_M1,0,C
+Text,Account #,Metatag (Account #),IS,Contains,"6111",,Total: 7,Result for search criteria: [Account #  Contains 6111 ],Tag_M1,0,C
+Text,Account #,Metatag (Account #),Not,Contains,"6111",,Total: 63,Result for search criteria: [Account # Not Contains 6111 ],Tag_M1,1,C
+Text,Account #,Metatag (Account #),IS,Equals,"34567895111799",,Total: 1,Result for search criteria: [Account #  Equals 34567895111799 ],Tag_M1,0,=
+Text,Account #,Metatag (Account #),IS,Equals,"99",,No Document,Result for search criteria: [Account #  Equals 99 ],Tag_M1,0,=
+Text,Account #,Metatag (Account #),Not,Equals,"3456789511799",,Total: 64,Result for search criteria: [Account # Not Equals 3456789511799 ],Tag_M1,1,=
+Text,Account #,Metatag (Account #),IS,Between,"34567895","34567896",Total: 14,Result for search criteria: [Account #  Between 34567895  AND 34567896],Tag_M1,0,B
+Text,Account #,Metatag (Account #),Not,Between,"34567895","34567896",Total: 56,Result for search criteria: [Account # Not Between 34567895  AND 34567896],Tag_M1,1,B
+Text,Account #,Metatag (Account #),IS,Great Than,"34567899",,Total: 6,Result for search criteria: [Account #  Greater Than 34567899 ],Tag_M1,0,>
+Text,Account #,Metatag (Account #),IS,Less Than,"34567899",,Total: 64,Result for search criteria: [Account #  Less Than 34567899 ],Tag_M1,0,<
+Text,Account #,Metatag (Account #),IS,Is Null,,,No Document,Result for search criteria: [Account #  Is Null  ],Tag_M1,0,N
+Text,Account #,Metatag (Account #),IS,Starts With,"2",,Total: 2,Result for search criteria: [Account #  Starts With 2 ],Tag_M1,0,S
+Text,Account #,Metatag (Account #),IS,Ends With,"9",,Total: 7,Result for search criteria: [Account #  Ends With 9 ],Tag_M1,0,E

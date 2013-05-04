@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2013-04-30T11:44:23">
+<Action24_Modify_ValidateCurrency>
+<Date>abc</Date>
+<FieldName>Tag_M27</FieldName>
+<Message>Input string was not in a correct format.</Message>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>2a.5</Date>
+<FieldName>Tag_M27</FieldName>
+<Message>Input string was not in a correct format.</Message>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>123456789</Date>
+<FieldName>Tag_M27</FieldName>
+<Message>Input string was not in a correct format.</Message>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>92233720368547892233720368547.5807</Date>
+<FieldName>Tag_M27</FieldName>
+<Message>Value was either too large or too small for a Decimal.</Message>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>-92233720368547892233720368547.5808</Date>
+<FieldName>Tag_M27</FieldName>
+<Message>Value was either too large or too small for a Decimal.</Message>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>922337203685477.5807</Date>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>100</Date>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>100.0</Date>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>0</Date>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>-100</Date>
+</Action24_Modify_ValidateCurrency>
+<Action24_Modify_ValidateCurrency>
+<Date>-100.5</Date>
+</Action24_Modify_ValidateCurrency>
+</dataroot>

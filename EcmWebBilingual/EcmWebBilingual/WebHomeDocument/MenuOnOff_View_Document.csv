@@ -1,0 +1,9 @@
+#,ViewMenu,SimpleBox,Back,Navigation,DocMenu,RViewMenu,RSimpleBox,RBack,RNavigation,RDocMenu
+N1,0,0,0,0,0,,,,,
+N2,0,0,0,0,4,,,,,"ActDocDetail.gif"" alt=""Document Detail Info"" />Detail</a>"
+N3,0,0,0,2,0,,,,"<select title=""Goto"" onchange=""goDocIndex",
+N4,0,0,0,2,4,,,,"<select title=""Goto"" onchange=""goDocIndex","ActDocDetail.gif"" alt=""Document Detail Info"" />Detail</a>"
+N5,0,0,1,0,0,,,"title=""Back to list""",,
+N6,0,16,1,0,4,,"<option value=""*"">-- All Fields --</option>","title=""Back to list""",,"ActDocDetail.gif"" alt=""Document Detail Info"" />Detail</a>"
+N7,8,0,1,2,0,"<img src=""Style/Default/Image/ActASearch.gif"" />Advanced Search</a>",,"title=""Back to list""","<select title=""Goto"" onchange=""goDocIndex",
+N8,8,16,1,2,4,"<img src=""Style/Default/Image/ActASearch.gif"" />Advanced Search</a>","<option value=""*"">-- All Fields --</option>","title=""Back to list""","<select title=""Goto"" onchange=""goDocIndex","ActDocDetail.gif"" alt=""Document Detail Info"" />Detail</a>"

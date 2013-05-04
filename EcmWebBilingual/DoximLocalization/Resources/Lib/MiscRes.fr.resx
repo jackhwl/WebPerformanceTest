@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_Meaning" xml:space="preserve">
+    <value>[Fäįľęđ ľőģįŉ, Ĩŉväľįđ Ůşęř ĨĐ őř Päşşŵőřđ, Åƒŧęř {0} mőřę ŧįmę(ş) řęŧřy, yőūř äččőūŉŧ ŵįľľ þę ľőčĸęđ!  ŖĒÅĿĿŸ!!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Composite_Insert2File" xml:space="preserve">
+    <value>[Đőčūmęŉŧ: {0} ŉőŧ ƒőūŉđ, Pľęäşę čőŉŧäčŧ yőūř şyşŧęm Åđmįŉįşŧřäŧőř. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="ErrMsg_FailedUpdateById" xml:space="preserve">
+    <value>[Fäįľęđ ŧő ūpđäŧę þy įđ! !!! !!!]</value>
+  </data>
+  <data name="Exception_InvalidId" xml:space="preserve">
+    <value>[Ĩŉväľįđ įđ! !!! !!!]</value>
+  </data>
+  <data name="Exception_InvalidInfoID" xml:space="preserve">
+    <value>[Ĩŉväľįđ įŉƒő ĨĐ! !!! !!!]</value>
+  </data>
+  <data name="Exception_MethodNotImplemented" xml:space="preserve">
+    <value>[Ŧĥę męŧĥőđ őř őpęřäŧįőŉ įş ŉőŧ įmpľęmęŉŧęđ. !!! !!!]</value>
+  </data>
+  <data name="Exception_Name" xml:space="preserve">
+    <value>[Ńämę !!! !!! !!!]</value>
+  </data>
+  <data name="Exception_UnableCreateConfigInstance" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő čřęäŧę äčŧįőŉ čőŉƒįģūřäŧįőŉ įŉşŧäŉčę, pľęäşę čőŉŧäčŧ şyşŧęm äđmįŉįşŧřäŧőř!\ř\ŉ{0} !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Exception_WrongConfigurationType" xml:space="preserve">
+    <value>[ŵřőŉģ čőŉƒįģūřäŧįőŉ ŧypę: {0} !!! !!!]</value>
+  </data>
+  <data name="Exception_XMLID" xml:space="preserve">
+    <value>[XMĿ ĨĐ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Info_NotApplicable" xml:space="preserve">
+    <value>[Ń/Å !!! !!!]</value>
+  </data>
+  <data name="Info_PleaseWait" xml:space="preserve">
+    <value>[Pľęäşę ŵäįŧ... !!! !!!]</value>
+  </data>
+  <data name="Label_Author" xml:space="preserve">
+    <value>[Åūŧĥőř !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Author_Desc" xml:space="preserve">
+    <value>[Åūŧĥőř !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Description" xml:space="preserve">
+    <value>[Đęşčřįpŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Label_Description_Desc" xml:space="preserve">
+    <value>[Đęşčřįpŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Label_DocID" xml:space="preserve">
+    <value>[ĐőčĨĐ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_DocID_Desc" xml:space="preserve">
+    <value>[ĐőčĨĐ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_ExpiryDate" xml:space="preserve">
+    <value>[ĒχpįřyĐäŧę !!! !!!]</value>
+  </data>
+  <data name="Label_ExpiryDate_Desc" xml:space="preserve">
+    <value>[Ēχpįřy Đäŧę !!! !!!]</value>
+  </data>
+  <data name="Label_FileName" xml:space="preserve">
+    <value>[FįľęŃämę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_FileName_Desc" xml:space="preserve">
+    <value>[Fįľę Ńämę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_FileSize" xml:space="preserve">
+    <value>[FįľęŜįžę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_FileSize_Desc" xml:space="preserve">
+    <value>[Fįľę Ŝįžę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_FolderID" xml:space="preserve">
+    <value>[FőľđęřĨĐ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_FolderID_Desc" xml:space="preserve">
+    <value>[FőľđęřĨĐ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_NewCompany" xml:space="preserve">
+    <value>[Ńęŵ Cőmpäŉy !!! !!!]</value>
+  </data>
+  <data name="Label_ReleaseDate" xml:space="preserve">
+    <value>[ŖęľęäşęĐäŧę !!! !!!]</value>
+  </data>
+  <data name="Label_ReleaseDate_Desc" xml:space="preserve">
+    <value>[Ŗęľęäşę Đäŧę !!! !!!]</value>
+  </data>
+  <data name="Label_Shared" xml:space="preserve">
+    <value>[Ŝĥäřęđ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_SharedFolder" xml:space="preserve">
+    <value>[Ŝĥäřęđ Főľđęř !!! !!!]</value>
+  </data>
+  <data name="Label_Title" xml:space="preserve">
+    <value>[Ŧįŧľę !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Title_Desc" xml:space="preserve">
+    <value>[Ŧįŧľę !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Version" xml:space="preserve">
+    <value>[Vęřşįőŉ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Version_Desc" xml:space="preserve">
+    <value>[Vęřşįőŉ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreateConstructor_Constructor" xml:space="preserve">
+    <value>[čőŉşŧřūčŧőř !!! !!!]</value>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreateConstructor_NotSupportConstructor" xml:space="preserve">
+    <value>[Ńőŧ şūppőřŧ čőŉşŧřūčŧőř ŵįŧĥ päřämęŧęřş !!! !!!]</value>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreateFieldGetter_Field" xml:space="preserve">
+    <value>[ƒįęľđ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreateMethod_Method" xml:space="preserve">
+    <value>[męŧĥőđ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreatePropertyGetter_NoPublicGetAccessor" xml:space="preserve">
+    <value>[Přőpęřŧy: '{0}' őƒ Ŧypę: '{1}' đőęş ŉőŧ ĥävę ä Pūþľįč Ğęŧ äččęşşőř !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreatePropertyGetter_Property" xml:space="preserve">
+    <value>[přőpęřŧy !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Reflection_MethodCaller_CallMethod_Failed" xml:space="preserve">
+    <value>[{0}  ƒäįľęđ !!! !!!]</value>
+  </data>
+  <data name="Reflection_MethodCaller_CallPropertyGetter_ArgumentNull" xml:space="preserve">
+    <value>[Åřģūmęŉŧ įş ŉūľľ őř ęmpŧy. !!! !!!]</value>
+  </data>
+  <data name="Reflection_MethodCaller_CallPropertyGetter_HasNoPublicGetter" xml:space="preserve">
+    <value>[Ŧĥę přőpęřŧy '{0}' őŉ Ŧypę '{1}' đőęş ŉőŧ ĥävę ä pūþľįč ģęŧŧęř. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Reflection_MethodCaller_CreateInstance_NotDefaultConstructor" xml:space="preserve">
+    <value>[Ńőŧ įmpľęmęŉŧ đęƒäūľŧ čőŉşŧřūčŧőř! !!! !!!]</value>
+  </data>
+  <data name="Reflection_MethodCaller_GetCachedConstructor_CannotCreateInstanceType" xml:space="preserve">
+    <value>[Cäŉŉőŧ čřęäŧę įŉşŧäŉčę őƒ Ŧypę '{0}'. Ńő pūþľįč päřämęŧęřľęşş čőŉşŧřūčŧőř ƒőūŉđ. !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Reflection_MethodCaller_GetCachedField_NotFoundField" xml:space="preserve">
+    <value>[Ńőŧ ƒőūŉđ ƒįęľđ-{0} !!! !!!]</value>
+  </data>
+  <data name="Reflection_MethodCaller_GetCachedProperty_NotFoundProperty" xml:space="preserve">
+    <value>[Ńőŧ ƒőūŉđ přőpęřŧy-{0} !!! !!!]</value>
+  </data>
+  <data name="Reflection_MethodCaller_GetPropertyValue_FailedCall" xml:space="preserve">
+    <value>[Fäįľęđ ŧő čäľľ {0} !!! !!!]</value>
+  </data>
+  <data name="Security_AppContext_User_UserInfoNoExist" xml:space="preserve">
+    <value>[ŮşęřĨŉƒő đőęşŉ'ŧ ęχįşŧ įŉ ÅŜP Ŝęşşįőŉ. !!! !!!]</value>
+  </data>
+</root>

@@ -1,0 +1,8 @@
+#,Name,StatusField,DT,From,To,DoWorkflow,ResultFrom,ResultTo
+6,MetaTag Date,Tag_M25,D,"2010-02-01","20100102",Add one Day,"2010-02-01",<b>String was not recognized as a valid DateTime. </b>
+7,MetaTag Date,Tag_M25,D,"2010-02-01",2010-02-30,Add wrong Day,"2010-02-01",<b>The DateTime represented by the string is not supported in calendar
+8,MetaTag Date,Tag_M25,D,"2010-02-01",aaaa-aa-aa,Add wrong Day,"2010-02-01",<b>String was not recognized as a valid DateTime. </b>
+10,MetaTag Integer,Tag_M26,I,"22","22,000,000",Chang to million,"22",<b>Input string was not in a correct format. </b>
+11,MetaTag Integer,Tag_M26,I,"22",Million,Chang to million,"22",<b>Input string was not in a correct format. </b>
+15,MetaTag Money,Tag_M27,C,"101.5",aaa,Change to minus,"101.5",<b>Input string was not in a correct format. </b>
+18,MetaTag Text List,Tag_M14,C,Letterhead,Stamp not have,Letterhead to no Stamp,Letterhead,<b>Value is not in the defined list! </b>

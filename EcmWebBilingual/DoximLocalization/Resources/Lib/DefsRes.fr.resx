@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACD_Descr_1" xml:space="preserve">
+    <value>[Ŗęäđ đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="ACD_Descr_12" xml:space="preserve">
+    <value>[Ŀįşŧ Vįęŵş Ĩŉ Pőřŧƒőľįő !!! !!!]</value>
+  </data>
+  <data name="ACD_Descr_2" xml:space="preserve">
+    <value>[Mőđįƒy đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="ACD_Descr_3" xml:space="preserve">
+    <value>[Đęľęŧę đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="ACD_Descr_4" xml:space="preserve">
+    <value>[Cĥęčĥ įŉ / őūŧ đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="ACD_Descr_5" xml:space="preserve">
+    <value>[Ŀįşŧ Đőčş Ĩŉ Vįęŵ !!! !!!]</value>
+  </data>
+  <data name="ACD_Descr_8" xml:space="preserve">
+    <value>[Ŀįşŧ Đőčş Ĩŉ Főľđęř !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_1" xml:space="preserve">
+    <value>[Ŗęäđ !!! !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_10" xml:space="preserve">
+    <value>[Vįęŵ Ŝęäřčĥ !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_11" xml:space="preserve">
+    <value>[Főľđęř Ŝęäřčĥ !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_12" xml:space="preserve">
+    <value>[Ŀįşŧ  !!! !!! !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_2" xml:space="preserve">
+    <value>[Mőđįƒy !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_3" xml:space="preserve">
+    <value>[Đęľęŧę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_4" xml:space="preserve">
+    <value>[Vęřşįőŉ Cőŉŧřőľ !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_5" xml:space="preserve">
+    <value>[Ŀįşŧ !!! !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_6" xml:space="preserve">
+    <value>[Cőmmőŉ Ŝęäřčĥ !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_7" xml:space="preserve">
+    <value>[Åđmįŉ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="ACD_Name_8" xml:space="preserve">
+    <value>[Ŀįşŧ !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_00716D2963C04736BE51D9CACF7A39D8" xml:space="preserve">
+    <value>[Åđđ Fľyşĥęęŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_0D678C406DB34580B7F17F3A42D2F60C" xml:space="preserve">
+    <value>[Ēmäįľ Ŵįŧĥ Ĩŉşęřŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_0ECB14DC0F01498EA41B136BEC154A7F" xml:space="preserve">
+    <value>[Øpęŉ Ŵįŧĥ FőřmFįľľ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_29145036F2A5497897DAC87672EC5194" xml:space="preserve">
+    <value>[Ğęŧ Cőpy Ŵįŧĥ  FőřmFįľľ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_326BE88BDB514C4F9A023AB1423F2355" xml:space="preserve">
+    <value>[Ēmäįľ Ŵįŧĥ Ŝŧämp !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_36C0CA04B70F45398FC8AC44714BD622" xml:space="preserve">
+    <value>[Ēmäįľ Đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_38A0551356914C92A02D64921AACBB24" xml:space="preserve">
+    <value>[Ğęŧ Cőpy Ŵįŧĥ Ĩŉşęřŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_395AC95CCE7D422FBE1A0F29CCA500B1" xml:space="preserve">
+    <value>[Øpęŉ Ŵįŧĥ Ĩŉşęřŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_3FE333F79178490C83CB66F154480F13" xml:space="preserve">
+    <value>[Øpęŉ Ŵįŧĥ Ŝŧämp !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_4AFC11E6E9924A0F9BDFC0CC42FF9A0B" xml:space="preserve">
+    <value>[Cĥęčĸ Ĩŉ Ńęŵ Đőčūmęŉŧ Ĩŉ  Főľđęř !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_4D1643AE425748EA81B2C2D36F133C1B" xml:space="preserve">
+    <value>[Vęřşįőŉ Ħįşŧőřy !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_59FF20A3A7C345A1A267BAD4A3B5219A" xml:space="preserve">
+    <value>[Ŵőřĸƒľőŵ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_673B87A134BF4CE8879F755CB1B2DF02" xml:space="preserve">
+    <value>[Åđmįŉ Pęřmįşşįőŉ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_6862EA743C6B44F499D1B3DDB4725152" xml:space="preserve">
+    <value>[Øpęŉ Đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_6BA3674F0FD9485986EFAA9BA082A830" xml:space="preserve">
+    <value>[Mőđįƒy Đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_72F6509C447940D2B708BEAF06F153F8" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Đęŧäįľ Ĩŉƒő !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_78FB13B449D5455BAE408CB8BA6B23E7" xml:space="preserve">
+    <value>[Ŀįşŧ Vįęŵ Đőčūmęŉŧş !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_803D22369ADB4037A315B542567A9DB3" xml:space="preserve">
+    <value>[Ŀįşŧ Đőčūmęŉŧş Ĩŉ Főľđęř !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_804492E7DBC947EEB3B1C750CC9B427E" xml:space="preserve">
+    <value>[Ŀįşŧ Ŵįŧĥ Ŧįƒƒ Ŧĥūmþŉäįľ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_97156B7BF78B4F5CAD11D2217732D947" xml:space="preserve">
+    <value>[Cĥęčĸ Øūŧ / Cĥęčĸ ßäčĸ Ĩŉ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_99B76763F2FB45BFAE43854DDED47EF6" xml:space="preserve">
+    <value>[Ħőřįžőŉŧäľ-đęŧäįľ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_AD2B9A7F2AA947C8B744F5CA3CC2032B" xml:space="preserve">
+    <value>[Mäşŧęř-Đęŧäįľ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_B4439FA900564283BAA55CE250312247" xml:space="preserve">
+    <value>[Åđväŉčęđ Ŝęäřčĥ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_C58336F81569406F91A27916B06842C2" xml:space="preserve">
+    <value>[Ēmäįľ Ŵįŧĥ FőřmFįľľ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_D2F31950FB8E4CF3BB048939FCFB833C" xml:space="preserve">
+    <value>[Ğęŧ Cőpy Ŵįŧĥ Ŝŧämp !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_DF68812F204C4C238C0221C7BA0D91D4" xml:space="preserve">
+    <value>[Ğęŧ Cőpy !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_E033F356E687498B902F51E698979D8B" xml:space="preserve">
+    <value>[Ēđįŧ Ńőŧę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_E41FF2180EEC4DDABAB8983D24DE0402" xml:space="preserve">
+    <value>[Åđväŉčęđ Ŝęäřčĥ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_E53A567222294CBCB0F7455EF5579AB9" xml:space="preserve">
+    <value>[Ŝęŉđ ŧő Přįŉŧ Qūęūę !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_E9B70B3FD0BA45EDBB0A2355A690DC53" xml:space="preserve">
+    <value>[Đęľęŧę Đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_EADC86BCA4FC46C28BBD7D16F35F1451" xml:space="preserve">
+    <value>[Øpęŉ Ŧįƒƒ Åş Pđƒ !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_F5CA112882244041824DFD7CF7EFE39C" xml:space="preserve">
+    <value>[Ŀįşŧ Vįęŵ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Descr_F8C459039EB5457D82213B16287D93D4" xml:space="preserve">
+    <value>[Øpęŉ Ŧįƒƒ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_00716D2963C04736BE51D9CACF7A39D8" xml:space="preserve">
+    <value>[Fľyşĥęęŧ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_0D678C406DB34580B7F17F3A42D2F60C" xml:space="preserve">
+    <value>[Ēmäįľ Ŵįŧĥ Ĩŉşęřŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_0ECB14DC0F01498EA41B136BEC154A7F" xml:space="preserve">
+    <value>[Øpęŉ Ŵįŧĥ FőřmFįľľ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_29145036F2A5497897DAC87672EC5194" xml:space="preserve">
+    <value>[Ğęŧ Cőpy Ŵįŧĥ FőřmFįľľ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_326BE88BDB514C4F9A023AB1423F2355" xml:space="preserve">
+    <value>[Ēmäįľ Ŵįŧĥ Ŝŧämp !!! !!!]</value>
+  </data>
+  <data name="AD_Name_36C0CA04B70F45398FC8AC44714BD622" xml:space="preserve">
+    <value>[Ēmäįľ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_38A0551356914C92A02D64921AACBB24" xml:space="preserve">
+    <value>[Ğęŧ Cőpy Ŵįŧĥ Ĩŉşęřŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_395AC95CCE7D422FBE1A0F29CCA500B1" xml:space="preserve">
+    <value>[Øpęŉ Ŵįŧĥ Ĩŉşęřŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_3FE333F79178490C83CB66F154480F13" xml:space="preserve">
+    <value>[Øpęŉ Ŵįŧĥ Ŝŧämp !!! !!!]</value>
+  </data>
+  <data name="AD_Name_4AFC11E6E9924A0F9BDFC0CC42FF9A0B" xml:space="preserve">
+    <value>[Cĥęčĸ Ĩŉ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_4D1643AE425748EA81B2C2D36F133C1B" xml:space="preserve">
+    <value>[Ħįşŧőřy !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_59FF20A3A7C345A1A267BAD4A3B5219A" xml:space="preserve">
+    <value>[Ŵőřĸƒľőŵ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_673B87A134BF4CE8879F755CB1B2DF02" xml:space="preserve">
+    <value>[Főľđęř Åđmįŉįşŧřäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_6862EA743C6B44F499D1B3DDB4725152" xml:space="preserve">
+    <value>[Øpęŉ !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_6BA3674F0FD9485986EFAA9BA082A830" xml:space="preserve">
+    <value>[Mőđįƒy !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_72F6509C447940D2B708BEAF06F153F8" xml:space="preserve">
+    <value>[Đęŧäįľ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_78FB13B449D5455BAE408CB8BA6B23E7" xml:space="preserve">
+    <value>[Ŀįşŧ  !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_803D22369ADB4037A315B542567A9DB3" xml:space="preserve">
+    <value>[Ŀįşŧ !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_804492E7DBC947EEB3B1C750CC9B427E" xml:space="preserve">
+    <value>[Ŀįşŧ Ŧĥūmþŉäįľ Ŧįƒƒ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_97156B7BF78B4F5CAD11D2217732D947" xml:space="preserve">
+    <value>[Vęřşįőŉ Mäŉäģęmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_99B76763F2FB45BFAE43854DDED47EF6" xml:space="preserve">
+    <value>[Ħőřįžőŉŧäľ-đęŧäįľ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_AD2B9A7F2AA947C8B744F5CA3CC2032B" xml:space="preserve">
+    <value>[Mäşŧęř-Đęŧäįľ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_B4439FA900564283BAA55CE250312247" xml:space="preserve">
+    <value>[Åđväŉčęđ Ŝęäřčĥ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_C58336F81569406F91A27916B06842C2" xml:space="preserve">
+    <value>[Ēmäįľ Ŵįŧĥ FőřmFįľľ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_D2F31950FB8E4CF3BB048939FCFB833C" xml:space="preserve">
+    <value>[Ğęŧ Cőpy Ŵįŧĥ Ŝŧämp !!! !!!]</value>
+  </data>
+  <data name="AD_Name_DF68812F204C4C238C0221C7BA0D91D4" xml:space="preserve">
+    <value>[Ğęŧ Cőpy !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_E033F356E687498B902F51E698979D8B" xml:space="preserve">
+    <value>[Ńőŧę !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_E41FF2180EEC4DDABAB8983D24DE0402" xml:space="preserve">
+    <value>[Ŝęäřčĥ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_E53A567222294CBCB0F7455EF5579AB9" xml:space="preserve">
+    <value>[Ŧő Qūęūę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_E9B70B3FD0BA45EDBB0A2355A690DC53" xml:space="preserve">
+    <value>[Đęľęŧę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_EADC86BCA4FC46C28BBD7D16F35F1451" xml:space="preserve">
+    <value>[Øpęŉ Ŧįƒƒ Åş Pđƒ !!! !!!]</value>
+  </data>
+  <data name="AD_Name_F5CA112882244041824DFD7CF7EFE39C" xml:space="preserve">
+    <value>[Ŀįşŧ  !!! !!! !!! !!!]</value>
+  </data>
+  <data name="AD_Name_F8C459039EB5457D82213B16287D93D4" xml:space="preserve">
+    <value>[Øpęŉ Ŧįƒƒ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CD_Descr_1" xml:space="preserve">
+    <value>[Väľūę įş Ēχäčŧäľy ŧĥę şämę !!! !!!]</value>
+  </data>
+  <data name="CD_Descr_10" xml:space="preserve">
+    <value>[Ēŉđş ŵįŧĥ ŧĥę väľūę !!! !!!]</value>
+  </data>
+  <data name="CD_Descr_2" xml:space="preserve">
+    <value>[Ĩş ƒőūŉđ ŵįŧĥįŉ ä ƒįęľđ !!! !!!]</value>
+  </data>
+  <data name="CD_Descr_3" xml:space="preserve">
+    <value>[Ĩş ßęŧŵęęŉ !!! !!!]</value>
+  </data>
+  <data name="CD_Descr_4" xml:space="preserve">
+    <value>[Ĩş Ğřęäŧęř ŧĥäŉ ä väľūę !!! !!!]</value>
+  </data>
+  <data name="CD_Descr_5" xml:space="preserve">
+    <value>[Ĩş ľęşş ŧĥäŉ ä väľūę !!! !!!]</value>
+  </data>
+  <data name="CD_Descr_6" xml:space="preserve">
+    <value>[Väľūę įş Ńūľľ !!! !!!]</value>
+  </data>
+  <data name="CD_Descr_7" xml:space="preserve">
+    <value>[Ŝŧäřŧş ŵįŧĥ ŧĥę Väľūę !!! !!!]</value>
+  </data>
+  <data name="CD_Descr_9" xml:space="preserve">
+    <value>[Å Ůşęř'ş Ĩŉƒőřmäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="CD_Name_1" xml:space="preserve">
+    <value>[Ēqūäľş !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CD_Name_10" xml:space="preserve">
+    <value>[Ēŉđş Ŵįŧĥ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CD_Name_2" xml:space="preserve">
+    <value>[Cőŉŧäįŉş !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CD_Name_3" xml:space="preserve">
+    <value>[ßęŧŵęęŉ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CD_Name_4" xml:space="preserve">
+    <value>[Ğřęäŧęř Ŧĥäŉ !!! !!!]</value>
+  </data>
+  <data name="CD_Name_5" xml:space="preserve">
+    <value>[Ŀęşş Ŧĥäŉ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CD_Name_6" xml:space="preserve">
+    <value>[Ĩş Ńūľľ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CD_Name_7" xml:space="preserve">
+    <value>[Ŝŧäřŧş Ŵįŧĥ !!! !!!]</value>
+  </data>
+  <data name="CD_Name_9" xml:space="preserve">
+    <value>[Ůşęř Väľūę !!! !!!]</value>
+  </data>
+</root>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="DocumentAction_ValidateURL_Permission_FolderReset" Id="34c03d7c-277e-4d96-8bf3-12fd3a0faf79" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="" StopOnError="False" RecordedResultFile="Action0_Hi.8c111e06-d3c1-4aa3-b87a-63c5e660898a.rec.webtestresult">
+  <Items>
+    <IncludedWebTest Name="HomeUID1Login" Path="..\homeuid1login.webtest" Id="1cddeae3-759a-4014-9518-eaa5e18ea305" IsCodedWebTest="False" InheritWebTestSettings="False" />
+    <Request Method="POST" Version="1.1" Url="{{WebServer}}/Web/Folder/FolderAdmin.asp" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="Windows-1252" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="">
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="Completed Successfully" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.CMD" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?CMD=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.MenuCMD" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;MenuCMD=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.ID" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;ID=" />
+            <RuleParameter Name="EndsWith" Value="'" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="CMD" Value="Update" RecordedValue="Update" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="MenuCMD" Value="PermissionMember" RecordedValue="PermissionMember" CorrelationBinding="{{QueryStringParam5.MenuCMD}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ID" Value="7" RecordedValue="7" CorrelationBinding="{{QueryStringParam6.ID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="MemberType" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam7.MemberType}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="MemberID" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam8.MemberID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ACMD" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="ActionID" Value="174" RecordedValue="174" CorrelationBinding="{{FormPostParam1.ActionID}}" UrlEncode="True" />
+        <FormPostParameter Name="ActionID" Value="170" RecordedValue="170" CorrelationBinding="{{FormPostParam2.ActionID}}" UrlEncode="True" />
+        <FormPostParameter Name="ActionID" Value="177" RecordedValue="177" CorrelationBinding="{{FormPostParam3.ActionID}}" UrlEncode="True" />
+        <FormPostParameter Name="ActionID" Value="172" RecordedValue="172" CorrelationBinding="{{FormPostParam4.ActionID}}" UrlEncode="True" />
+        <FormPostParameter Name="ActionID" Value="173" RecordedValue="173" CorrelationBinding="{{FormPostParam5.ActionID}}" UrlEncode="True" />
+        <FormPostParameter Name="ActionID" Value="175" RecordedValue="175" CorrelationBinding="{{FormPostParam6.ActionID}}" UrlEncode="True" />
+        <FormPostParameter Name="ActionID" Value="176" RecordedValue="176" CorrelationBinding="{{FormPostParam7.ActionID}}" UrlEncode="True" />
+        <FormPostParameter Name="ActionID" Value="179" RecordedValue="179" CorrelationBinding="{{FormPostParam8.ActionID}}" UrlEncode="True" />
+        <FormPostParameter Name="ActionID" Value="178" RecordedValue="178" CorrelationBinding="{{FormPostParam9.ActionID}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Version="1.1" Url="{{WebServer}}/Web/Folder/FolderAdmin.asp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="Windows-1252" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="">
+      <QueryStringParameters>
+        <QueryStringParameter Name="CMD" Value="Open" RecordedValue="Open" CorrelationBinding="{{QueryStringParam1.CMD}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="MenuCMD" Value="Permission" RecordedValue="Permission" CorrelationBinding="{{QueryStringParam2.MenuCMD}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ID" Value="7" RecordedValue="7" CorrelationBinding="{{QueryStringParam3.ID}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

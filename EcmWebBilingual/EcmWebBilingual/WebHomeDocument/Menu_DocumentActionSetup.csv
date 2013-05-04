@@ -1,0 +1,25 @@
+ID,Name,NameCustom,Description,DescriptionCustom,Image,ASPPage
+113,Detail,Detail Custom,Document Detail Info,Document Detail Info Test,ActDocDetail,DocDetail.asp
+114,Email,Email Custom,Email Document,Email Document Test,ActEmailDoc,DocEmail.asp
+115,Email FormFill,Email FormFill Custom,Email With FormFill,Email With FormFill Test,ActEmailFormFill,DocEmailFormFill.asp
+116,Email Insert,Email Insert Custom,Email With Insert,Email With Insert Test,ActEmailInsert,DocEmailInsert.asp
+117,Email Stamp,Email Stamp Custom,Email With Stamp,Email With Stamp Test,ActEmailStamp,DocEmailStamp.asp
+118,Get Copy,Get Copy Custom,Get Copy,Get Copy Test,ActGetCopy,DocGetCopy.asp
+119,Get FormFill,Get FormFill Custom,Get Copy With FormFill,Get Copy With FormFill Test,ActGetCopyFormFill,DocGetCopyFormFill.asp
+120,Get Insert,Get Insert Custom,Get Copy With Insert,Get Copy With Insert Test,ActGetCopyInsert,DocGetCopyInsert.asp
+121,Get Stamp,Get Stamp Custom,Get Copy With Stamp,Get Copy With Stamp Test,ActGetCopyStamp,DocGetCopyStamp.asp
+122,History,History Custom,Version History,Version History Test,ActHistory,DocHistory.asp
+123,Horizontal-detail,Horizontal-detail Custom,Horizontal-detail,Horizontal-detail Test,ActDocDetail,DocHorizontalDetail.asp
+124,Master-Detail,Master-Detail Custom,Master-Detail,Master-Detail Test,ActMasterDetail,MasterDetails.asp
+125,Open,Open Custom,Open Document,Open Document Test,ActOpenDoc,DocOpen.asp
+126,Open FormFill,Open FormFill Custom,Open With FormFill,Open With FormFill Test,ActOpenFormFill,DocOpenFormFill.asp
+127,Open Insert,Open Insert Custom,Open With Insert,Open With Insert Test,ActOpenInsert,DocOpenInsert.asp
+128,Open Stamp,Open Stamp Custom,Open With Stamp,Open With Stamp Test,ActOpenStamp,DocOpenStamp.asp
+129,Open Tiff,Open Tiff Custom,Open Tiff,Open Tiff Test,ActOpenTif,DocOpenTiff.asp
+130,Open Tiff Pdf,Open Tiff Pdf Custom,Open Tiff As Pdf,Open Tiff As Pdf Test,ActOpenTifPdf,DocOpenTiffAsPdf.asp
+131,To Queue,To Queue Custom,Send to Print Queue,Send to Print Queue Test,ActPrintQueue,DocPrintQueueAdd.asp
+132,Flysheet,Flysheet Custom,Add Flysheet,Add Flysheet Test,ActFlysheet,DocFlySheet.asp
+133,Modify,Modify Custom,Modify Document,Modify Document Test,ActModifyDoc,DocEdit.asp
+134,Note,Note Custom,Edit Note,Edit Note Test,ActNote,DocNote.asp
+135,Workflow,Workflow Custom,Workflow,Workflow Test,ActWorkflow,DocWorkflow.asp
+136,Delete,Delete Custom,Delete Document,Delete Document Test,ActDeleteDoc,DocDelete.asp

@@ -1,0 +1,14 @@
+Date,FieldName,Message
+abc,Tag_M26,Input string was not in a correct format.
+2a.5,Tag_M26,Input string was not in a correct format.
+"2E5",Tag_M26,Input string was not in a correct format.
+"9223372036854775808",Tag_M26,Value was either too large or too small for an Int64.
+"-9223372036854775809",Tag_M26,Value was either too large or too small for an Int64.
+"100.55",Tag_M26,Input string was not in a correct format.
+"100.0",Tag_M26,Input string was not in a correct format.
+"-100.5",Tag_M26,Input string was not in a correct format.
+"100",,
+"0",,
+"-100",,
+"9223372036854775807",,
+"-9223372036854775808",,

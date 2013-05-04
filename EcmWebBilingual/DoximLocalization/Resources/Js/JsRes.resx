@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_Action_ActionProfileView_DefaultAction" xml:space="preserve">
+    <value>This action is one of {0}'s default action. \n\r Please change {0} default action first!</value>
+    <comment>64</comment>
+  </data>
+  <data name="Admin_Action_ActionProfileView_DocumentType" xml:space="preserve">
+    <value>document type</value>
+    <comment>58</comment>
+  </data>
+  <data name="Admin_Action_ActionProfileView_FieldEmpty" xml:space="preserve">
+    <value>Please enter a value for the \"Name\" field.</value>
+    <comment>41, admin\doctype\DocumentTypeGeneral.view 17,, admin\Group\GroupGeneralView 45, MetaTag\MetaTagGeneral.view.asp 40, admin\OrganizationProfile.view.asp 19</comment>
+  </data>
+  <data name="Admin_Action_ActionProfileView_Portfolio" xml:space="preserve">
+    <value>portfolio</value>
+    <comment>61</comment>
+  </data>
+  <data name="Admin_Action_ActionProfileView_View" xml:space="preserve">
+    <value>view</value>
+    <comment>55</comment>
+  </data>
+  <data name="Admin_Action_EmailConfigControl_Empty" xml:space="preserve">
+    <value>Email Address can't be empty!</value>
+    <comment>29</comment>
+  </data>
+  <data name="Admin_Action_EmailConfigControl_Invalid" xml:space="preserve">
+    <value>when select current setting and user not changeable must input a valid email address</value>
+    <comment>56</comment>
+  </data>
+  <data name="Admin_Action_FieldsConfigControl_Alias" xml:space="preserve">
+    <value>Alias: {0} appear more than once!</value>
+    <comment>134</comment>
+  </data>
+  <data name="Admin_Action_FieldsConfigControl_FieldEmpty" xml:space="preserve">
+    <value>please select at least one field</value>
+    <comment>161</comment>
+  </data>
+  <data name="Admin_Action_FieldsConfigControl_ListEmpty" xml:space="preserve">
+    <value>List fields cannot be empty</value>
+    <comment>145</comment>
+  </data>
+  <data name="Admin_Action_FileSelectionConfigControl_SelectType" xml:space="preserve">
+    <value>Please select the file selection type: Basic/Associated.</value>
+    <comment>211</comment>
+  </data>
+  <data name="Admin_Action_FileSelectionConfigControl_SelectValue" xml:space="preserve">
+    <value>Please select a value from the dropdown list.</value>
+    <comment>339</comment>
+  </data>
+  <data name="Admin_Action_ImageConvert_ConstrainType" xml:space="preserve">
+    <value>Please select a constrain type for converting.</value>
+    <comment>4 Admin_Action\OpenTiff.control 20</comment>
+  </data>
+  <data name="Admin_Action_ImageConvert_Height" xml:space="preserve">
+    <value>enPlease enter a valid value for Height field(1-2000)</value>
+    <comment>18 Admin_Action\OpenTiff.control 34</comment>
+  </data>
+  <data name="Admin_Action_ImageConvert_Width" xml:space="preserve">
+    <value>enPlease enter a valid value for Width field(1-2000)</value>
+    <comment>9 Admin_Action\OpenTiff.control 25</comment>
+  </data>
+  <data name="Admin_Action_InsertConfigControl_SelectInsert" xml:space="preserve">
+    <value>Please select Insert Position</value>
+    <comment>22</comment>
+  </data>
+  <data name="Admin_Action_MasterDetailConfigControl_SelectDetailAction" xml:space="preserve">
+    <value>Please select detail action</value>
+    <comment>54</comment>
+  </data>
+  <data name="Admin_Action_MasterDetailConfigControl_SelectDetailView" xml:space="preserve">
+    <value>Please select Detail View</value>
+    <comment>48</comment>
+  </data>
+  <data name="Admin_Action_MasterDetailConfigControl_SelectMasterAction" xml:space="preserve">
+    <value>Please select master action</value>
+    <comment>42</comment>
+  </data>
+  <data name="Admin_Action_PortfolioViewsControl_OrderField" xml:space="preserve">
+    <value>Please input integer for the \"Order\" field</value>
+    <comment>19</comment>
+  </data>
+  <data name="Admin_Action_PortfolioViewsControl_ValueField" xml:space="preserve">
+    <value>Please input integer for the \"Value\" field.</value>
+    <comment>38, admin\PortfolioField\PortfolioField.view.asp 85</comment>
+  </data>
+  <data name="Admin_Action_StampConfigControl_OneStamp" xml:space="preserve">
+    <value>Please select at least one stamp showing page</value>
+    <comment>26</comment>
+  </data>
+  <data name="Admin_Action_StampConfigControl_OverlayStamp" xml:space="preserve">
+    <value>Please select Underlay/Overlay stamp</value>
+    <comment>21</comment>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_Configure" xml:space="preserve">
+    <value>Please configure</value>
+    <comment>46</comment>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_EnterCurrency" xml:space="preserve">
+    <value>Please enter a valid currency number</value>
+    <comment>23, admin\MetaTag\MetaTagValues.view.asp 96,Web_View_View_Currency 29</comment>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_EnterDate" xml:space="preserve">
+    <value>Please enter a valid date value for the field with format: YYYY-MM-DD.</value>
+    <comment>17,admin\MetaTag\MetaTagValues.view.asp 90,Admin_View_ViewDetailView_82</comment>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_EnterInteger" xml:space="preserve">
+    <value>Please enter a valid integer number (?,147,483,648 to 2,147,483,647)</value>
+    <comment>27admin\MetaTag\MetaTagValues.view.asp 93, Admin_View_ViewDetailView_96, Web_View_View_Integer 33</comment>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_ToDoStatus" xml:space="preserve">
+    <value>Please select or input From To Do Status</value>
+    <comment>63</comment>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_WorkflowEmpty" xml:space="preserve">
+    <value>workflow can not be empty</value>
+    <comment>56</comment>
+  </data>
+  <data name="Admin_Batch_BatchProfileView_BatchName" xml:space="preserve">
+    <value>Please enter a value for the \"Batch Name\" field.</value>
+    <comment>56</comment>
+  </data>
+  <data name="Admin_Batch_BatchProfileView_DateActive" xml:space="preserve">
+    <value>Please enter a valid value for the \"Date Active\" field.</value>
+    <comment>62</comment>
+  </data>
+  <data name="Admin_Batch_BatchProfileView_DateExpire" xml:space="preserve">
+    <value>Please enter a valid value for the \"Date Expire\" field.</value>
+    <comment>68</comment>
+  </data>
+  <data name="Admin_Batch_BatchProfileView_ExpiryDateWarning" xml:space="preserve">
+    <value>Warning: The expiry date is previous to active date. \r\nDo you want continue?</value>
+    <comment>73</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileGeneralView_EnterValue" xml:space="preserve">
+    <value>Please enter a value for the \"Company Name\" field.</value>
+    <comment>28</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileGeneralView_InvalidField" xml:space="preserve">
+    <value>Invalid \"Post Code\" field. Please re-enter.</value>
+    <comment>35</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_EmailBody" xml:space="preserve">
+    <value>Feedback email body cannot exceed 900 characters!</value>
+    <comment>106</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_EmailEmpty" xml:space="preserve">
+    <value>Feedback email can not empty!</value>
+    <comment>102</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_Minimum8" xml:space="preserve">
+    <value>A minimum of 8 characters is required.</value>
+    <comment>81</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_Minimum8Alpha" xml:space="preserve">
+    <value>A minimum of 8 characters and a combination of both alpha and numeric characters are required.</value>
+    <comment>84</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_NoRequirement" xml:space="preserve">
+    <value>No Requirement</value>
+    <comment>87</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_SubjectEmpty" xml:space="preserve">
+    <value>Feedback subject can not empty!</value>
+    <comment>97</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_UrlEmpty" xml:space="preserve">
+    <value>Feedback ulr can not be empty!</value>
+    <comment>114</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_UrlStartWith" xml:space="preserve">
+    <value>Feedback url should start with \"http://\" or \"https://\"</value>
+    <comment>118</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileView_NoRight" xml:space="preserve">
+    <value>You don't have the right to delete the company:{0}.\n\r</value>
+    <comment>28</comment>
+  </data>
+  <data name="Admin_Company_CompanyProfileView_Warning" xml:space="preserve">
+    <value>Warning: Cannot delete the company: {0}.\n\r Please delete the following related objects first:\n\r--</value>
+    <comment>19</comment>
+  </data>
+  <data name="Admin_Company_UserListView_ValueEmpty" xml:space="preserve">
+    <value>Search value can not be empty</value>
+    <comment>7</comment>
+  </data>
+  <data name="Admin_CustomField_CustomFieldGeneralView_Name" xml:space="preserve">
+    <value>Please enter a value for the \"Name\"</value>
+    <comment>35</comment>
+  </data>
+  <data name="Admin_CustomField_CustomFieldValuesView_OrderNo" xml:space="preserve">
+    <value>Please enter a valid order number.</value>
+    <comment>68, admin\MetaTagValues.view.asp 50</comment>
+  </data>
+  <data name="Admin_CustomField_CustomFieldValuesView_Value" xml:space="preserve">
+    <value>Value {0} appear more than once!</value>
+    <comment>57, admin\MetaTagValues.view.asp 65</comment>
+  </data>
+  <data name="Admin_DocType_DocumentTypeBatchListView_ValueEmpty" xml:space="preserve">
+    <value>Search value can not be empty!</value>
+    <comment>7</comment>
+  </data>
+  <data name="Admin_DocType_DocumentTypeGeneralView_DocumentType" xml:space="preserve">
+    <value>Document type: {0}</value>
+    <comment>70</comment>
+  </data>
+  <data name="Admin_DocType_DocumentTypeGeneralView_InvalidExpireYears" xml:space="preserve">
+    <value>You have entered invalid number in the \"Expire Years\" field.</value>
+    <comment>46</comment>
+  </data>
+  <data name="Admin_DocType_DocumentTypeGeneralView_RelatedObject" xml:space="preserve">
+    <value>Warning: Cannot delete the document type: {0}.\n\r Please delete the following related objects first:</value>
+    <comment>67</comment>
+  </data>
+  <data name="Admin_Folder_FolderGeneralView_CADOnly" xml:space="preserve">
+    <value>Only CAD can delete folder!</value>
+    <comment>66</comment>
+  </data>
+  <data name="Admin_Folder_FolderGeneralView_FolderNameEmpty" xml:space="preserve">
+    <value>Please enter a value for the \"Folder Name\" field.</value>
+    <comment>27</comment>
+  </data>
+  <data name="Admin_Group_GroupGeneralView_CriteriaValue" xml:space="preserve">
+    <value>Please input criteria value!</value>
+    <comment>63</comment>
+  </data>
+  <data name="Admin_Group_GroupGeneralView_CustomField" xml:space="preserve">
+    <value>Please select custom field!</value>
+    <comment>56</comment>
+  </data>
+  <data name="Admin_Group_GroupManualView_Confirm" xml:space="preserve">
+    <value>Are you sure you want to delete {0} users from current group?</value>
+    <comment>54</comment>
+  </data>
+  <data name="Admin_Group_GroupManualView_SelectUser" xml:space="preserve">
+    <value>Please select the user(s) you want to remove first!</value>
+    <comment>51</comment>
+  </data>
+  <data name="Admin_MetaTag_MetaTagGeneralView_DeleteFail" xml:space="preserve">
+    <value>The metatag is referenced by documents, can not be delete!</value>
+    <comment>32</comment>
+  </data>
+  <data name="Admin_Organization_OrganizationProfileView_DeleteTheOrganization" xml:space="preserve">
+    <value>You don't have the right to delete the organization: {0}</value>
+    <comment>27</comment>
+  </data>
+  <data name="Admin_PortfolioField_PortfolioFieldView_CommonFieldName" xml:space="preserve">
+    <value>Please enter a value for the \"Common Field Name\" field.</value>
+    <comment>67</comment>
+  </data>
+  <data name="Admin_PortfolioField_PortfolioFieldView_FieldName" xml:space="preserve">
+    <value>Please select a value for the \"Field Name\" field.</value>
+    <comment>75</comment>
+  </data>
+  <data name="Admin_Portfolio_PortfolioGeneralView_Format" xml:space="preserve">
+    <value>Please use [[CustomField.FieldName]] or [[CommonField.FieldName]] format!</value>
+    <comment>73, 79</comment>
+  </data>
+  <data name="Admin_Portfolio_PortfolioGeneralView_PortfolioName" xml:space="preserve">
+    <value>Please enter a value for the \"Portfolio Name\" field.</value>
+    <comment>28</comment>
+  </data>
+  <data name="Admin_Portfolio_PortfolioGeneralView_SaveConfirm" xml:space="preserve">
+    <value>Are you sure to save?</value>
+    <comment>84</comment>
+  </data>
+  <data name="Admin_User_UserProfileCustomFieldView_Confirm" xml:space="preserve">
+    <value>one row will be deleted, Are you sure?</value>
+    <comment>91</comment>
+  </data>
+  <data name="Admin_User_UserProfileCustomFieldView_ConfirmAllItem" xml:space="preserve">
+    <value>all of items will be deleted, Are you sure?</value>
+    <comment>108</comment>
+  </data>
+  <data name="Admin_User_UserProfileCustomFieldView_EnterRequiredField" xml:space="preserve">
+    <value>Please enter a value for the required field</value>
+    <comment>41,46,53,61</comment>
+  </data>
+  <data name="Admin_User_UserProfileGeneralView_FirstNameLastName" xml:space="preserve">
+    <value>Please enter a value for the \"First Name\" or \"Last Name\" field.</value>
+    <comment>48</comment>
+  </data>
+  <data name="Admin_User_UserProfileGeneralView_InvalidUserID" xml:space="preserve">
+    <value>You have entered invalid character(s) in the \"User ID\" field.\n Valid characters in a-z,A-Z,0-9 or + - _ .</value>
+    <comment>67</comment>
+  </data>
+  <data name="Admin_User_UserProfileGeneralView_UserID" xml:space="preserve">
+    <value>Please enter a value for the \"User ID\" field.</value>
+    <comment>57</comment>
+  </data>
+  <data name="Admin_User_UserProfileSettingView_Portfolio" xml:space="preserve">
+    <value>Please select Portfolio!</value>
+    <comment>78</comment>
+  </data>
+  <data name="Admin_User_UserProfileSettingView_Setting" xml:space="preserve">
+    <value>Please select user setting</value>
+    <comment>70</comment>
+  </data>
+  <data name="Admin_User_UserProfileSettingView_View" xml:space="preserve">
+    <value>Please select View!</value>
+    <comment>80</comment>
+  </data>
+  <data name="Admin_View_ViewDetailView_EnterBoolean" xml:space="preserve">
+    <value>Please enter a valid boolean value (Yes/No;True/False;1/0)</value>
+    <comment>92</comment>
+  </data>
+  <data name="Admin_View_ViewDetailView_UserValueEmpty" xml:space="preserve">
+    <value>User Value can not be empty</value>
+    <comment>56</comment>
+  </data>
+  <data name="Admin_View_ViewDetailView_ValueEmpty" xml:space="preserve">
+    <value>Values can not be empty</value>
+    <comment>51</comment>
+  </data>
+  <data name="Admin_View_ViewGeneralView_DocumentType" xml:space="preserve">
+    <value>Please select a value for the \"Document Type\" field</value>
+    <comment>60</comment>
+  </data>
+  <data name="Admin_View_ViewGeneralView_ViewName" xml:space="preserve">
+    <value>Please enter a value for the \"View Name\" field</value>
+    <comment>66</comment>
+  </data>
+  <data name="Common_Control_AdvancedSearchView_CriteriaEmpty" xml:space="preserve">
+    <value>Advanced search criteria can not be empty!</value>
+    <comment>88</comment>
+  </data>
+  <data name="Common_Control_ConfigurationClass_SelecType" xml:space="preserve">
+    <value>Please select the file selection type: Basic/Associated.</value>
+    <comment>112</comment>
+  </data>
+  <data name="Common_Control_ConfigurationClass_SelecValue" xml:space="preserve">
+    <value>Please select a value from the dropdown list.</value>
+    <comment>130</comment>
+  </data>
+  <data name="Common_Control_DocEditView_FileName" xml:space="preserve">
+    <value>File Name:</value>
+    <comment>208</comment>
+  </data>
+  <data name="Common_Control_DocEditView_SelectDocType" xml:space="preserve">
+    <value>Please select a document type</value>
+    <comment>98</comment>
+  </data>
+  <data name="Common_Control_DocEditView_SelectFile" xml:space="preserve">
+    <value>Please select file!</value>
+    <comment>168</comment>
+  </data>
+  <data name="Common_Control_DocEditView_SelectFileMsg" xml:space="preserve">
+    <value>Please select a file NOT more than 50MB in file size; Check in process will fail if uploading file takes more than 1 hour upon your internet connection!</value>
+    <comment>213</comment>
+  </data>
+  <data name="Common_DoximGrid_Confirm" xml:space="preserve">
+    <value>$1 $2 will be deleted, Are you sure?</value>
+    <comment>140</comment>
+  </data>
+  <data name="Common_DoximGrid_DeleteRow" xml:space="preserve">
+    <value>enPlease select rows to delete!</value>
+    <comment>136</comment>
+  </data>
+  <data name="Common_Lib_CenterWindow_InvalidStyle" xml:space="preserve">
+    <value>Invalid window style! $1</value>
+    <comment>390,400</comment>
+  </data>
+  <data name="Common_Lib_ConfirmDeleteSub_CannotDelete" xml:space="preserve">
+    <value>Cannot delete:\r\nThere are sub-folder(s) under this folder.</value>
+    <comment>204</comment>
+  </data>
+  <data name="Common_Lib_ConfirmDelete_Confirm" xml:space="preserve">
+    <value>Are you sure you want to DELETE this $1 ?</value>
+    <comment>193</comment>
+  </data>
+  <data name="Common_Lib_CreateConfirmWindow_InvalidConfirm" xml:space="preserve">
+    <value>Invalid onConfirm!</value>
+    <comment>745</comment>
+  </data>
+  <data name="Common_Lib_CreateRequestObject_AjaxError" xml:space="preserve">
+    <value>Error: Your browser does not support AJAX</value>
+    <comment>301</comment>
+  </data>
+  <data name="Common_Lib_IsValidEmail_InvalidEmail" xml:space="preserve">
+    <value>Invalid Email Address</value>
+    <comment>217</comment>
+  </data>
+  <data name="Common_Lib_ReinitIframeDocument_DocError" xml:space="preserve">
+    <value>Error found in the Doc IFrame</value>
+    <comment>973</comment>
+  </data>
+  <data name="Common_Lib_ReinitMasterIframe_MasterError" xml:space="preserve">
+    <value>Error found in the Master IFrame</value>
+    <comment>938</comment>
+  </data>
+  <data name="Common_Lib_ShowProgressPercentInfo_Progress" xml:space="preserve">
+    <value>Progress</value>
+    <comment>57 test</comment>
+  </data>
+  <data name="Common_Lib_ValidatePassword_NotIdentical" xml:space="preserve">
+    <value>Passwords entered are not identical,press OK to continue!</value>
+    <comment>501</comment>
+  </data>
+  <data name="Common_Lib_ValidatePassword_PasswordEmpty" xml:space="preserve">
+    <value>Please enter a value for the \"Password\" field.</value>
+    <comment>496</comment>
+  </data>
+  <data name="Common_Lib_ValidatePassword_StandardRule" xml:space="preserve">
+    <value>User's password is set to a standard rule, a minimum of 8 characters is required! \n Please click OK, re-enter your password.</value>
+    <comment>508</comment>
+  </data>
+  <data name="Common_Lib_ValidatePassword_StrongRule" xml:space="preserve">
+    <value>User's password is set to a strong rule, a minimum of 8 characters and a combination of both alpha and numeric characters are required! Please click OK, re-enter your password.</value>
+    <comment>515</comment>
+  </data>
+  <data name="Common_MemberSelector_SelectMember" xml:space="preserve">
+    <value>No member selected, please select member to continue</value>
+    <comment>54</comment>
+  </data>
+  <data name="Common_Validation_ElementNotFound" xml:space="preserve">
+    <value>Unable to find element $1 !</value>
+    <comment>99</comment>
+  </data>
+  <data name="Label_Invalid" xml:space="preserve">
+    <value>{0} is invalid!</value>
+    <comment>admin\MetaTag\MetaTagValues.view.asp 90, 93, 96</comment>
+  </data>
+  <data name="Label_InvalidCharInXMLID" xml:space="preserve">
+    <value>You have entered invalid character(s) in the \"XML ID\" field.\n Valid characters in a-z,A-Z,0-9.</value>
+    <comment>Admin_CustomField_CustomFieldGeneralView_ 56, admin\doctype\DocumentTypeGeneral.view 38, MetaTag\MetaTagGeneral.view.asp 61</comment>
+  </data>
+  <data name="Label_PleaseCreate" xml:space="preserve">
+    <value>Please create {0} : {1}</value>
+    <comment>Admin_Portfolio_PortfolioGeneralView_70,,Admin_View_ViewDetailView_88</comment>
+  </data>
+  <data name="Label_XMLIDEmpty" xml:space="preserve">
+    <value>Please enter a value for the \"XML ID\" field.</value>
+    <comment>Admin_CustomField_CustomFieldGeneralView 41, admin\doctype\DocumentTypeGeneral.view 23, MetaTag\MetaTagGeneral.view.asp 46</comment>
+  </data>
+  <data name="Label_XMLIDStartWithNo" xml:space="preserve">
+    <value>You can\'t start with number in the \"XML ID\" field</value>
+    <comment>Admin_CustomField_CustomFieldGeneralView 48, admin\doctype\DocumentTypeGeneral.view 30, MetaTag\MetaTagGeneral.view.asp 53</comment>
+  </data>
+  <data name="Web_Doc_DocNoteView_Maximum" xml:space="preserve">
+    <value>You entered {0} characters. The system only allows max 2000 characters</value>
+    <comment>67</comment>
+  </data>
+  <data name="Web_Folder_FolderProfileView_EnterValue" xml:space="preserve">
+    <value>Please enter a value for the \"Folder Name\" field.</value>
+    <comment>18</comment>
+  </data>
+  <data name="Web_LoginView_UserIDEmpty" xml:space="preserve">
+    <value>User ID and password must not empty</value>
+    <comment>16</comment>
+  </data>
+  <data name="Web_Portfolio_PortfolioViewsListView_EnterValue" xml:space="preserve">
+    <value>Please enter at least one search field value.</value>
+    <comment>17</comment>
+  </data>
+  <data name="Web_PrintQueue_Job_PrintJobView_PrintJob" xml:space="preserve">
+    <value>Are you sure to release the print job?</value>
+    <comment>6,Web_PrintQueue_Job_PrintJobQView_PrintJob 9</comment>
+  </data>
+  <data name="Web_User_MyProfilePasswordView_InvalidPassword" xml:space="preserve">
+    <value>Invalid new password! New password should not be same as old password!</value>
+    <comment>17</comment>
+  </data>
+  <data name="Web_User_TreeNode_InvalidUrl" xml:space="preserve">
+    <value>Invalid url!</value>
+    <comment>184</comment>
+  </data>
+  <data name="Web_User_TreeNode_Refresh" xml:space="preserve">
+    <value>double click icon to refresh child nodes</value>
+    <comment>66</comment>
+  </data>
+  <data name="Web_User_TreeNode_Timeout" xml:space="preserve">
+    <value>Session time out, please login again.</value>
+    <comment>110</comment>
+  </data>
+  <data name="Web_User_TreeView_Nodes" xml:space="preserve">
+    <value>Too many nodes retrieved, please contact administrator!</value>
+    <comment>17</comment>
+  </data>
+  <data name="Web_View_View_Date" xml:space="preserve">
+    <value>please enter valid date part format: $1</value>
+    <comment>67.96</comment>
+  </data>
+  <data name="Web_View_View_EndsWith" xml:space="preserve">
+    <value>please enter valid date part format for Ends With: $1</value>
+    <comment>137</comment>
+  </data>
+  <data name="Web_View_View_Now" xml:space="preserve">
+    <value>'Now' keyword must be used like this: Now + [or -] number</value>
+    <comment>19.22</comment>
+  </data>
+  <data name="Web_View_View_StartsWith" xml:space="preserve">
+    <value>please enter valid date part format for Starts With: $1</value>
+    <comment>120</comment>
+  </data>
+</root>

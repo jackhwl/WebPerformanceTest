@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_Delete_UnableDeleteReferedView" xml:space="preserve">
+    <value>Unable to delete this action as it is referred by views!</value>
+    <comment>112</comment>
+  </data>
+  <data name="Action_ExtractConfig_ConfigurationNodeNotFound" xml:space="preserve">
+    <value>Error: the configuration node '{0}Configuration' not found in the xml string</value>
+    <comment>58</comment>
+  </data>
+  <data name="Action_ValidateMemberActions_InvalidMemberAction" xml:space="preserve">
+    <value>Invalid member action!</value>
+    <comment>356</comment>
+  </data>
+  <data name="Batch_DeleteBatch_Deleting" xml:space="preserve">
+    <value>Deleting</value>
+    <comment>118</comment>
+  </data>
+  <data name="Batch_DeleteBatch_DeletingFolder" xml:space="preserve">
+    <value>Deleting folder: {0}/{1} document: {2}/{3}</value>
+    <comment>134</comment>
+  </data>
+  <data name="Batch_DeleteBatch_NoRightDeleteBatch" xml:space="preserve">
+    <value>Insufficient right to delete batch!</value>
+    <comment>98, 161</comment>
+  </data>
+  <data name="Batch_List_InvalidCatalog" xml:space="preserve">
+    <value>Invalid catalog, can not be empty!</value>
+    <comment>372, 400</comment>
+  </data>
+  <data name="Batch_List_UnsupportedCatalog" xml:space="preserve">
+    <value>Unsupported catalog!</value>
+    <comment>428</comment>
+  </data>
+  <data name="CheckInHistory_DateGroupBy_OnlyAccepts" xml:space="preserve">
+    <value>DateGroupBy only accepts D, M and Y.</value>
+    <comment>29</comment>
+  </data>
+  <data name="CheckInHistory_GetSumImpl_CriteriaNoNull" xml:space="preserve">
+    <value>Criteria can not be null.</value>
+    <comment>128</comment>
+  </data>
+  <data name="CheckInHistory_GetSumImpl_OnlyMonthlySummary" xml:space="preserve">
+    <value>Only monthly summary has been implemented!</value>
+    <comment>129</comment>
+  </data>
+  <data name="CheckInHistory_ObjectID_CantBeNull" xml:space="preserve">
+    <value>ObjectID can not be null or empty!</value>
+    <comment>49</comment>
+  </data>
+  <data name="CheckInHistory_ObjectID_MustStartWith" xml:space="preserve">
+    <value>ObjectID must start with O, C or D.</value>
+    <comment>51</comment>
+  </data>
+  <data name="CheckInHistory_Validate_DataTempered" xml:space="preserve">
+    <value>Data has been tampered.</value>
+    <comment>209</comment>
+  </data>
+  <data name="Criteria_buildDateField_InvalidDateValue" xml:space="preserve">
+    <value>Error: input an invalid date value to a date field.</value>
+    <comment>686</comment>
+  </data>
+  <data name="Criteria_BuildField_MustProvideValidUserInfo" xml:space="preserve">
+    <value>A valid User Info must be provided in Criteria.</value>
+    <comment>580</comment>
+  </data>
+  <data name="Criteria_BuildField_NotFoundCustomFieldValues" xml:space="preserve">
+    <value>Not found custom field values in Criteria, check if user custom fields are empty.</value>
+    <comment>593</comment>
+  </data>
+  <data name="Document_CheckinNoLic_ByUser" xml:space="preserve">
+    <value>{0} by {1} on {2:yyyy-MM-dd HH:mm:ss} (GMT)</value>
+    <comment>65, 96</comment>
+  </data>
+  <data name="Document_CheckInStream_CheckedBackIn" xml:space="preserve">
+    <value>Checked back in</value>
+    <comment>208</comment>
+  </data>
+  <data name="Document_CheckInStream_CheckedIn" xml:space="preserve">
+    <value>Checked in</value>
+    <comment>94</comment>
+  </data>
+  <data name="Document_CheckInStream_CheckedOut" xml:space="preserve">
+    <value>Checked out</value>
+    <comment>153</comment>
+  </data>
+  <data name="Document_CheckInStream_Modified" xml:space="preserve">
+    <value>Modified</value>
+    <comment>133</comment>
+  </data>
+  <data name="Document_CheckInStream_UndoCheckOut" xml:space="preserve">
+    <value>Undo check out</value>
+    <comment>168</comment>
+  </data>
+  <data name="Document_EmailDefault_FailedFindEmail" xml:space="preserve">
+    <value>Failed to find Email action on view {0}-{1}</value>
+    <comment>590</comment>
+  </data>
+  <data name="Document_Email_FromNoNull" xml:space="preserve">
+    <value>From can not be null or empty.</value>
+    <comment>542</comment>
+  </data>
+  <data name="Document_Email_ToNoNull" xml:space="preserve">
+    <value>To can not be null or empty.</value>
+    <comment>534</comment>
+  </data>
+  <data name="Document_GetFromInEmailActionConfig_NotValidEmailAction" xml:space="preserve">
+    <value>Action {0} is not a valid Email Action. </value>
+    <comment>614</comment>
+  </data>
+  <data name="EventLogScope_Complete_CompleteCalled" xml:space="preserve">
+    <value>Complete has been called!</value>
+    <comment>146</comment>
+  </data>
+  <data name="EventLogScope_Complete_EventLogScope" xml:space="preserve">
+    <value>EventLogScope</value>
+    <comment>142</comment>
+  </data>
+  <data name="EventLogScope_Dispose_InvalidThread" xml:space="preserve">
+    <value>Invalid thread!</value>
+    <comment>164</comment>
+  </data>
+  <data name="EventLog_AddBizObjectInfo_NotImplementBizClassAttribute" xml:space="preserve">
+    <value>Class:{0} doesn't implement BizClassAttribute</value>
+    <comment>196</comment>
+  </data>
+  <data name="EventLog_AddBizObjectInfo_NotImplementBizClassKey" xml:space="preserve">
+    <value>Class:{0} doesn't implement BizClassKeyAttribute</value>
+    <comment>180</comment>
+  </data>
+  <data name="EventLog_AddCollectionInfo_NotSupportNestedCollectionType" xml:space="preserve">
+    <value>Not support nested collection type for--{0}</value>
+    <comment>428</comment>
+  </data>
+  <data name="EventLog_SetChangeSetCollection_changeSetCollectionNotNull" xml:space="preserve">
+    <value>changeSetCollection can not be null!</value>
+    <comment>149</comment>
+  </data>
+  <data name="Field_ConvertFieldCollection_UnableFindField" xml:space="preserve">
+    <value>Unable to find field: {0}!</value>
+    <comment>135</comment>
+  </data>
+  <data name="Folder_CheckDeletePermission_NoRightDeleteFolder" xml:space="preserve">
+    <value>Insufficient right to delete the folder.</value>
+    <comment>535, 540</comment>
+  </data>
+  <data name="Folder_DeleteSharedFolder_DeletingDocument" xml:space="preserve">
+    <value>Deleting document: {0}/{1}</value>
+    <comment>197</comment>
+  </data>
+  <data name="MetaTagList_Delete_ReferencedByDocuments" xml:space="preserve">
+    <value>The value is referenced by documents, can't be deleted</value>
+    <comment>45</comment>
+  </data>
+  <data name="MetaTagList_Update_ReferencedByDocuments" xml:space="preserve">
+    <value>The value is referenced by documents, can't be changed</value>
+    <comment>55</comment>
+  </data>
+  <data name="MetaTag_Delete_CantDeleteWithReferencedDoc" xml:space="preserve">
+    <value>Cannot Delete MetaTags with referenced Documents.</value>
+    <comment>69</comment>
+  </data>
+  <data name="MetaTag_Update_PleaseCheckListDataFormat" xml:space="preserve">
+    <value> datatype,  Please check metatag value list data format.</value>
+    <comment>200</comment>
+  </data>
+  <data name="MetaTag_Update_PleaseCheckValueDataFormat" xml:space="preserve">
+    <value> list value, Please check all document's metatag value data format.</value>
+    <comment>207</comment>
+  </data>
+  <data name="MetaTag_Update_PleaseDeleteListValue" xml:space="preserve">
+    <value> list value to boolean, Please delete all of list value.</value>
+    <comment>192</comment>
+  </data>
+  <data name="PortfolioFieldMapping_ApplyRule_PaddingRuleNotCorrect" xml:space="preserve">
+    <value>Padding Rule is not correct</value>
+    <comment>127</comment>
+  </data>
+  <data name="PortfolioFieldMapping_MaskRule_PaddingRuleNotCorrect" xml:space="preserve">
+    <value>Mask rule is not correct</value>
+    <comment>131</comment>
+  </data>
+  <data name="PortfolioFieldMapping_MaskRule_TransformRuleNotCorrect" xml:space="preserve">
+    <value>Transform Rule defination is not correct!</value>
+    <comment>136</comment>
+  </data>
+  <data name="PrintQueue_GetPDFPageCount_FailedCalculatePageNumber" xml:space="preserve">
+    <value>Failed to calculate page number of {0}</value>
+    <comment>139</comment>
+  </data>
+  <data name="SearchEngine_ItemID_InvalidItemID" xml:space="preserve">
+    <value>Invalid ItemID: {0}!</value>
+    <comment>52, 56, 64</comment>
+  </data>
+  <data name="User_ChangePassword_InvalidPermission" xml:space="preserve">
+    <value>Invalid permission!</value>
+    <comment>212</comment>
+  </data>
+  <data name="User_ChangePassword_OriginalPasswordIncorrect" xml:space="preserve">
+    <value>Original password incorrect.</value>
+    <comment>208</comment>
+  </data>
+  <data name="User_List_InvalidCatalog" xml:space="preserve">
+    <value>Invalid catalog, can not be empty!</value>
+    <comment>281</comment>
+  </data>
+  <data name="User_Login_InvalidCompanyIDContactAdmin" xml:space="preserve">
+    <value>Failed login, Invalid Company ID: {0}, please contact system administrator!</value>
+    <comment>166</comment>
+  </data>
+  <data name="User_Login_InvalidUserIDPWD" xml:space="preserve">
+    <value>Failed login, Invalid User ID or Password!</value>
+    <comment>154, 162</comment>
+  </data>
+  <data name="User_Login_InvalidUserIDPWD_Retry" xml:space="preserve">
+    <value>Failed login, Invalid User ID or Password, After {0} more time(s) retry, your account will be locked!</value>
+    <comment>142</comment>
+  </data>
+  <data name="User_Login_UserApprovalPending" xml:space="preserve">
+    <value>Failed login, User Approval Still Pending!</value>
+    <comment>95</comment>
+  </data>
+  <data name="User_Login_UserLocked" xml:space="preserve">
+    <value>Failed login, User Locked!</value>
+    <comment>131, 149</comment>
+  </data>
+  <data name="User_Login_UserLockedContactAdmin" xml:space="preserve">
+    <value>Failed login, User locked, please contact system administrator!</value>
+    <comment>106</comment>
+  </data>
+  <data name="User_Login_UserLockedRetry" xml:space="preserve">
+    <value>Failed login, User locked, please wait {0} minute(s) to retry!</value>
+    <comment>114</comment>
+  </data>
+  <data name="User_Login_UserSuspended" xml:space="preserve">
+    <value>Failed login, User Suspended!</value>
+    <comment>97</comment>
+  </data>
+  <data name="User_Validate_InvalidPassword" xml:space="preserve">
+    <value>Invalid password!</value>
+    <comment>870</comment>
+  </data>
+</root>

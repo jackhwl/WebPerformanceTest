@@ -1,0 +1,17 @@
+DataType,Alias,SearchField,IsOrNot,Condition,Value,Value2,Records,Header,FieldID,Not,ConditionCode
+Boolean,ImageOK,ImageOK,Is,Equals,"1",,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,YES,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,Yes,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,True,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,Y,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,y,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,"0",,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,NO,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,No,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,False,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,N,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,n,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,abc,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Is Null,,,Total: 4,Result for search criteria: [ImageOK  Is Null  ],Tag_M7,0,N
+Boolean,ImageOK,ImageOK,Not,Equals,"0",,Total: 59,Result for search criteria: [ImageOK Not Equals No ],Tag_M7,1,=
+Boolean,ImageOK,ImageOK,Not,Is Null,,,Total: 66,Result for search criteria: [ImageOK Not Is Null  ],Tag_M7,1,N

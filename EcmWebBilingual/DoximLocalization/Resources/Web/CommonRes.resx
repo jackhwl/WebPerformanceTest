@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPError_500" xml:space="preserve">
+    <value>500 Internal Server Error</value>
+    <comment>5 change filter error message </comment>
+  </data>
+  <data name="ASPError_DuplicateKey" xml:space="preserve">
+    <value>Invalid input, Duplicate Key is not allowed.</value>
+    <comment>96</comment>
+  </data>
+  <data name="ASPError_NoCodeAvailable" xml:space="preserve">
+    <value>No code available</value>
+    <comment>20</comment>
+  </data>
+  <data name="Control_ConfigurationClass_ActionInfoFieldsTitle" xml:space="preserve">
+    <value>{0} Fields</value>
+    <comment>232</comment>
+  </data>
+  <data name="Control_DocEditControl_ReachMaximumFileSize" xml:space="preserve">
+    <value>File cannot be uploaded.  Maximum file size limit is {0} MB.</value>
+    <comment>104</comment>
+  </data>
+  <data name="Control_DocEditControl_ScriptUtilsASPFormUploadFail" xml:space="preserve">
+    <value>File cannot be uploaded.  ScriptUtils.ASPForm component has problem, please try again.</value>
+    <comment>47,78</comment>
+  </data>
+  <data name="Control_DocEditView_CheckInNewDoc" xml:space="preserve">
+    <value>Check in new document:</value>
+    <comment>126</comment>
+  </data>
+  <data name="Control_DocEditView_DocType" xml:space="preserve">
+    <value>Document Type:</value>
+    <comment>111</comment>
+  </data>
+  <data name="Control_DocEditView_EmptyValue" xml:space="preserve">
+    <value>Value can not be empty!</value>
+    <comment>38</comment>
+  </data>
+  <data name="Control_DocListControl_ChangeDisplayField" xml:space="preserve">
+    <value>Change display fields is not allowed!</value>
+    <comment>75</comment>
+  </data>
+  <data name="Control_DocListControl_ChangeSortField" xml:space="preserve">
+    <value>Change sort fields is not allowed!</value>
+    <comment>63</comment>
+  </data>
+  <data name="Control_DocListControl_NoDocument" xml:space="preserve">
+    <value>No Document</value>
+    <comment>244</comment>
+  </data>
+  <data name="Control_DocListControl_NoListSettingFound" xml:space="preserve">
+    <value>Unable to find list setting!</value>
+    <comment>100</comment>
+  </data>
+  <data name="Control_DocListControl_SearchResult" xml:space="preserve">
+    <value>Result for search criteria: {0}</value>
+    <comment>314</comment>
+  </data>
+  <data name="Control_DocListControl_TooManyRecord" xml:space="preserve">
+    <value>Exceed system maximum number,first 500 documents returned, please apply/refine search criteria!</value>
+    <comment>248</comment>
+  </data>
+  <data name="Control_PermissionControl_AddAction" xml:space="preserve">
+    <value>Please add action first</value>
+    <comment>77</comment>
+  </data>
+  <data name="Control_PermissionControl_FullName" xml:space="preserve">
+    <value>Full Name</value>
+    <comment>44</comment>
+  </data>
+  <data name="Control_PermissionControl_LackOfPermission" xml:space="preserve">
+    <value>Not all member have permission for required actions, please assign permission to those member with * shown below!</value>
+    <comment>31</comment>
+  </data>
+  <data name="Control_PermissionMemberControl_RequiredAction" xml:space="preserve">
+    <value>Required action!</value>
+    <comment>58</comment>
+  </data>
+  <data name="Control_PermissionMemberView_Apply" xml:space="preserve">
+    <value>Apply to all sub folders</value>
+    <comment>49</comment>
+  </data>
+  <data name="Control_PermissionMemberView_Permissions" xml:space="preserve">
+    <value>Permission for {0}: {1}</value>
+    <comment>Permission for User: Create, Update 55</comment>
+  </data>
+  <data name="Control_RequriedActionsControl_AdvancedSearchAction" xml:space="preserve">
+    <value>(For Default View Action = Advanced Search)</value>
+    <comment>78</comment>
+  </data>
+  <data name="Control_RequriedActionsControl_DefaultDocAction" xml:space="preserve">
+    <value>Default Document Action:</value>
+    <comment>84</comment>
+  </data>
+  <data name="Control_RequriedActionsControl_DefaultViewAction" xml:space="preserve">
+    <value>Default View Action:</value>
+    <comment>64, 110</comment>
+  </data>
+  <data name="Control_RequriedActionsControl_SearchResultDisplayAction" xml:space="preserve">
+    <value>Search Result Display Action:</value>
+    <comment>74</comment>
+  </data>
+  <data name="DoximDictionary_Active" xml:space="preserve">
+    <value>Active</value>
+    <comment>135</comment>
+  </data>
+  <data name="DoximDictionary_AllUser" xml:space="preserve">
+    <value>AllUser</value>
+    <comment>18</comment>
+  </data>
+  <data name="DoximDictionary_Ascend" xml:space="preserve">
+    <value>Ascend</value>
+    <comment>108</comment>
+  </data>
+  <data name="DoximDictionary_Branding" xml:space="preserve">
+    <value>Doxim Branding Information</value>
+    <comment>154</comment>
+  </data>
+  <data name="DoximDictionary_Center" xml:space="preserve">
+    <value>Center</value>
+    <comment>117</comment>
+  </data>
+  <data name="DoximDictionary_CompanyName" xml:space="preserve">
+    <value>Doxim Company Name</value>
+    <comment>158</comment>
+  </data>
+  <data name="DoximDictionary_Completed" xml:space="preserve">
+    <value>Completed</value>
+    <comment>146</comment>
+  </data>
+  <data name="DoximDictionary_Descend" xml:space="preserve">
+    <value>Descend</value>
+    <comment>109</comment>
+  </data>
+  <data name="DoximDictionary_FirstName" xml:space="preserve">
+    <value>Doxim User First Name</value>
+    <comment>155</comment>
+  </data>
+  <data name="DoximDictionary_Is" xml:space="preserve">
+    <value>Is</value>
+    <comment>48</comment>
+  </data>
+  <data name="DoximDictionary_LastName" xml:space="preserve">
+    <value>Doxim User Last Name</value>
+    <comment>156</comment>
+  </data>
+  <data name="DoximDictionary_Left" xml:space="preserve">
+    <value>Left</value>
+    <comment>116</comment>
+  </data>
+  <data name="DoximDictionary_Locked" xml:space="preserve">
+    <value>Locked</value>
+    <comment>138</comment>
+  </data>
+  <data name="DoximDictionary_NewUser" xml:space="preserve">
+    <value>NewUser</value>
+    <comment>19</comment>
+  </data>
+  <data name="DoximDictionary_None" xml:space="preserve">
+    <value>None</value>
+    <comment>20</comment>
+  </data>
+  <data name="DoximDictionary_NoRule" xml:space="preserve">
+    <value>No Rule (No Requirement)</value>
+    <comment>101</comment>
+  </data>
+  <data name="DoximDictionary_Not" xml:space="preserve">
+    <value>Not</value>
+    <comment>49</comment>
+  </data>
+  <data name="DoximDictionary_Pending" xml:space="preserve">
+    <value>Pending</value>
+    <comment>136, 147</comment>
+  </data>
+  <data name="DoximDictionary_Required" xml:space="preserve">
+    <value>Required</value>
+    <comment>145</comment>
+  </data>
+  <data name="DoximDictionary_Right" xml:space="preserve">
+    <value>Right</value>
+    <comment>118</comment>
+  </data>
+  <data name="DoximDictionary_StandardRule" xml:space="preserve">
+    <value>Standard Rule (A minimum of 8 characters is required.)</value>
+    <comment>99</comment>
+  </data>
+  <data name="DoximDictionary_StrongRule" xml:space="preserve">
+    <value>Strong Rule (A minimum of 8 characters and a combination of both alpha and numeric characters are required.)</value>
+    <comment>100</comment>
+  </data>
+  <data name="DoximDictionary_Suspend" xml:space="preserve">
+    <value>Suspend</value>
+    <comment>137</comment>
+  </data>
+  <data name="DoximDictionary_UserID" xml:space="preserve">
+    <value>Doxim User ID</value>
+    <comment>159</comment>
+  </data>
+  <data name="DoximDictionary_UserLevel" xml:space="preserve">
+    <value>Doxim User Level</value>
+    <comment>157</comment>
+  </data>
+  <data name="DoximEvent_NotFound" xml:space="preserve">
+    <value>Fail to find procedure: {0}</value>
+    <comment>37, 56</comment>
+  </data>
+  <data name="DoximGrid_IndexExceed" xml:space="preserve">
+    <value>Item index exceed item total!</value>
+    <comment>458</comment>
+  </data>
+  <data name="DoximGrid_NoGrid" xml:space="preserve">
+    <value>Unable to find grid: {0} !</value>
+    <comment>264</comment>
+  </data>
+  <data name="DoximHead_ChangeFields" xml:space="preserve">
+    <value>Change Display Fields</value>
+    <comment>44</comment>
+  </data>
+  <data name="DoximHead_SortTitle" xml:space="preserve">
+    <value>Click column name to sort alphabetically</value>
+    <comment>16</comment>
+  </data>
+  <data name="Control_DocEditView_FileName" xml:space="preserve">
+    <value>File Name</value>
+    <comment>208</comment>
+  </data>
+  <data name="Control_DocEditView_LimitFileSize" xml:space="preserve">
+    <value>Please select a file NOT more than 50MB in file size; Check in process will fail
+            if uploading file takes more than 1 hour upon your internet connection!</value>
+    <comment>213</comment>
+  </data>
+  <data name="Control_DocEditView_SelectDate" xml:space="preserve">
+    <value>Select Date</value>
+    <comment>274</comment>
+  </data>
+  <data name="DoximLib_StyleFolderNotFound" xml:space="preserve">
+    <value>Unable to find style folder, please contact system administrator!</value>
+    <comment>298</comment>
+  </data>
+  <data name="DoximLib_WebPathNotFound" xml:space="preserve">
+    <value>Failed: Web path not exist.</value>
+    <comment>471</comment>
+  </data>
+  <data name="DoximNewItemBar_AddNewRow" xml:space="preserve">
+    <value>Add New Row</value>
+    <comment>12</comment>
+  </data>
+  <data name="DoximNewItemBar_DeleteRow" xml:space="preserve">
+    <value>Delete Selected Rows</value>
+    <comment>12</comment>
+  </data>
+  <data name="DoximPage_First" xml:space="preserve">
+    <value>First</value>
+    <comment>49, 52</comment>
+  </data>
+  <data name="DoximPage_FirstPage" xml:space="preserve">
+    <value>First Page</value>
+    <comment>49</comment>
+  </data>
+  <data name="DoximPage_GotoPage" xml:space="preserve">
+    <value>Goto Page</value>
+    <comment>55</comment>
+  </data>
+  <data name="DoximPage_Last" xml:space="preserve">
+    <value>Last</value>
+    <comment>60, 63</comment>
+  </data>
+  <data name="DoximPage_LastPage" xml:space="preserve">
+    <value>Last Page</value>
+    <comment>60</comment>
+  </data>
+  <data name="DoximPage_Next" xml:space="preserve">
+    <value>Next</value>
+    <comment>59, 62</comment>
+  </data>
+  <data name="DoximPage_NextPage" xml:space="preserve">
+    <value>Next Page</value>
+    <comment>59</comment>
+  </data>
+  <data name="DoximPage_Previous" xml:space="preserve">
+    <value>Previous</value>
+    <comment>50, 53</comment>
+  </data>
+  <data name="DoximPage_PreviousPage" xml:space="preserve">
+    <value>Previous Page</value>
+    <comment>50</comment>
+  </data>
+  <data name="DoximProgress_Invalid" xml:space="preserve">
+    <value>Invalid CMD!</value>
+    <comment>28</comment>
+  </data>
+  <data name="DoximProgress_Uploading" xml:space="preserve">
+    <value>Uploading...{0}%</value>
+    <comment>100</comment>
+  </data>
+  <data name="DoximProgress_Waiting" xml:space="preserve">
+    <value>Please Wait...</value>
+    <comment>56, 98</comment>
+  </data>
+  <data name="DoximTab_Action" xml:space="preserve">
+    <value>Action</value>
+    <comment>37,62,82</comment>
+  </data>
+  <data name="DoximTab_CommonFields" xml:space="preserve">
+    <value>Common Fields</value>
+    <comment>61,71</comment>
+  </data>
+  <data name="DoximTab_Criteria" xml:space="preserve">
+    <value>Criteria</value>
+    <comment>80</comment>
+  </data>
+  <data name="DoximTab_Document" xml:space="preserve">
+    <value>Document</value>
+    <comment>11</comment>
+  </data>
+  <data name="DoximTab_General" xml:space="preserve">
+    <value>General</value>
+    <comment>10,18,27,35,44,52,60,69,79</comment>
+  </data>
+  <data name="DoximTab_Members" xml:space="preserve">
+    <value>Members</value>
+    <comment>53</comment>
+  </data>
+  <data name="DoximTab_MetaTag" xml:space="preserve">
+    <value>MetaTag</value>
+    <comment>36</comment>
+  </data>
+  <data name="DoximTab_Navigation" xml:space="preserve">
+    <value>Navigation</value>
+    <comment>81</comment>
+  </data>
+  <data name="DoximTab_Password" xml:space="preserve">
+    <value>Password</value>
+    <comment>70</comment>
+  </data>
+  <data name="DoximTab_Permission" xml:space="preserve">
+    <value>Permission</value>
+    <comment>45,83</comment>
+  </data>
+  <data name="DoximTab_Setting" xml:space="preserve">
+    <value>Setting</value>
+    <comment>19, 72</comment>
+  </data>
+  <data name="DoximTab_ValueList" xml:space="preserve">
+    <value>Value List</value>
+    <comment>28</comment>
+  </data>
+  <data name="DoximTab_Welcome" xml:space="preserve">
+    <value>Welcome String</value>
+    <comment>20</comment>
+  </data>
+  <data name="MasterPageConfig_ActionConfiguration" xml:space="preserve">
+    <value>Configuration for Action:</value>
+    <comment>189</comment>
+  </data>
+  <data name="MasterPageConfig_CopyDocAction" xml:space="preserve">
+    <value>Copy from document type actions</value>
+    <comment>269,274</comment>
+  </data>
+  <data name="MasterPageConfig_CopyViewAction" xml:space="preserve">
+    <value>Copy from actions of view: {0}</value>
+    <comment>301</comment>
+  </data>
+  <data name="MasterPageConfig_Inherit" xml:space="preserve">
+    <value>Inherit</value>
+    <comment>201</comment>
+  </data>
+  <data name="MasterPageConfig_NotInheritable" xml:space="preserve">
+    <value>Not inheritable, please set its own configuration!</value>
+    <comment>208</comment>
+  </data>
+  <data name="MasterPageConfig_Override" xml:space="preserve">
+    <value>Override</value>
+    <comment>205</comment>
+  </data>
+  <data name="MasterPageConfig_SetConfiguration" xml:space="preserve">
+    <value>Set configuration</value>
+    <comment>259</comment>
+  </data>
+  <data name="MasterPageDocument_EndOfList" xml:space="preserve">
+    <value>You have reached end of list!</value>
+    <comment>152</comment>
+  </data>
+  <data name="MasterPage_CacheNotFound" xml:space="preserve">
+    <value>Unable to find document list Cache! {0}</value>
+    <comment>165</comment>
+  </data>
+  <data name="MasterPage_InvalidPath" xml:space="preserve">
+    <value>Invalid Page Path! {0}</value>
+    <comment>75</comment>
+  </data>
+  <data name="MasterPage_InvalidPermission" xml:space="preserve">
+    <value>Invalid permission!</value>
+    <comment>104</comment>
+  </data>
+  <data name="MasterPage_ItemNotFound" xml:space="preserve">
+    <value>Unable to find item: [{0}] in document list cache!</value>
+    <comment>168</comment>
+  </data>
+  <data name="MasterPage_PrecedureNotFound" xml:space="preserve">
+    <value>Unable to find procedure: {0}</value>
+    <comment>292, 113 (MasterPageConfig.asp)</comment>
+  </data>
+  <data name="MemberSelectorView_NoUser" xml:space="preserve">
+    <value>No user is found!</value>
+    <comment>45</comment>
+  </data>
+  <data name="MemberSelectorView_Search" xml:space="preserve">
+    <value>Please enter a name and click search button</value>
+    <comment>42</comment>
+  </data>
+  <data name="MemberSelectorView_SelectMultiple" xml:space="preserve">
+    <value>Hold Ctrl or Shift key to select multiple names and click OK button.</value>
+    <comment>47</comment>
+  </data>
+  <data name="MemberSelectorView_SelectUser" xml:space="preserve">
+    <value>Select user and click OK button.</value>
+    <comment>47</comment>
+  </data>
+  <data name="MemberSelectorView_TooMany" xml:space="preserve">
+    <value>Too many users is found, and only first 200 users can be displayed. Please refine search criteria.</value>
+    <comment>49</comment>
+  </data>
+  <data name="MasterPageMain_Waiting" xml:space="preserve">
+    <value>Please Wait...</value>
+    <comment>132</comment>
+  </data>
+  <data name="DoximProgress_MovingFile" xml:space="preserve">
+    <value>Moving file into Doxim...</value>
+    <comment>96 new added</comment>
+  </data>
+</root>

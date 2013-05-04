@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_Action_ActionProfileView_DefaultAction" xml:space="preserve">
+    <value>[Ŧĥįş äčŧįőŉ įş őŉę őƒ {0}'ş đęƒäūľŧ äčŧįőŉ. \ŉ\ř Pľęäşę čĥäŉģę {0} đęƒäūľŧ äčŧįőŉ ƒįřşŧ! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_ActionProfileView_DocumentType" xml:space="preserve">
+    <value>[đőčūmęŉŧ ŧypę !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_ActionProfileView_FieldEmpty" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Ńämę\" ƒįęľđ. !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_ActionProfileView_Portfolio" xml:space="preserve">
+    <value>[pőřŧƒőľįő !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_ActionProfileView_View" xml:space="preserve">
+    <value>[vįęŵ !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_EmailConfigControl_Empty" xml:space="preserve">
+    <value>[Ēmäįľ Åđđřęşş čäŉ'ŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_EmailConfigControl_Invalid" xml:space="preserve">
+    <value>[ŵĥęŉ şęľęčŧ čūřřęŉŧ şęŧŧįŉģ äŉđ ūşęř ŉőŧ čĥäŉģęäþľę mūşŧ įŉpūŧ ä väľįđ ęmäįľ äđđřęşş !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_FieldsConfigControl_Alias" xml:space="preserve">
+    <value>[Åľįäş: {0} äppęäř mőřę ŧĥäŉ őŉčę! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_FieldsConfigControl_FieldEmpty" xml:space="preserve">
+    <value>[pľęäşę şęľęčŧ äŧ ľęäşŧ őŉę ƒįęľđ !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_FieldsConfigControl_ListEmpty" xml:space="preserve">
+    <value>[Ŀįşŧ ƒįęľđş čäŉŉőŧ þę ęmpŧy !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_FileSelectionConfigControl_SelectType" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ŧĥę ƒįľę şęľęčŧįőŉ ŧypę: ßäşįč/Åşşőčįäŧęđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_FileSelectionConfigControl_SelectValue" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ä väľūę ƒřőm ŧĥę đřőpđőŵŉ ľįşŧ. !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_ImageConvert_ConstrainType" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ä čőŉşŧřäįŉ ŧypę ƒőř čőŉvęřŧįŉģ. !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_ImageConvert_Height" xml:space="preserve">
+    <value>[ęŉPľęäşę ęŉŧęř ä väľįđ väľūę ƒőř Ħęįģĥŧ ƒįęľđ(1-2000) !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_ImageConvert_Width" xml:space="preserve">
+    <value>[ęŉPľęäşę ęŉŧęř ä väľįđ väľūę ƒőř Ŵįđŧĥ ƒįęľđ(1-2000) !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_InsertConfigControl_SelectInsert" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ Ĩŉşęřŧ Pőşįŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_MasterDetailConfigControl_SelectDetailAction" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ đęŧäįľ äčŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_MasterDetailConfigControl_SelectDetailView" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ Đęŧäįľ Vįęŵ !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_MasterDetailConfigControl_SelectMasterAction" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ mäşŧęř äčŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_PortfolioViewsControl_OrderField" xml:space="preserve">
+    <value>[Pľęäşę įŉpūŧ įŉŧęģęř ƒőř ŧĥę \"Øřđęř\" ƒįęľđ !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_PortfolioViewsControl_ValueField" xml:space="preserve">
+    <value>[Pľęäşę įŉpūŧ įŉŧęģęř ƒőř ŧĥę \"Väľūę\" ƒįęľđ. !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_StampConfigControl_OneStamp" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ äŧ ľęäşŧ őŉę şŧämp şĥőŵįŉģ päģę !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_StampConfigControl_OverlayStamp" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ Ůŉđęřľäy/Øvęřľäy şŧämp !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_Configure" xml:space="preserve">
+    <value>[Pľęäşę čőŉƒįģūřę !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_EnterCurrency" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľįđ čūřřęŉčy ŉūmþęř !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_EnterDate" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľįđ đäŧę väľūę ƒőř ŧĥę ƒįęľđ ŵįŧĥ ƒőřmäŧ: ŸŸŸŸ-MM-ĐĐ. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_EnterInteger" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľįđ įŉŧęģęř ŉūmþęř (?,147,483,648 ŧő 2,147,483,647) !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_ToDoStatus" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ őř įŉpūŧ Fřőm Ŧő Đő Ŝŧäŧūş !!! !!!]</value>
+  </data>
+  <data name="Admin_Action_WorkFlowControl_WorkflowEmpty" xml:space="preserve">
+    <value>[ŵőřĸƒľőŵ čäŉ ŉőŧ þę ęmpŧy !!! !!!]</value>
+  </data>
+  <data name="Admin_Batch_BatchProfileView_BatchName" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"ßäŧčĥ Ńämę\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Batch_BatchProfileView_DateActive" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľįđ väľūę ƒőř ŧĥę \"Đäŧę Åčŧįvę\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Batch_BatchProfileView_DateExpire" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľįđ väľūę ƒőř ŧĥę \"Đäŧę Ēχpįřę\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Batch_BatchProfileView_ExpiryDateWarning" xml:space="preserve">
+    <value>[Ŵäřŉįŉģ: Ŧĥę ęχpįřy đäŧę įş přęvįőūş ŧő äčŧįvę đäŧę. \ř\ŉĐő yőū ŵäŉŧ čőŉŧįŉūę? !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileGeneralView_EnterValue" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Cőmpäŉy Ńämę\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileGeneralView_InvalidField" xml:space="preserve">
+    <value>[Ĩŉväľįđ \"Pőşŧ Cőđę\" ƒįęľđ. Pľęäşę řę-ęŉŧęř. !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_EmailBody" xml:space="preserve">
+    <value>[Fęęđþäčĸ ęmäįľ þőđy čäŉŉőŧ ęχčęęđ 900 čĥäřäčŧęřş! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_EmailEmpty" xml:space="preserve">
+    <value>[Fęęđþäčĸ ęmäįľ čäŉ ŉőŧ ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_Minimum8" xml:space="preserve">
+    <value>[Å mįŉįmūm őƒ 8 čĥäřäčŧęřş įş řęqūįřęđ. !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_Minimum8Alpha" xml:space="preserve">
+    <value>[Å mįŉįmūm őƒ 8 čĥäřäčŧęřş äŉđ ä čőmþįŉäŧįőŉ őƒ þőŧĥ äľpĥä äŉđ ŉūmęřįč čĥäřäčŧęřş äřę řęqūįřęđ. !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_NoRequirement" xml:space="preserve">
+    <value>[Ńő Ŗęqūįřęmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_SubjectEmpty" xml:space="preserve">
+    <value>[Fęęđþäčĸ şūþĵęčŧ čäŉ ŉőŧ ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_UrlEmpty" xml:space="preserve">
+    <value>[Fęęđþäčĸ ūľř čäŉ ŉőŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileSettingView_UrlStartWith" xml:space="preserve">
+    <value>[Fęęđþäčĸ ūřľ şĥőūľđ şŧäřŧ ŵįŧĥ \"ĥŧŧp://\" őř \"ĥŧŧpş://\" !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileView_NoRight" xml:space="preserve">
+    <value>[Ÿőū đőŉ'ŧ ĥävę ŧĥę řįģĥŧ ŧő đęľęŧę ŧĥę čőmpäŉy:{0}.\ŉ\ř !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_CompanyProfileView_Warning" xml:space="preserve">
+    <value>[Ŵäřŉįŉģ: Cäŉŉőŧ đęľęŧę ŧĥę čőmpäŉy: {0}.\ŉ\ř Pľęäşę đęľęŧę ŧĥę ƒőľľőŵįŉģ řęľäŧęđ őþĵęčŧş ƒįřşŧ:\ŉ\ř-- !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Company_UserListView_ValueEmpty" xml:space="preserve">
+    <value>[Ŝęäřčĥ väľūę čäŉ ŉőŧ þę ęmpŧy !!! !!!]</value>
+  </data>
+  <data name="Admin_CustomField_CustomFieldGeneralView_Name" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Ńämę\" !!! !!!]</value>
+  </data>
+  <data name="Admin_CustomField_CustomFieldValuesView_OrderNo" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľįđ őřđęř ŉūmþęř. !!! !!!]</value>
+  </data>
+  <data name="Admin_CustomField_CustomFieldValuesView_Value" xml:space="preserve">
+    <value>[Väľūę {0} äppęäř mőřę ŧĥäŉ őŉčę! !!! !!!]</value>
+  </data>
+  <data name="Admin_DocType_DocumentTypeBatchListView_ValueEmpty" xml:space="preserve">
+    <value>[Ŝęäřčĥ väľūę čäŉ ŉőŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="Admin_DocType_DocumentTypeGeneralView_DocumentType" xml:space="preserve">
+    <value>[Đőčūmęŉŧ ŧypę: {0} !!! !!!]</value>
+  </data>
+  <data name="Admin_DocType_DocumentTypeGeneralView_InvalidExpireYears" xml:space="preserve">
+    <value>[Ÿőū ĥävę ęŉŧęřęđ įŉväľįđ ŉūmþęř įŉ ŧĥę \"Ēχpįřę Ÿęäřş\" ƒįęľđ. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_DocType_DocumentTypeGeneralView_RelatedObject" xml:space="preserve">
+    <value>[Ŵäřŉįŉģ: Cäŉŉőŧ đęľęŧę ŧĥę đőčūmęŉŧ ŧypę: {0}.\ŉ\ř Pľęäşę đęľęŧę ŧĥę ƒőľľőŵįŉģ řęľäŧęđ őþĵęčŧş ƒįřşŧ: !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Folder_FolderGeneralView_CADOnly" xml:space="preserve">
+    <value>[Øŉľy CÅĐ čäŉ đęľęŧę ƒőľđęř! !!! !!!]</value>
+  </data>
+  <data name="Admin_Folder_FolderGeneralView_FolderNameEmpty" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Főľđęř Ńämę\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Group_GroupGeneralView_CriteriaValue" xml:space="preserve">
+    <value>[Pľęäşę įŉpūŧ čřįŧęřįä väľūę! !!! !!!]</value>
+  </data>
+  <data name="Admin_Group_GroupGeneralView_CustomField" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ čūşŧőm ƒįęľđ! !!! !!!]</value>
+  </data>
+  <data name="Admin_Group_GroupManualView_Confirm" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő đęľęŧę {0} ūşęřş ƒřőm čūřřęŉŧ ģřőūp? !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Group_GroupManualView_SelectUser" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ŧĥę ūşęř(ş) yőū ŵäŉŧ ŧő řęmővę ƒįřşŧ! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_MetaTag_MetaTagGeneralView_DeleteFail" xml:space="preserve">
+    <value>[Ŧĥę męŧäŧäģ įş řęƒęřęŉčęđ þy đőčūmęŉŧş, čäŉ ŉőŧ þę đęľęŧę! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Organization_OrganizationProfileView_DeleteTheOrganization" xml:space="preserve">
+    <value>[Ÿőū đőŉ'ŧ ĥävę ŧĥę řįģĥŧ ŧő đęľęŧę ŧĥę őřģäŉįžäŧįőŉ: {0} !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Portfolio_PortfolioGeneralView_Format" xml:space="preserve">
+    <value>[Pľęäşę ūşę [[CūşŧőmFįęľđ.FįęľđŃämę]] őř [[CőmmőŉFįęľđ.FįęľđŃämę]] ƒőřmäŧ! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Portfolio_PortfolioGeneralView_PortfolioName" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Pőřŧƒőľįő Ńämę\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_Portfolio_PortfolioGeneralView_SaveConfirm" xml:space="preserve">
+    <value>[Åřę yőū şūřę ŧő şävę? !!! !!!]</value>
+  </data>
+  <data name="Admin_PortfolioField_PortfolioFieldView_CommonFieldName" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Cőmmőŉ Fįęľđ Ńämę\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_PortfolioField_PortfolioFieldView_FieldName" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ä väľūę ƒőř ŧĥę \"Fįęľđ Ńämę\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_User_UserProfileCustomFieldView_Confirm" xml:space="preserve">
+    <value>[őŉę řőŵ ŵįľľ þę đęľęŧęđ, Åřę yőū şūřę? !!! !!!]</value>
+  </data>
+  <data name="Admin_User_UserProfileCustomFieldView_ConfirmAllItem" xml:space="preserve">
+    <value>[äľľ őƒ įŧęmş ŵįľľ þę đęľęŧęđ, Åřę yőū şūřę? !!! !!!]</value>
+  </data>
+  <data name="Admin_User_UserProfileCustomFieldView_EnterRequiredField" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę řęqūįřęđ ƒįęľđ !!! !!!]</value>
+  </data>
+  <data name="Admin_User_UserProfileGeneralView_FirstNameLastName" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Fįřşŧ Ńämę\" őř \"Ŀäşŧ Ńämę\" ƒįęľđ. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_User_UserProfileGeneralView_InvalidUserID" xml:space="preserve">
+    <value>[Ÿőū ĥävę ęŉŧęřęđ įŉväľįđ čĥäřäčŧęř(ş) įŉ ŧĥę \"Ůşęř ĨĐ\" ƒįęľđ.\ŉ Väľįđ čĥäřäčŧęřş įŉ ä-ž,Å-Ż,0-9 őř + - _ . !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_User_UserProfileGeneralView_UserID" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Ůşęř ĨĐ\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_User_UserProfileSettingView_Portfolio" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ Pőřŧƒőľįő! !!! !!!]</value>
+  </data>
+  <data name="Admin_User_UserProfileSettingView_Setting" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ūşęř şęŧŧįŉģ !!! !!!]</value>
+  </data>
+  <data name="Admin_User_UserProfileSettingView_View" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ Vįęŵ! !!! !!!]</value>
+  </data>
+  <data name="Admin_View_ViewDetailView_EnterBoolean" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľįđ þőőľęäŉ väľūę (Ÿęş/Ńő;Ŧřūę/Fäľşę;1/0) !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_View_ViewDetailView_UserValueEmpty" xml:space="preserve">
+    <value>[Ůşęř Väľūę čäŉ ŉőŧ þę ęmpŧy !!! !!!]</value>
+  </data>
+  <data name="Admin_View_ViewDetailView_ValueEmpty" xml:space="preserve">
+    <value>[Väľūęş čäŉ ŉőŧ þę ęmpŧy !!! !!!]</value>
+  </data>
+  <data name="Admin_View_ViewGeneralView_DocumentType" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ä väľūę ƒőř ŧĥę \"Đőčūmęŉŧ Ŧypę\" ƒįęľđ !!! !!! !!!]</value>
+  </data>
+  <data name="Admin_View_ViewGeneralView_ViewName" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Vįęŵ Ńämę\" ƒįęľđ !!! !!! !!!]</value>
+  </data>
+  <data name="Common_Control_AdvancedSearchView_CriteriaEmpty" xml:space="preserve">
+    <value>[Åđväŉčęđ şęäřčĥ čřįŧęřįä čäŉ ŉőŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="Common_Control_ConfigurationClass_SelecType" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ŧĥę ƒįľę şęľęčŧįőŉ ŧypę: ßäşįč/Åşşőčįäŧęđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Common_Control_ConfigurationClass_SelecValue" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ä väľūę ƒřőm ŧĥę đřőpđőŵŉ ľįşŧ. !!! !!!]</value>
+  </data>
+  <data name="Common_Control_DocEditView_FileName" xml:space="preserve">
+    <value>[Fįľę Ńämę: !!! !!!]</value>
+  </data>
+  <data name="Common_Control_DocEditView_SelectDocType" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ä đőčūmęŉŧ ŧypę !!! !!!]</value>
+  </data>
+  <data name="Common_Control_DocEditView_SelectFile" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ƒįľę! !!! !!!]</value>
+  </data>
+  <data name="Common_Control_DocEditView_SelectFileMsg" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ä ƒįľę ŃØŦ mőřę ŧĥäŉ 50Mß įŉ ƒįľę şįžę; Cĥęčĸ įŉ přőčęşş ŵįľľ ƒäįľ įƒ ūpľőäđįŉģ ƒįľę ŧäĸęş mőřę ŧĥäŉ 1 ĥőūř ūpőŉ yőūř įŉŧęřŉęŧ čőŉŉęčŧįőŉ! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Common_DoximGrid_Confirm" xml:space="preserve">
+    <value>[$1 $2 ŵįľľ þę đęľęŧęđ, Åřę yőū şūřę? !!! !!!]</value>
+  </data>
+  <data name="Common_DoximGrid_DeleteRow" xml:space="preserve">
+    <value>[ęŉPľęäşę şęľęčŧ řőŵş ŧő đęľęŧę! !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_CenterWindow_InvalidStyle" xml:space="preserve">
+    <value>[Ĩŉväľįđ ŵįŉđőŵ şŧyľę! $1 !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_ConfirmDelete_Confirm" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő ĐĒĿĒŦĒ ŧĥįş $1 ? !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_ConfirmDeleteSub_CannotDelete" xml:space="preserve">
+    <value>[Cäŉŉőŧ đęľęŧę:\ř\ŉŦĥęřę äřę şūþ-ƒőľđęř(ş) ūŉđęř ŧĥįş ƒőľđęř. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_CreateConfirmWindow_InvalidConfirm" xml:space="preserve">
+    <value>[Ĩŉväľįđ őŉCőŉƒįřm! !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_CreateRequestObject_AjaxError" xml:space="preserve">
+    <value>[Ēřřőř: Ÿőūř þřőŵşęř đőęş ŉőŧ şūppőřŧ ÅĴÅX !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_IsValidEmail_InvalidEmail" xml:space="preserve">
+    <value>[Ĩŉväľįđ Ēmäįľ Åđđřęşş !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_ReinitIframeDocument_DocError" xml:space="preserve">
+    <value>[Ēřřőř ƒőūŉđ įŉ ŧĥę Đőč ĨFřämę !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_ReinitMasterIframe_MasterError" xml:space="preserve">
+    <value>[Ēřřőř ƒőūŉđ įŉ ŧĥę Mäşŧęř ĨFřämę !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_ShowProgressPercentInfo_Progress" xml:space="preserve">
+    <value>[Přőģřęşş !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_ValidatePassword_NotIdentical" xml:space="preserve">
+    <value>[Päşşŵőřđş ęŉŧęřęđ äřę ŉőŧ įđęŉŧįčäľ,přęşş ØĶ ŧő čőŉŧįŉūę! !!! !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_ValidatePassword_PasswordEmpty" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Päşşŵőřđ\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_ValidatePassword_StandardRule" xml:space="preserve">
+    <value>[Ůşęř'ş päşşŵőřđ įş şęŧ ŧő ä şŧäŉđäřđ řūľę, ä mįŉįmūm őƒ 8 čĥäřäčŧęřş įş řęqūįřęđ! {0} Pľęäşę čľįčĸ ØĶ, řę-ęŉŧęř yőūř päşşŵőřđ. !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Common_Lib_ValidatePassword_StrongRule" xml:space="preserve">
+    <value>[Ůşęř'ş päşşŵőřđ įş şęŧ ŧő ä şŧřőŉģ řūľę, ä mįŉįmūm őƒ 8 čĥäřäčŧęřş äŉđ ä čőmþįŉäŧįőŉ őƒ þőŧĥ äľpĥä äŉđ ŉūmęřįč čĥäřäčŧęřş äřę řęqūįřęđ! Pľęäşę čľįčĸ ØĶ, řę-ęŉŧęř yőūř päşşŵőřđ. !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Common_MemberSelector_SelectMember" xml:space="preserve">
+    <value>[Ńő męmþęř şęľęčŧęđ, pľęäşę şęľęčŧ męmþęř ŧő čőŉŧįŉūę !!! !!! !!!]</value>
+  </data>
+  <data name="Common_Validation_ElementNotFound" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő ƒįŉđ ęľęmęŉŧ $1 ! !!! !!!]</value>
+  </data>
+  <data name="Label_Invalid" xml:space="preserve">
+    <value>[{0} įş įŉväľįđ! !!! !!!]</value>
+  </data>
+  <data name="Label_InvalidCharInXMLID" xml:space="preserve">
+    <value>[Ÿőū ĥävę ęŉŧęřęđ įŉväľįđ čĥäřäčŧęř(ş) įŉ ŧĥę \"XMĿ ĨĐ\" ƒįęľđ.\ŉ Väľįđ čĥäřäčŧęřş įŉ ä-ž,Å-Ż,0-9. !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_PleaseCreate" xml:space="preserve">
+    <value>[Pľęäşę čřęäŧę {0} : {1} !!! !!!]</value>
+  </data>
+  <data name="Label_XMLIDEmpty" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"XMĿ ĨĐ\" ƒįęľđ. !!! !!!]</value>
+  </data>
+  <data name="Label_XMLIDStartWithNo" xml:space="preserve">
+    <value>[Ÿőū čäŉ\'ŧ şŧäřŧ ŵįŧĥ ŉūmþęř įŉ ŧĥę \"XMĿ ĨĐ\" ƒįęľđ !!! !!! !!!]</value>
+  </data>
+  <data name="Web_Doc_DocNoteView_Maximum" xml:space="preserve">
+    <value>[Ÿőū ęŉŧęřęđ {0} čĥäřäčŧęřş. Ŧĥę şyşŧęm őŉľy äľľőŵş mäχ 2000 čĥäřäčŧęřş !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Web_Folder_FolderProfileView_EnterValue" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä väľūę ƒőř ŧĥę \"Főľđęř Ńämę\" ƒįęľđ. !!! !!! !!!]</value>
+  </data>
+  <data name="Web_LoginView_UserIDEmpty" xml:space="preserve">
+    <value>[Ůşęř ĨĐ äŉđ päşşŵőřđ mūşŧ ŉőŧ ęmpŧy !!! !!!]</value>
+  </data>
+  <data name="Web_Portfolio_PortfolioViewsListView_EnterValue" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř äŧ ľęäşŧ őŉę şęäřčĥ ƒįęľđ väľūę. !!! !!!]</value>
+  </data>
+  <data name="Web_PrintQueue_Job_PrintJobView_PrintJob" xml:space="preserve">
+    <value>[Åřę yőū şūřę ŧő řęľęäşę ŧĥę přįŉŧ ĵőþ? !!! !!!]</value>
+  </data>
+  <data name="Web_User_MyProfilePasswordView_InvalidPassword" xml:space="preserve">
+    <value>[Ĩŉväľįđ ŉęŵ päşşŵőřđ! Ńęŵ päşşŵőřđ şĥőūľđ ŉőŧ þę şämę äş őľđ päşşŵőřđ! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Web_User_TreeNode_InvalidUrl" xml:space="preserve">
+    <value>[Ĩŉväľįđ ūřľ! !!! !!!]</value>
+  </data>
+  <data name="Web_User_TreeNode_Refresh" xml:space="preserve">
+    <value>[đőūþľę čľįčĸ įčőŉ ŧő řęƒřęşĥ čĥįľđ ŉőđęş !!! !!!]</value>
+  </data>
+  <data name="Web_User_TreeNode_Timeout" xml:space="preserve">
+    <value>[Ŝęşşįőŉ ŧįmę őūŧ, pľęäşę ľőģįŉ äģäįŉ. !!! !!!]</value>
+  </data>
+  <data name="Web_User_TreeView_Nodes" xml:space="preserve">
+    <value>[Ŧőő mäŉy ŉőđęş řęŧřįęvęđ, pľęäşę čőŉŧäčŧ äđmįŉįşŧřäŧőř! !!! !!! !!!]</value>
+  </data>
+  <data name="Web_View_View_Date" xml:space="preserve">
+    <value>[pľęäşę ęŉŧęř väľįđ đäŧę päřŧ ƒőřmäŧ: {0} !!! !!!]</value>
+  </data>
+  <data name="Web_View_View_EndsWith" xml:space="preserve">
+    <value>[pľęäşę ęŉŧęř väľįđ đäŧę päřŧ ƒőřmäŧ ƒőř Ēŉđş Ŵįŧĥ: {0} !!! !!! !!!]</value>
+  </data>
+  <data name="Web_View_View_Now" xml:space="preserve">
+    <value>['Ńőŵ' ĸęyŵőřđ mūşŧ þę ūşęđ ľįĸę ŧĥįş: Ńőŵ + [őř -] ŉūmþęř !!! !!! !!!]</value>
+  </data>
+  <data name="Web_View_View_StartsWith" xml:space="preserve">
+    <value>[pľęäşę ęŉŧęř väľįđ đäŧę päřŧ ƒőřmäŧ ƒőř Ŝŧäřŧş Ŵįŧĥ: {0} !!! !!! !!!]</value>
+  </data>
+</root>

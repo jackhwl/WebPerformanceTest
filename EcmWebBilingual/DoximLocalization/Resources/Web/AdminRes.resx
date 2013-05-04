@@ -1,0 +1,1308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action_EmailConfigControl_CompanyEmail" xml:space="preserve">
+    <value>Company Profile Email Address</value>
+    <comment>114</comment>
+  </data>
+  <data name="Action_EmailConfigControl_CurrentEmail" xml:space="preserve">
+    <value>Current Setting of Sender Email Address</value>
+    <comment>112</comment>
+  </data>
+  <data name="Action_EmailConfigControl_Sender" xml:space="preserve">
+    <value>Sender Option:</value>
+    <comment>78</comment>
+  </data>
+  <data name="Action_EmailConfigControl_SenderField" xml:space="preserve">
+    <value>Sender Field Changeable:</value>
+    <comment>89</comment>
+  </data>
+  <data name="Action_EmailConfigControl_UserEmail" xml:space="preserve">
+    <value>User Profile Email Address</value>
+    <comment>113</comment>
+  </data>
+  <data name="Action_CheckOutConfigControl_CheckBackIn" xml:space="preserve">
+    <value>CheckBackIn Wording:</value>
+    <comment>28</comment>
+  </data>
+  <data name="Action_CheckOutConfigControl_CheckOut" xml:space="preserve">
+    <value>CheckOut Wording:</value>
+    <comment>23</comment>
+  </data>
+  <data name="Action_CheckOutConfigControl_Undo" xml:space="preserve">
+    <value>Undo Wording:</value>
+    <comment>33</comment>
+  </data>
+  <data name="Action_DocSysFieldsConfigControl_ShowSysInfo" xml:space="preserve">
+    <value>Show Doc System Info:</value>
+    <comment>22</comment>
+  </data>
+  <data name="Action_DocSysFieldsConfigControl_SysInfo" xml:space="preserve">
+    <value>Sys Info</value>
+    <comment>11</comment>
+  </data>
+  <data name="Action_FieldsConfigCcontrol_Alias" xml:space="preserve">
+    <value>Alias</value>
+    <comment>56,58</comment>
+  </data>
+  <data name="Action_FieldsConfigCcontrol_Align" xml:space="preserve">
+    <value>Align</value>
+    <comment>56</comment>
+  </data>
+  <data name="Action_FieldsConfigCcontrol_CssStyle" xml:space="preserve">
+    <value>Css Style</value>
+    <comment>56</comment>
+  </data>
+  <data name="Action_FieldsConfigCcontrol_Unit" xml:space="preserve">
+    <value>Unit</value>
+    <comment>56</comment>
+  </data>
+  <data name="Action_ImageConvertConfigControl_Convert" xml:space="preserve">
+    <value>Image Convert</value>
+    <comment>19</comment>
+  </data>
+  <data name="Action_ImageConvertConfigControl_FixHeight" xml:space="preserve">
+    <value>Constrain Proportion, Fix Height</value>
+    <comment>51</comment>
+  </data>
+  <data name="Action_ImageConvertConfigControl_FixWidth" xml:space="preserve">
+    <value>Constrain Proportion, Fix Width</value>
+    <comment>45</comment>
+  </data>
+  <data name="Action_ImageConvertConfigControl_Proportion" xml:space="preserve">
+    <value>Proportion</value>
+    <comment>41</comment>
+  </data>
+  <data name="Action_ImageConvertConfigControl_WidthHeight" xml:space="preserve">
+    <value>Constrain Width &amp; Height</value>
+    <comment>57</comment>
+  </data>
+  <data name="Action_InsertConfigControl_End" xml:space="preserve">
+    <value>At the end</value>
+    <comment>74</comment>
+  </data>
+  <data name="Action_InsertConfigControl_Front" xml:space="preserve">
+    <value>In the front</value>
+    <comment>70</comment>
+  </data>
+  <data name="Action_InsertConfigControl_InsertFirst" xml:space="preserve">
+    <value>Insert First</value>
+    <comment>100</comment>
+  </data>
+  <data name="Action_InsertConfigControl_InsertPosition" xml:space="preserve">
+    <value>Insert Position</value>
+    <comment>55</comment>
+  </data>
+  <data name="Action_InsertConfigControl_Position" xml:space="preserve">
+    <value>Position</value>
+    <comment>61</comment>
+  </data>
+  <data name="Action_InsertConfigControl_ShowStampConfiguration" xml:space="preserve">
+    <value>Show Stamp Configuration</value>
+    <comment>83</comment>
+  </data>
+  <data name="Action_InsertConfigControl_StampFirst" xml:space="preserve">
+    <value>Stamp First</value>
+    <comment>104</comment>
+  </data>
+  <data name="Action_InsertConfigControl_StampSequence" xml:space="preserve">
+    <value>Stamp Sequence</value>
+    <comment>94</comment>
+  </data>
+  <data name="Action_InsertConfigControl_WithStamp" xml:space="preserve">
+    <value>With Stamp</value>
+    <comment>79</comment>
+  </data>
+  <data name="Action_MasterDetailConfigControl_AutoAdjustHeight" xml:space="preserve">
+    <value>Height: auto adjust</value>
+    <comment>108</comment>
+  </data>
+  <data name="Action_MasterDetailConfigControl_BottomView" xml:space="preserve">
+    <value>Bottom View</value>
+    <comment>102</comment>
+  </data>
+  <data name="Action_MasterDetailConfigControl_DetailAction" xml:space="preserve">
+    <value>Detail Action</value>
+    <comment>91</comment>
+  </data>
+  <data name="Action_MasterDetailConfigControl_MasterTopAction" xml:space="preserve">
+    <value>Master Top Action</value>
+    <comment>82</comment>
+  </data>
+  <data name="Action_MasterDetailConfigControl_SelectView" xml:space="preserve">
+    <value>Please configure at related view</value>
+    <comment>17</comment>
+  </data>
+  <data name="Action_OpenConfigControl_OpenOption" xml:space="preserve">
+    <value>Open Option</value>
+    <comment>22</comment>
+  </data>
+  <data name="Action_OpenConfigControl_ShowFullWindowButton" xml:space="preserve">
+    <value>Show "Click here to open in a full window" button</value>
+    <comment>31</comment>
+  </data>
+  <data name="Action_PortfolioFieldsConfigControl_CheckBackIn" xml:space="preserve">
+    <value>CheckBackIn Wording</value>
+    <comment>38, 70</comment>
+  </data>
+  <data name="Action_PortfolioFieldsConfigControl_Undo" xml:space="preserve">
+    <value>Undo Wording</value>
+    <comment>43, 75</comment>
+  </data>
+  <data name="Action_PortfolioViewsConfigControl_CommonFieldsSearch" xml:space="preserve">
+    <value>Common Fields Search</value>
+    <comment>38</comment>
+  </data>
+  <data name="Action_PortfolioViewsControl_ViewOrder" xml:space="preserve">
+    <value>View Order</value>
+    <comment>15</comment>
+  </data>
+  <data name="Action_StampConfigControl_AllPages" xml:space="preserve">
+    <value>All Pages</value>
+    <comment>56</comment>
+  </data>
+  <data name="Action_StampConfigControl_EvenPages" xml:space="preserve">
+    <value>Even Pages</value>
+    <comment>59</comment>
+  </data>
+  <data name="Action_StampConfigControl_FirstPage" xml:space="preserve">
+    <value>First Page</value>
+    <comment>57</comment>
+  </data>
+  <data name="Action_StampConfigControl_OddPages" xml:space="preserve">
+    <value>Odd Pages</value>
+    <comment>58</comment>
+  </data>
+  <data name="Action_StampConfigControl_Overlay" xml:space="preserve">
+    <value>Overlay</value>
+    <comment>51</comment>
+  </data>
+  <data name="Action_StampConfigControl_Position" xml:space="preserve">
+    <value>Position</value>
+    <comment>48</comment>
+  </data>
+  <data name="Action_StampConfigControl_Stamp" xml:space="preserve">
+    <value>Stamp</value>
+    <comment>11</comment>
+  </data>
+  <data name="Action_StampConfigControl_StampIn" xml:space="preserve">
+    <value>Stamp In</value>
+    <comment>55</comment>
+  </data>
+  <data name="Action_StampConfigControl_StampLayer" xml:space="preserve">
+    <value>Stamp Layer</value>
+    <comment>50</comment>
+  </data>
+  <data name="Action_StampConfigControl_Underlay" xml:space="preserve">
+    <value>Underlay</value>
+    <comment>52</comment>
+  </data>
+  <data name="Action_TiffAsPdfConfigControl_OnePage" xml:space="preserve">
+    <value>Both Side Stay In One Page</value>
+    <comment>30</comment>
+  </data>
+  <data name="Action_TiffAsPdfConfigControl_OneSideOnePage" xml:space="preserve">
+    <value>One Side One Page</value>
+    <comment>31</comment>
+  </data>
+  <data name="Action_TiffAsPdfConfigControl_TiffAsPdf" xml:space="preserve">
+    <value>Tiff As Pdf</value>
+    <comment>17</comment>
+  </data>
+  <data name="Action_TiffAsPdfConfigControl_TIFFImageLayout" xml:space="preserve">
+    <value>TIFF Image Layout</value>
+    <comment>28</comment>
+  </data>
+  <data name="Action_WorkFlowConfigControl_DoAction" xml:space="preserve">
+    <value>Do Action</value>
+    <comment>59</comment>
+  </data>
+  <data name="Action_WorkFlowConfigControl_From" xml:space="preserve">
+    <value>From</value>
+    <comment>59</comment>
+  </data>
+  <data name="Action_WorkFlowConfigControl_SelectStatusField" xml:space="preserve">
+    <value>Select Status Field</value>
+    <comment>35</comment>
+  </data>
+  <data name="Action_WorkFlowConfigControl_To" xml:space="preserve">
+    <value>To</value>
+    <comment>59</comment>
+  </data>
+  <data name="Action_WorkFlowConfigControl_Workflow" xml:space="preserve">
+    <value>Workflow</value>
+    <comment>10, 58</comment>
+  </data>
+  <data name="Action_ActionProfileView_Description" xml:space="preserve">
+    <value>Definition Description</value>
+    <comment>99</comment>
+  </data>
+  <data name="Action_ActionProfileView_Name" xml:space="preserve">
+    <value>Definition Name</value>
+    <comment>92</comment>
+  </data>
+  <data name="Batch_BatchProfileView_BatchFolders" xml:space="preserve">
+    <value>Batch folders</value>
+    <comment>248</comment>
+  </data>
+  <data name="Batch_BatchProfileView_BatchName" xml:space="preserve">
+    <value>Batch Name</value>
+    <comment>32</comment>
+  </data>
+  <data name="Batch_BatchProfileView_BatchProfile" xml:space="preserve">
+    <value>Batch profile</value>
+    <comment>96</comment>
+  </data>
+  <data name="Batch_BatchProfileView_DateActive" xml:space="preserve">
+    <value>Date Active</value>
+    <comment>133</comment>
+  </data>
+  <data name="Batch_BatchProfileView_DateExpire" xml:space="preserve">
+    <value>Date Expire</value>
+    <comment>145</comment>
+  </data>
+  <data name="Batch_BatchProfileView_DateTimeCreated" xml:space="preserve">
+    <value>DateTime Created</value>
+    <comment>201</comment>
+  </data>
+  <data name="Batch_BatchProfileView_DBPath" xml:space="preserve">
+    <value>DBPath</value>
+    <comment>218</comment>
+  </data>
+  <data name="Batch_BatchProfileView_DeleteConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete this batch?</value>
+    <comment>30</comment>
+  </data>
+  <data name="Batch_BatchProfileView_DocPath" xml:space="preserve">
+    <value>Doc Path</value>
+    <comment>210</comment>
+  </data>
+  <data name="Batch_BatchProfileView_DocumentCount" xml:space="preserve">
+    <value>Document Count</value>
+    <comment>249</comment>
+  </data>
+  <data name="Batch_BatchProfileView_EmailNotification" xml:space="preserve">
+    <value>Email Notification</value>
+    <comment>145</comment>
+  </data>
+  <data name="Batch_BatchProfileView_ExpectDocuments" xml:space="preserve">
+    <value>Expect Documents</value>
+    <comment>177</comment>
+  </data>
+  <data name="Batch_BatchProfileView_IgnoreError" xml:space="preserve">
+    <value>Ignore file missing error?</value>
+    <comment>37</comment>
+  </data>
+  <data name="Batch_BatchProfileView_SelectDate" xml:space="preserve">
+    <value>Select Date</value>
+    <comment>124 This statement has been deleted.</comment>
+  </data>
+  <data name="Batch_BatchProfileView_SkippedDocuments" xml:space="preserve">
+    <value>Skipped Documents</value>
+    <comment>185</comment>
+  </data>
+  <data name="Batch_BatchProfileView_UploadStatus" xml:space="preserve">
+    <value>Upload Status</value>
+    <comment>226</comment>
+  </data>
+  <data name="Batch_BatchProfileView_UserCreated" xml:space="preserve">
+    <value>User Created</value>
+    <comment>193</comment>
+  </data>
+  <data name="Company_BatchDocumentTypeList_NoBatch" xml:space="preserve">
+    <value>No Batch</value>
+    <comment>10</comment>
+  </data>
+  <data name="Company_CompanyAdminView_Profile" xml:space="preserve">
+    <value>Company Profile</value>
+    <comment>13</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Address1" xml:space="preserve">
+    <value>Address1</value>
+    <comment>72</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Address2" xml:space="preserve">
+    <value>Address2</value>
+    <comment>76</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_City" xml:space="preserve">
+    <value>City</value>
+    <comment>80</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_CompanyName" xml:space="preserve">
+    <value>Company Name</value>
+    <comment>64</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_ContactPerson" xml:space="preserve">
+    <value>Contact Person</value>
+    <comment>96</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Country" xml:space="preserve">
+    <value>Country</value>
+    <comment>92</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_CreateCompany" xml:space="preserve">
+    <value>Create Company</value>
+    <comment>60</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Department" xml:space="preserve">
+    <value>Department</value>
+    <comment>100</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>104</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Fax" xml:space="preserve">
+    <value>Fax</value>
+    <comment>112</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Phone" xml:space="preserve">
+    <value>Phone</value>
+    <comment>108</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_PostalCode" xml:space="preserve">
+    <value>Postal Code</value>
+    <comment>88</comment>
+  </data>
+  <data name="Company_CompanyProfileGeneralView_Province" xml:space="preserve">
+    <value>Province</value>
+    <comment>84</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Body" xml:space="preserve">
+    <value>Body</value>
+    <comment>305</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Disabled" xml:space="preserve">
+    <value>Disabled</value>
+    <comment>282</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_EnableHeader" xml:space="preserve">
+    <value>Enable Header</value>
+    <comment>200</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_EnablePath" xml:space="preserve">
+    <value>Enable Path</value>
+    <comment>199</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_EnableTree" xml:space="preserve">
+    <value>Enable Tree</value>
+    <comment>198</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_EnableUserChangePassword" xml:space="preserve">
+    <value>Enable user change his/her password/email</value>
+    <comment>250</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_FailedLoginAttemptCount" xml:space="preserve">
+    <value>Failed Login Attempt Count</value>
+    <comment>205</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Feedback" xml:space="preserve">
+    <value>Feedback</value>
+    <comment>275</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_ForAllUsers" xml:space="preserve">
+    <value>For All Users</value>
+    <comment>237</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_ForcePasswordChange" xml:space="preserve">
+    <value>Force password change</value>
+    <comment>235</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_ForNew" xml:space="preserve">
+    <value>For New Or Change Password By Admin</value>
+    <comment>238</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_InternalAddress" xml:space="preserve">
+    <value>WebServer Internal Address</value>
+    <comment>312</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_InvalidEmail" xml:space="preserve">
+    <value>Invalid feedback email!</value>
+    <comment>42</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_InvalidFeedbackUrl" xml:space="preserve">
+    <value>Invalid feedback url, url should start with http:// or https://!</value>
+    <comment>33</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_LocalPath" xml:space="preserve">
+    <value>WebSite Local Path</value>
+    <comment>321</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_LocalPathautoFill" xml:space="preserve">
+    <value>Login by company user to auto fill in local path!</value>
+    <comment>323</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_LockFailed" xml:space="preserve">
+    <value>Lock failed user for</value>
+    <comment>217</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_LockUser" xml:space="preserve">
+    <value>if input 0, locked use can only be unlocked by administrator</value>
+    <comment>223</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Minutes" xml:space="preserve">
+    <value>minutes</value>
+    <comment>223</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_MyProfile" xml:space="preserve">
+    <value>Enable edit "My Profile"</value>
+    <comment>239</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_NavigationType" xml:space="preserve">
+    <value>Navigation Type</value>
+    <comment>186</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Nolimit" xml:space="preserve">
+    <value>No limit</value>
+    <comment>202</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_NoRule" xml:space="preserve">
+    <value>No Rule</value>
+    <comment>168</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_PasswordRule" xml:space="preserve">
+    <value>Password Rule</value>
+    <comment>161</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_StandardRule" xml:space="preserve">
+    <value>Standard Rule</value>
+    <comment>165</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_StrongRule" xml:space="preserve">
+    <value>Strong Rule</value>
+    <comment>166</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_Subject" xml:space="preserve">
+    <value>Subject</value>
+    <comment>290</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_SubjectEmpty" xml:space="preserve">
+    <value>Invalid feedback subject, subject can not be empty!</value>
+    <comment>42</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_SuggestUrl" xml:space="preserve">
+    <value>Get suggest url</value>
+    <comment>310</comment>
+  </data>
+  <data name="Company_CompanyProfileSettingView_UrlEmpty" xml:space="preserve">
+    <value>Invalid feedback url, url can not be empty!</value>
+    <comment>32</comment>
+  </data>
+  <data name="Company_CompanyProfileWelcomeView_Msg" xml:space="preserve">
+    <value>Welcome Message</value>
+    <comment>29</comment>
+  </data>
+  <data name="Company_CompanyProfileWelcomeView_MsgPattern" xml:space="preserve">
+    <value>Save a empty input will use default welcome string below: \n Welcome to [[DoximBranding]], [[DoximUserFirstName]] [[DoximUserLastName]]</value>
+    <comment>41    Already deleted</comment>
+  </data>
+  <data name="Company_CompanyProfile_InvalidPermission" xml:space="preserve">
+    <value>Invalid permission, please contact system administrator!</value>
+    <comment>7</comment>
+  </data>
+  <data name="Company_CustomFieldListView_CustomField" xml:space="preserve">
+    <value>Create Custom Field</value>
+    <comment>7</comment>
+  </data>
+  <data name="Company_CustomFieldListView_NoCustomField" xml:space="preserve">
+    <value>No Custom Field</value>
+    <comment>12</comment>
+  </data>
+  <data name="Company_DocumentTypeListView_DocumentType" xml:space="preserve">
+    <value>Create Document Type</value>
+    <comment>7</comment>
+  </data>
+  <data name="Company_DocumentTypeListView_NoDocumentType" xml:space="preserve">
+    <value>No Document Type</value>
+    <comment>12</comment>
+  </data>
+  <data name="Company_FolderListView_CreateFolder" xml:space="preserve">
+    <value>Create Folder</value>
+    <comment>7</comment>
+  </data>
+  <data name="Company_FolderListView_NoFolder" xml:space="preserve">
+    <value>No Folder</value>
+    <comment>12</comment>
+  </data>
+  <data name="Company_GroupListControl_Group" xml:space="preserve">
+    <value>Group</value>
+    <comment>9</comment>
+  </data>
+  <data name="Company_GroupListControl_NoGroup" xml:space="preserve">
+    <value>No Group</value>
+    <comment>10</comment>
+  </data>
+  <data name="Company_GroupListView_CreateGroup" xml:space="preserve">
+    <value>Create Group</value>
+    <comment>7</comment>
+  </data>
+  <data name="Company_GroupListView_Custom" xml:space="preserve">
+    <value>Custom</value>
+    <comment>26</comment>
+  </data>
+  <data name="Company_GroupListView_Manual" xml:space="preserve">
+    <value>Manual</value>
+    <comment>26</comment>
+  </data>
+  <data name="Company_PortfolioListView_CreatePortfolio" xml:space="preserve">
+    <value>Create Portfolio</value>
+    <comment>7</comment>
+  </data>
+  <data name="Company_PortfolioListView_NoPortfolio" xml:space="preserve">
+    <value>No Portfolio</value>
+    <comment>12</comment>
+  </data>
+  <data name="Company_UserListControl_ExceedMaximumNo" xml:space="preserve">
+    <value>Exceed system maximum number,first 200 users returned, please apply/refine search criteria!</value>
+    <comment>36</comment>
+  </data>
+  <data name="Company_UserListControl_NoUser" xml:space="preserve">
+    <value>No User</value>
+    <comment>32</comment>
+  </data>
+  <data name="Company_UserListView_CreateUser" xml:space="preserve">
+    <value>Create User</value>
+    <comment>20</comment>
+  </data>
+  <data name="CustomField_CustomFieldException_ExceedMaximumNo" xml:space="preserve">
+    <value>Exceed system maximum result number,first 200 users returned</value>
+    <comment>26</comment>
+  </data>
+  <data name="CustomField_CustomFieldException_NoExceptionUser" xml:space="preserve">
+    <value>No Exception User</value>
+    <comment>23</comment>
+  </data>
+  <data name="CustomField_CustomFieldException_Users" xml:space="preserve">
+    <value>Custom Field Exception Users</value>
+    <comment>31</comment>
+  </data>
+  <data name="CustomField_CustomFieldGeneralControl_NewCustomField" xml:space="preserve">
+    <value>New CustomField</value>
+    <comment>21</comment>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_CustomField" xml:space="preserve">
+    <value>Custom Field</value>
+    <comment>74</comment>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_DeleteDefine" xml:space="preserve">
+    <value>Delete Define list values first</value>
+    <comment>147</comment>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_DeleteGroups" xml:space="preserve">
+    <value>Delete Groups: {0} reference first</value>
+    <comment>157</comment>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_DeleteReference" xml:space="preserve">
+    <value>Delete user reference first</value>
+    <comment>160</comment>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_ListExceptionUsers" xml:space="preserve">
+    <value>List Exception Users</value>
+    <comment>112</comment>
+  </data>
+  <data name="CustomField_CustomFieldGeneralView_ListReferenceUsers" xml:space="preserve">
+    <value>List Reference Users</value>
+    <comment>116</comment>
+  </data>
+  <data name="CustomField_CustomFieldReference_ExceedMaximumNo" xml:space="preserve">
+    <value>Exceed system maximum result number,first 200 users returned</value>
+    <comment>26</comment>
+  </data>
+  <data name="CustomField_CustomFieldReference_NoReferenceUser" xml:space="preserve">
+    <value>No Reference User</value>
+    <comment>23</comment>
+  </data>
+  <data name="CustomField_CustomFieldReference_ReferenceUsers" xml:space="preserve">
+    <value>Custom Field Reference Users</value>
+    <comment>32</comment>
+  </data>
+  <data name="CustomField_CustomFieldValuesView_ListReferencedUser" xml:space="preserve">
+    <value>List Referenced User</value>
+    <comment>111</comment>
+  </data>
+  <data name="DocType_DocumentTypeActionsView_AddActions" xml:space="preserve">
+    <value>Add Actions</value>
+    <comment>8</comment>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_ReleaseDate" xml:space="preserve">
+    <value>Release Date</value>
+    <comment>34</comment>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_BatchList" xml:space="preserve">
+    <value>Batch list</value>
+    <comment>34</comment>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_CreateDateTime" xml:space="preserve">
+    <value>CreateDateTime</value>
+    <comment>34</comment>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_Expected" xml:space="preserve">
+    <value>Expected</value>
+    <comment>34</comment>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_ExpiryDate" xml:space="preserve">
+    <value>Expiry Date</value>
+    <comment>34</comment>
+  </data>
+  <data name="DocType_DocumentTypeBatchListView_Skipped" xml:space="preserve">
+    <value>Skipped</value>
+    <comment>34</comment>
+  </data>
+  <data name="DocType_DocumentTypeGeneralControl_NewDocType" xml:space="preserve">
+    <value>New DocType</value>
+    <comment>15</comment>
+  </data>
+  <data name="DocType_DocumentTypeGeneralView_CreateDocumentType" xml:space="preserve">
+    <value>Create Document Type</value>
+    <comment>81</comment>
+  </data>
+  <data name="DocType_DocumentTypeGeneralView_ExpireYears" xml:space="preserve">
+    <value>Expire Years</value>
+    <comment>109</comment>
+  </data>
+  <data name="DocType_DocumentTypeGeneralView_NotificationFlag" xml:space="preserve">
+    <value>Default Batch Notification Flag</value>
+    <comment>115</comment>
+  </data>
+  <data name="DocType_DocumentTypeGeneralView_ReadyToSend" xml:space="preserve">
+    <value>Ready to send</value>
+    <comment>118</comment>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_DataType" xml:space="preserve">
+    <value>Data Type</value>
+    <comment>14</comment>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_DocumentType" xml:space="preserve">
+    <value>Document Type - MetaTags</value>
+    <comment>11</comment>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_Input" xml:space="preserve">
+    <value>Input</value>
+    <comment>45</comment>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_Multiple" xml:space="preserve">
+    <value>Multiple</value>
+    <comment>14,42</comment>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_NoMetaTag" xml:space="preserve">
+    <value>No MetaTag</value>
+    <comment>15</comment>
+  </data>
+  <data name="DocType_DocumentTypeMetaTagListView_Single" xml:space="preserve">
+    <value>Single</value>
+    <comment>42</comment>
+  </data>
+  <data name="Folder_FolderGeneralControl_NewFolder" xml:space="preserve">
+    <value>New Folder</value>
+    <comment>19</comment>
+  </data>
+  <data name="Folder_FolderGeneralControl_Passed" xml:space="preserve">
+    <value>passed</value>
+    <comment>45</comment>
+  </data>
+  <data name="Folder_FolderGeneralView_CreateFolder" xml:space="preserve">
+    <value>Create Folder</value>
+    <comment>78</comment>
+  </data>
+  <data name="Folder_FolderGeneralView_DeleteCurrentFolder" xml:space="preserve">
+    <value>Delete Current Folder</value>
+    <comment>102</comment>
+  </data>
+  <data name="Folder_FolderGeneralView_DeleteFolder" xml:space="preserve">
+    <value>Are you sure you want to delete this Folder?</value>
+    <comment>118</comment>
+  </data>
+  <data name="Folder_FolderGeneralView_DeleteFolderCocuments" xml:space="preserve">
+    <value>Are you sure you want to delete the Folder as well as the documents?</value>
+    <comment>116</comment>
+  </data>
+  <data name="Folder_FolderGeneralView_Document" xml:space="preserve">
+    <value>There are {0} document(s) under this folder.</value>
+    <comment>114</comment>
+  </data>
+  <data name="Folder_FolderGeneralView_ForceDelete" xml:space="preserve">
+    <value>Ignore errors and force delete</value>
+    <comment>124</comment>
+  </data>
+  <data name="Folder_FolderPermissionView_CreatePermission" xml:space="preserve">
+    <value>Create Permission</value>
+    <comment>13</comment>
+  </data>
+  <data name="Group_GroupCustomControl_GroupMembers" xml:space="preserve">
+    <value>Group Members</value>
+    <comment>10</comment>
+  </data>
+  <data name="Group_GroupGeneralView_CreateGroup" xml:space="preserve">
+    <value>Create Group</value>
+    <comment>126</comment>
+  </data>
+  <data name="Group_GroupGeneralView_Custom" xml:space="preserve">
+    <value>Custom</value>
+    <comment>148</comment>
+  </data>
+  <data name="Group_GroupGeneralView_CustomField" xml:space="preserve">
+    <value>Please define custom field before setup custom group.</value>
+    <comment>187</comment>
+  </data>
+  <data name="Group_GroupGeneralView_GroupNameRequired" xml:space="preserve">
+    <value>Failed: Group Name required.</value>
+    <comment>6</comment>
+  </data>
+  <data name="Group_GroupGeneralView_GroupType" xml:space="preserve">
+    <value>Group Type</value>
+    <comment>144</comment>
+  </data>
+  <data name="Group_GroupGeneralView_Manual" xml:space="preserve">
+    <value>Manual</value>
+    <comment>146</comment>
+  </data>
+  <data name="Group_GroupManualControl_GroupMembers" xml:space="preserve">
+    <value>Group Members</value>
+    <comment>32</comment>
+  </data>
+  <data name="Group_GroupManualControl_UserAdded" xml:space="preserve">
+    <value>{0} user(s) added to membership</value>
+    <comment>53</comment>
+  </data>
+  <data name="Group_GroupManualControl_UserSkipped" xml:space="preserve">
+    <value>{0} user(s) skipped, this user has already been a member.</value>
+    <comment>54</comment>
+  </data>
+  <data name="MetaTag_MetaTagGeneralControl_NewMetaTag" xml:space="preserve">
+    <value>New MetaTag</value>
+    <comment>15</comment>
+  </data>
+  <data name="MetaTag_MetaTagGeneralView_DataType" xml:space="preserve">
+    <value>Data Type</value>
+    <comment>114</comment>
+  </data>
+  <data name="MetaTag_MetaTagGeneralView_DefineListValues" xml:space="preserve">
+    <value>Define List Values</value>
+    <comment>169</comment>
+  </data>
+  <data name="MetaTag_MetaTagGeneralView_MetaTag" xml:space="preserve">
+    <value>Document Type - MetaTag</value>
+    <comment>88</comment>
+  </data>
+  <data name="MetaTag_MetaTagValuesControl_ListValues" xml:space="preserve">
+    <value>Document Type - MetaTag - List Values</value>
+    <comment>8</comment>
+  </data>
+  <data name="Organization_OrganizationAdmin_NoCompany" xml:space="preserve">
+    <value>No Company</value>
+    <comment>47</comment>
+  </data>
+  <data name="Organization_OrganizationAdmin_OrganizationProfile" xml:space="preserve">
+    <value>Organization Profile</value>
+    <comment>41</comment>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_CommonField" xml:space="preserve">
+    <value>Common Field</value>
+    <comment>117</comment>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_CreateCommonField" xml:space="preserve">
+    <value>Create Common Field</value>
+    <comment>119</comment>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_FieldMapping" xml:space="preserve">
+    <value>Field Mapping</value>
+    <comment>34</comment>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_FieldName" xml:space="preserve">
+    <value>Field Name</value>
+    <comment>31</comment>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_LeftnPositionToEnd" xml:space="preserve">
+    <value>Left n Position To End</value>
+    <comment>55</comment>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_RemoveLeadingZero" xml:space="preserve">
+    <value>Remove Leading Zero</value>
+    <comment>53</comment>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_RemoveLeadingZeroAndLastnChars" xml:space="preserve">
+    <value>Remove Leading Zero And Last n Chars</value>
+    <comment>54</comment>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_TransformRule" xml:space="preserve">
+    <value>Transform Rule</value>
+    <comment>31</comment>
+  </data>
+  <data name="PortfolioField_PortfolioFieldView_ViewName" xml:space="preserve">
+    <value>ViewName</value>
+    <comment>31</comment>
+  </data>
+  <data name="Portfolio_PortfolioAdminControl_NoView" xml:space="preserve">
+    <value>No View</value>
+    <comment>6</comment>
+  </data>
+  <data name="Portfolio_PortfolioAdminView_CreateView" xml:space="preserve">
+    <value>Create View</value>
+    <comment>6</comment>
+  </data>
+  <data name="Portfolio_PortfolioGeneralControl_NewPortfolio" xml:space="preserve">
+    <value>New Portfolio</value>
+    <comment>13</comment>
+  </data>
+  <data name="Portfolio_PortfolioGeneralView_CreatePortfolio" xml:space="preserve">
+    <value>Create Portfolio</value>
+    <comment>98</comment>
+  </data>
+  <data name="Portfolio_PortfolioGeneralView_DisplayOrder" xml:space="preserve">
+    <value>Display Order</value>
+    <comment>122</comment>
+  </data>
+  <data name="User_UserProfileSettingView_NavigationType" xml:space="preserve">
+    <value>Navigation Type</value>
+    <comment>137</comment>
+  </data>
+  <data name="User_UserProfileSettingView_StartPage" xml:space="preserve">
+    <value>Start Page</value>
+    <comment>147</comment>
+  </data>
+  <data name="User_UserProfileSettingView_MyProfile" xml:space="preserve">
+    <value>Enable edit "My Profile"</value>
+    <comment>158</comment>
+  </data>
+  <data name="User_UserProfileSettingView_PrintQueue" xml:space="preserve">
+    <value>Print Queue</value>
+    <comment>169</comment>
+  </data>
+  <data name="User_UserProfileSettingView_String5" xml:space="preserve">
+    <value>Change by current company users only.</value>
+    <comment>200</comment>
+  </data>
+  <data name="System_AdministrationView_GlobalReports" xml:space="preserve">
+    <value>Global Reports</value>
+    <comment>20</comment>
+  </data>
+  <data name="System_AdministrationView_GlobalSettings" xml:space="preserve">
+    <value>Global Settings</value>
+    <comment>24</comment>
+  </data>
+  <data name="System_AdministrationView_GlobalSystemStatisticsReports" xml:space="preserve">
+    <value>Global System Statistics Reports</value>
+    <comment>16</comment>
+  </data>
+  <data name="System_AdministrationView_GlobalSystemStyles" xml:space="preserve">
+    <value>Global System Styles</value>
+    <comment>28</comment>
+  </data>
+  <data name="System_AdministrationView_SystemStatisticsReport" xml:space="preserve">
+    <value>System Statistics Report</value>
+    <comment>15</comment>
+  </data>
+  <data name="System_CompanyReportView_Administrators" xml:space="preserve">
+    <value>Administrators</value>
+    <comment>71</comment>
+  </data>
+  <data name="System_CompanyReportView_BATCHES" xml:space="preserve">
+    <value>BATCHES</value>
+    <comment>31</comment>
+  </data>
+  <data name="System_CompanyReportView_BatchFolders" xml:space="preserve">
+    <value>Batch Folders</value>
+    <comment>25</comment>
+  </data>
+  <data name="System_CompanyReportView_CUSTOMFIELDS" xml:space="preserve">
+    <value>CUSTOM FIELDS</value>
+    <comment>55</comment>
+  </data>
+  <data name="System_CompanyReportView_DOCUMENTS" xml:space="preserve">
+    <value>DOCUMENTS</value>
+    <comment>92</comment>
+  </data>
+  <data name="System_CompanyReportView_DOCUMENTTYPES" xml:space="preserve">
+    <value>DOCUMENT TYPES:</value>
+    <comment>13</comment>
+  </data>
+  <data name="System_CompanyReportView_FOLDERS" xml:space="preserve">
+    <value>FOLDERS</value>
+    <comment>23</comment>
+  </data>
+  <data name="System_CompanyReportView_Generated" xml:space="preserve">
+    <value>Generated in {0} Seconds</value>
+    <comment>125</comment>
+  </data>
+  <data name="System_CompanyReportView_GROUPS" xml:space="preserve">
+    <value>GROUPS</value>
+    <comment>60</comment>
+  </data>
+  <data name="System_CompanyReportView_LockedUsers" xml:space="preserve">
+    <value>Locked Users</value>
+    <comment>75</comment>
+  </data>
+  <data name="System_CompanyReportView_METATAGS" xml:space="preserve">
+    <value>METATAGS</value>
+    <comment>18</comment>
+  </data>
+  <data name="System_CompanyReportView_PendingUsers" xml:space="preserve">
+    <value>Pending Users</value>
+    <comment>80</comment>
+  </data>
+  <data name="System_CompanyReportView_PORTFOLIOS" xml:space="preserve">
+    <value>PORTFOLIOS</value>
+    <comment>39</comment>
+  </data>
+  <data name="System_CompanyReportView_ProjectFolders" xml:space="preserve">
+    <value>Project Folders:</value>
+    <comment>27</comment>
+  </data>
+  <data name="System_CompanyReportView_SummaryForCompany" xml:space="preserve">
+    <value>Summary for company</value>
+    <comment>8</comment>
+  </data>
+  <data name="System_CompanyReportView_SuspendUsers" xml:space="preserve">
+    <value>Suspend Users</value>
+    <comment>82</comment>
+  </data>
+  <data name="System_CompanyReportView_USERS" xml:space="preserve">
+    <value>USERS</value>
+    <comment>69</comment>
+  </data>
+  <data name="System_CompanyReportView_VIEWS" xml:space="preserve">
+    <value>VIEWS</value>
+    <comment>47</comment>
+  </data>
+  <data name="System_SystemCheckingReportView_Collapse" xml:space="preserve">
+    <value>Collapse</value>
+    <comment>16</comment>
+  </data>
+  <data name="System_SystemCheckingReportView_ExpandAll" xml:space="preserve">
+    <value>Expand All</value>
+    <comment>16</comment>
+  </data>
+  <data name="System_SystemCheckingReportView_Monthly" xml:space="preserve">
+    <value>Monthly</value>
+    <comment>13</comment>
+  </data>
+  <data name="System_SystemCheckingReportView_SystemStatisticsReport" xml:space="preserve">
+    <value>System Statistics Report</value>
+    <comment>6</comment>
+  </data>
+  <data name="System_SystemReportView_CompanyReport" xml:space="preserve">
+    <value>Company Report</value>
+    <comment>31</comment>
+  </data>
+  <data name="System_SystemReportView_ReportList" xml:space="preserve">
+    <value>Report List</value>
+    <comment>3</comment>
+  </data>
+  <data name="System_SystemSettingView_CentreAuthenticateServer" xml:space="preserve">
+    <value>Centre Authenticate Server</value>
+    <comment>19</comment>
+  </data>
+  <data name="System_SystemSettingView_DeletedRoot" xml:space="preserve">
+    <value>Deleted Root</value>
+    <comment>11</comment>
+  </data>
+  <data name="System_SystemSettingView_DeletedRootSettings" xml:space="preserve">
+    <value>Please check and confirm Deleted Root settings</value>
+    <comment>43</comment>
+  </data>
+  <data name="System_SystemSettingView_DocuBin" xml:space="preserve">
+    <value>Please check and confirm DocuBin settings</value>
+    <comment>42</comment>
+  </data>
+  <data name="System_SystemSettingView_DocuBinRoot" xml:space="preserve">
+    <value>DocuBin Root</value>
+    <comment>7</comment>
+  </data>
+  <data name="System_SystemSettingView_EmailServer" xml:space="preserve">
+    <value>Email Server</value>
+    <comment>23</comment>
+  </data>
+  <data name="System_SystemSettingView_SystemSetting" xml:space="preserve">
+    <value>System Setting</value>
+    <comment>4</comment>
+  </data>
+  <data name="System_SystemStyleControl_StyleFolder" xml:space="preserve">
+    <value>Style folder</value>
+    <comment>17</comment>
+  </data>
+  <data name="System_SystemStyleInfoView_CreateNewItem" xml:space="preserve">
+    <value>Create New Item</value>
+    <comment>31</comment>
+  </data>
+  <data name="System_SystemStyleInfoView_DocumentList" xml:space="preserve">
+    <value>Document List</value>
+    <comment>36</comment>
+  </data>
+  <data name="System_SystemStyleInfoView_Home" xml:space="preserve">
+    <value>Home</value>
+    <comment>20</comment>
+  </data>
+  <data name="System_SystemStyleInfoView_Link" xml:space="preserve">
+    <value>Link</value>
+    <comment>14</comment>
+  </data>
+  <data name="System_SystemStyleInfoView_StyleName" xml:space="preserve">
+    <value>Style name</value>
+    <comment>7</comment>
+  </data>
+  <data name="System_SystemStyleInfoView_Tab" xml:space="preserve">
+    <value>Tab</value>
+    <comment>25,26,27</comment>
+  </data>
+  <data name="System_SystemStyleInfoView_View" xml:space="preserve">
+    <value>View</value>
+    <comment>22</comment>
+  </data>
+  <data name="System_SystemStyleInfoView_Welcome" xml:space="preserve">
+    <value>Welcome to Doxim {0}</value>
+    <comment>12</comment>
+  </data>
+  <data name="System_SystemStyleView_StyleList" xml:space="preserve">
+    <value>Style List</value>
+    <comment>34</comment>
+  </data>
+  <data name="System_SystemStyleView_SystemStyle" xml:space="preserve">
+    <value>System Style</value>
+    <comment>25</comment>
+  </data>
+  <data name="User_PasswordGenerator_Accetp" xml:space="preserve">
+    <value>Accept</value>
+    <comment>103</comment>
+  </data>
+  <data name="User_PasswordGenerator_NewPassword" xml:space="preserve">
+    <value>Please write down this NEW password</value>
+    <comment>94</comment>
+  </data>
+  <data name="User_PasswordGenerator_SystemStyle" xml:space="preserve">
+    <value>Password Generate</value>
+    <comment>84</comment>
+  </data>
+  <data name="User_UserProfileGeneralView_ChangePasswordAt" xml:space="preserve">
+    <value>Please change your password at "My Profile" page</value>
+    <comment>63 -- In UserProfilePassword.view.asp</comment>
+  </data>
+  <data name="User_UserProfileGeneralView_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+    <comment>98 -- In UserProfilePassword.view.asp</comment>
+  </data>
+  <data name="User_UserProfileGeneralView_MultipleValue" xml:space="preserve">
+    <value>Multiple value</value>
+    <comment>228 In UserProfileCustomField.view.asp</comment>
+  </data>
+  <data name="User_UserProfileGeneralView_NoCustomField" xml:space="preserve">
+    <value>No Custom Field defined</value>
+    <comment>193 In UserProfileCustomField.view.asp</comment>
+  </data>
+  <data name="User_UserProfileGeneralView_PasswordRule" xml:space="preserve">
+    <value>Password Rule</value>
+    <comment>75 In UserProfilePassword.view.asp</comment>
+  </data>
+  <data name="User_UserProfileGeneralView_UserID" xml:space="preserve">
+    <value>User ID</value>
+    <comment>138</comment>
+  </data>
+  <data name="User_UserProfileGeneralView_UserLevel" xml:space="preserve">
+    <value>User Level</value>
+    <comment>170</comment>
+  </data>
+  <data name="User_UserProfileSettingView_Portfolio" xml:space="preserve">
+    <value>Please select portfolio</value>
+    <comment>273</comment>
+  </data>
+  <data name="User_UserProfileSettingView_UseCompanySetting" xml:space="preserve">
+    <value>Use Company Setting</value>
+    <comment>299</comment>
+  </data>
+  <data name="User_UserProfileSettingView_UseUserSetting" xml:space="preserve">
+    <value>Use User Setting</value>
+    <comment>300</comment>
+  </data>
+  <data name="User_UserProfileSettingView_View" xml:space="preserve">
+    <value>Please select view</value>
+    <comment>277</comment>
+  </data>
+  <data name="User_UserProfileView_NoPrivilege" xml:space="preserve">
+    <value>No Privilege to view this user's info!</value>
+    <comment>134</comment>
+  </data>
+  <data name="View_ViewActionsAddView_DocumentTypeActionFirst" xml:space="preserve">
+    <value>Please add documenttype action first.</value>
+    <comment>55</comment>
+  </data>
+  <data name="View_ViewGeneralControl_NewView" xml:space="preserve">
+    <value>New View</value>
+    <comment>13</comment>
+  </data>
+  <data name="View_ViewNavigationControl_ViewNavigation" xml:space="preserve">
+    <value>View Navigation</value>
+    <comment>18</comment>
+  </data>
+  <data name="View_ViewNavigationView_ActionMenu" xml:space="preserve">
+    <value>Action Menu</value>
+    <comment>70, 79</comment>
+  </data>
+  <data name="View_ViewNavigationView_BackToList" xml:space="preserve">
+    <value>Back To List</value>
+    <comment>77</comment>
+  </data>
+  <data name="View_ViewNavigationView_DocumentMenuDisplay" xml:space="preserve">
+    <value>Document Menu Display</value>
+    <comment>75</comment>
+  </data>
+  <data name="View_ViewNavigationView_DocumentNavigation" xml:space="preserve">
+    <value>Document Navigation</value>
+    <comment>78</comment>
+  </data>
+  <data name="View_ViewNavigationView_SimpleSearchbox" xml:space="preserve">
+    <value>Simple Search box</value>
+    <comment>71</comment>
+  </data>
+  <data name="View_ViewNavigationView_ViewMenuDisplay" xml:space="preserve">
+    <value>View Menu Display</value>
+    <comment>68</comment>
+  </data>
+  <data name="View_ViewGeneralControl_CreateView" xml:space="preserve">
+    <value>Create View</value>
+    <comment>85 in ViewGeneral.view.asp</comment>
+  </data>
+  <data name="View_ViewPermissionControl_CreatePermission" xml:space="preserve">
+    <value>Create Permission</value>
+    <comment>24</comment>
+  </data>
+  <data name="Action_CheckOutConfigControl_CheckOut2" xml:space="preserve">
+    <value>CheckOut</value>
+    <comment>11</comment>
+  </data>
+  <data name="Action_FieldsConfigControl_DefaultFields" xml:space="preserve">
+    <value>No Fields configured currently, use default fields.</value>
+    <comment>44</comment>
+  </data>
+  <data name="Company_CompanyProfile_CompanyReport" xml:space="preserve">
+    <value>Company Report</value>
+    <comment>14 new added</comment>
+  </data>
+  <data name="System_CompanyReportView_ReportOn" xml:space="preserve">
+    <value>Report on {0}</value>
+    <comment>123 - new added</comment>
+  </data>
+  <data name="User_UserProfileSettingView_ManagePrintQueue" xml:space="preserve">
+    <value>Manage Print Queue</value>
+    <comment>173</comment>
+  </data>
+  <data name="User_UserProfileSettingView_ProcessPrintJob" xml:space="preserve">
+    <value>Process Print Job</value>
+    <comment>174</comment>
+  </data>
+</root>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionPermissionException_errMsgs_NoAccessAction" xml:space="preserve">
+    <value>No privilege to access the action:{0}</value>
+    <comment>18</comment>
+  </data>
+  <data name="CustomFieldException_errMsgs_CustomFieldNameExisted" xml:space="preserve">
+    <value>Custom Field Name Or XML ID already existed!</value>
+    <comment>29</comment>
+  </data>
+  <data name="CustomFieldException_errMsgs_DeleteCutomFieldError" xml:space="preserve">
+    <value>Deleting Custom Field occures an error: it is still referenced by other objects.</value>
+    <comment>28</comment>
+  </data>
+  <data name="CustomFieldException_errMsgs_InvalidCustomFieldID" xml:space="preserve">
+    <value>Invalid Custom Field ID!</value>
+    <comment>27</comment>
+  </data>
+  <data name="CustomFieldException_errMsgs_InvalidName" xml:space="preserve">
+    <value>Invalid name, name can not be empty!</value>
+    <comment>35</comment>
+  </data>
+  <data name="CustomFieldException_errMsgs_InvalidXmlID" xml:space="preserve">
+    <value>Invalid XmlID, XmlID can not be empty!</value>
+    <comment>36</comment>
+  </data>
+  <data name="CustomFieldException_errMsgs_UnableChangeIsValueListFalse" xml:space="preserve">
+    <value>Unable to change 'IsValueList' to false because there are list values defined!</value>
+    <comment>32</comment>
+  </data>
+  <data name="CustomFieldException_errMsgs_UnableChangeIsValueListTrue" xml:space="preserve">
+    <value>Unable to change 'IsValueList' to true because there is user referencing this custom field!</value>
+    <comment>31</comment>
+  </data>
+  <data name="CustomFieldException_errMsgs_UnableChangeIsValueMultiple" xml:space="preserve">
+    <value>Unable to change 'Is Value Multiple' because there are more than one value ref by users.</value>
+    <comment>33</comment>
+  </data>
+  <data name="CustomFieldException_errMsgs_UnableDeleteCustomField" xml:space="preserve">
+    <value>Unable to delete this custom field because there are custom group referencing it!</value>
+    <comment>34</comment>
+  </data>
+  <data name="DataAccessException_errMsgFormats_01AlreadyExisted" xml:space="preserve">
+    <value>{0} {1} already existed!</value>
+    <comment>32</comment>
+  </data>
+  <data name="DataAccessException_errMsgFormats_0AlreadyExisted" xml:space="preserve">
+    <value>{0} already existed!</value>
+    <comment>34</comment>
+  </data>
+  <data name="DataAccessException_errMsgFormats_InvalidID" xml:space="preserve">
+    <value>Invalid {0} ID!</value>
+    <comment>30</comment>
+  </data>
+  <data name="DataAccessException_errMsgFormats_UnableToDo" xml:space="preserve">
+    <value>Unable to {2} this {0}. Please {2} all {1} under this {0}</value>
+    <comment>31</comment>
+  </data>
+  <data name="DataAccessException_GetFormatException_UnhandledDBError" xml:space="preserve">
+    <value>Unhandled DB error</value>
+    <comment>95</comment>
+  </data>
+  <data name="DocuBinException_errMsgs_FailedCreateFolder" xml:space="preserve">
+    <value>Failed to create a DocuBin folder.</value>
+    <comment>28</comment>
+  </data>
+  <data name="DocuBinException_errMsgs_FailedCreateInstance" xml:space="preserve">
+    <value>Failed to create a new instance of DocuBin object.</value>
+    <comment>27</comment>
+  </data>
+  <data name="DocuBinException_errMsgs_FailedDeleteFolder" xml:space="preserve">
+    <value>Failed to delete a DocuBin folder.</value>
+    <comment>29</comment>
+  </data>
+  <data name="DocuBinException_errMsgs_FailedRemoveFolder" xml:space="preserve">
+    <value>Failed to remove a DocuBin folder.</value>
+    <comment>30</comment>
+  </data>
+  <data name="DocuBinException_errMsgs_FolderAlreadyExists" xml:space="preserve">
+    <value>DocuBin folder already exists.</value>
+    <comment>31</comment>
+  </data>
+  <data name="DocuBinException_errMsgs_FolderNotExist" xml:space="preserve">
+    <value>DocuBin folder does not exist.</value>
+    <comment>32</comment>
+  </data>
+  <data name="DocuTypeException_errMsgs_DocTypeExisted" xml:space="preserve">
+    <value>Document type Name Or XmlID already existed!</value>
+    <comment>22</comment>
+  </data>
+  <data name="DocuTypeException_errMsgs_InvalidDocumentTypeID" xml:space="preserve">
+    <value>Invalid document type ID!</value>
+    <comment>20</comment>
+  </data>
+  <data name="DocuTypeException_errMsgs_UnableDeleteDocType" xml:space="preserve">
+    <value>Unable to delete this document type. Please delete related batches\\views\\metatags\\documents</value>
+    <comment>21</comment>
+  </data>
+  <data name="EmptyException_errMsgs_CantEmpty" xml:space="preserve">
+    <value>{0}{1} can not be empty!</value>
+    <comment>19</comment>
+  </data>
+  <data name="EmptyException_errMsgs_InvalidValue" xml:space="preserve">
+    <value>Invalid value,</value>
+    <comment>12</comment>
+  </data>
+  <data name="FolderException_errMsgs_ContainsDocuments" xml:space="preserve">
+    <value>Folder still contains documents!</value>
+    <comment>21</comment>
+  </data>
+  <data name="FolderException_errMsgs_ContainsSubfolders" xml:space="preserve">
+    <value>Folder still contains subfolders!</value>
+    <comment>20</comment>
+  </data>
+  <data name="MetaTagException_errMsgs_HasListDefined" xml:space="preserve">
+    <value>Has metatag list defined!</value>
+    <comment>30</comment>
+  </data>
+  <data name="MetaTagException_errMsgs_HasReferenceMoreThanOnce" xml:space="preserve">
+    <value>Has document reference this metatag more than once!</value>
+    <comment>29</comment>
+  </data>
+  <data name="MetaTagException_errMsgs_InvalidMetaTagID" xml:space="preserve">
+    <value>Invalid MetaTag ID!</value>
+    <comment>25</comment>
+  </data>
+  <data name="MetaTagException_errMsgs_MetaTagExisted" xml:space="preserve">
+    <value>MetaTag Name Or XMLID already existed!</value>
+    <comment>27</comment>
+  </data>
+  <data name="MetaTagException_errMsgs_NotAllValuesProvided" xml:space="preserve">
+    <value>Not all document's current metatag values has been provided!</value>
+    <comment>31</comment>
+  </data>
+  <data name="MetaTagException_errMsgs_ReferencedByDocs" xml:space="preserve">
+    <value>This metatag is referenced by documents</value>
+    <comment>26</comment>
+  </data>
+  <data name="MetaTagException_errMsgs_UnableConvert" xml:space="preserve">
+    <value>Unable to convert</value>
+    <comment>32</comment>
+  </data>
+  <data name="PortfolioException_errMsgs_ActionCantNull" xml:space="preserve">
+    <value>Portfolio Default Action can't be null, check actiondefs table has portfolio action definition.</value>
+    <comment>20</comment>
+  </data>
+  <data name="PortfolioException_errMsgs_CantDeletePortfolio" xml:space="preserve">
+    <value>Cannot delete portfolio. There are views attached to it.</value>
+    <comment>19</comment>
+  </data>
+  <data name="PortfolioException_errMsgs_InvalidPortfolioID" xml:space="preserve">
+    <value>Invalid portfolio ID!</value>
+    <comment>18</comment>
+  </data>
+  <data name="UserException_errMsgs_InvalidUser" xml:space="preserve">
+    <value>Invalid User!</value>
+    <comment>21</comment>
+  </data>
+  <data name="UserException_errMsgs_UnableDeleteUser" xml:space="preserve">
+    <value>Unable to delete this User. Please delete all Companies under this organization.</value>
+    <comment>22</comment>
+  </data>
+  <data name="UserException_errMsgs_UserIDExisted" xml:space="preserve">
+    <value>User ID already existed!</value>
+    <comment>23</comment>
+  </data>
+</root>

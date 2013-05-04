@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="AdvancedSearch_SpecialCharacter" Id="f4684c36-5fc7-4c43-a7fa-4a22b9408c08" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="" StopOnError="False" RecordedResultFile="AdvancedSearch_SpecialCharacter.35947cd8-3e13-49de-857f-971f4c60ccc2.rec.webtestresult">
+  <Items>
+    <IncludedWebTest Name="HomeUID1Login" Path="..\homeuid1login.webtest" Id="1cddeae3-759a-4014-9518-eaa5e18ea305" IsCodedWebTest="False" InheritWebTestSettings="False" />
+    <Request Method="POST" Version="1.1" Url="{{WebServer}}/Admin/Action/ActionConfiguration.asp" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="">
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.ID" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ID=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.Tab" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;Tab=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.CMD" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?CMD=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ID" Value="22" RecordedValue="22" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="Tab" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="CMD" Value="Save" RecordedValue="Save" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ACMD" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="ConfigType" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="DocTitle" RecordedValue="DocTitle" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Trans #" RecordedValue="Trans #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Author" RecordedValue="Author" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="TransitRoute" RecordedValue="TransitRoute" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M1" RecordedValue="Tag_M1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Account #" RecordedValue="Account #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M3" RecordedValue="Tag_M3" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Amount" RecordedValue="Amount" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M5" RecordedValue="Tag_M5" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Item #" RecordedValue="Item #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M2" RecordedValue="Tag_M2" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="ClearingDate" RecordedValue="ClearingDate" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M7" RecordedValue="Tag_M7" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="ImageOK" RecordedValue="ImageOK" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M6" RecordedValue="Tag_M6" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Error" RecordedValue="Error" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M8" RecordedValue="Tag_M8" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M18" RecordedValue="Tag_M18" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Version="1.1" Url="{{WebServer}}/Admin/Action/ActionConfiguration.asp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="Windows-1252" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="">
+      <QueryStringParameters>
+        <QueryStringParameter Name="ID" Value="22" RecordedValue="22" CorrelationBinding="{{QueryStringParam1.ID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="Tab" Value="4" RecordedValue="4" CorrelationBinding="{{QueryStringParam2.Tab}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="CMD" Value="Open" RecordedValue="Open" CorrelationBinding="{{QueryStringParam3.CMD}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ACMD" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Version="1.1" Url="{{WebServer}}/Web/Navigate/View.asp" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{WebServer}}/Web/View/ViewDocsList.asp" ReportingName="">
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="ListGridID" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&lt;div id=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&gt;" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="ExtractRandomMatch" Value="False" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam12.CMD" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?CMD=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam13.ID" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;ID=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ID" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Version="1.1" Url="{{WebServer}}/Web/View/ViewAdvancedSearch.asp" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="Windows-1252" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="">
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam9.ID" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ID=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam10.ListID" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;ListID=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam23.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam24.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; sel" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam25.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam26.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; sel" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam27.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam28.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; sel" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam29.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam30.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; &gt;Eq" />
+            <RuleParameter Name="Index" Value="6" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam31.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam32.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; &gt;Eq" />
+            <RuleParameter Name="Index" Value="6" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam33.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam34.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; sel" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam35.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam36.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; &gt;Eq" />
+            <RuleParameter Name="Index" Value="6" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam37.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam38.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; &gt;Eq" />
+            <RuleParameter Name="Index" Value="6" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam39.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam40.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; &gt;Eq" />
+            <RuleParameter Name="Index" Value="6" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam41.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam42.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; sel" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam43.FieldNot" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; cel" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam44.FieldCondition" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; sel" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="CMD" Value="Open" RecordedValue="Open" CorrelationBinding="{{QueryStringParam12.CMD}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ID" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam13.ID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ListID" Value="{{ListGridID}}" RecordedValue="0AC59|ListGrid" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Comment CommentText="Search Cheque DRCR !@#$%^&amp;*()_+-=~`|\:&quot;;'&lt;&gt;?,./" />
+    <Request Method="POST" Version="1.1" Url="{{WebServer}}/Web/View/ViewDocsList.asp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="Windows-1252" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="">
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="&lt;span class=&quot;path&quot;&gt;Batch Portfolio&lt;/span&gt;" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="&lt;span class=&quot;path&quot;&gt;Cheque&lt;/span&gt;" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value=" Result for search criteria: [DRCR  Contains !@#$%^&amp;*()_+-=~`|\:&quot;;'&lt;&gt;?,./ ]" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="Total: 3" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="CMD" Value="AdvancedSearch" RecordedValue="AdvancedSearch" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ID" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam9.ID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ListID" Value="{{ListGridID}}" RecordedValue="0AC59|ListGrid" CorrelationBinding="{{QueryStringParam10.ListID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ACMD" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="FieldID" Value="DocTitle" RecordedValue="DocTitle" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Trans #" RecordedValue="Trans #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam23.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam24.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Author" RecordedValue="Author" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="TransitRoute" RecordedValue="TransitRoute" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam25.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam26.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M1" RecordedValue="Tag_M1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Account #" RecordedValue="Account #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam27.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam28.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M3" RecordedValue="Tag_M3" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Amount" RecordedValue="Amount" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="C" RecordedValue="C" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam29.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam30.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M5" RecordedValue="Tag_M5" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Item #" RecordedValue="Item #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="I" RecordedValue="I" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam31.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam32.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M2" RecordedValue="Tag_M2" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="ClearingDate" RecordedValue="ClearingDate" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="D" RecordedValue="D" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam35.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam36.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M7" RecordedValue="Tag_M7" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="ImageOK" RecordedValue="ImageOK" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="B" RecordedValue="B" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam37.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam38.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M6" RecordedValue="Tag_M6" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Error" RecordedValue="Error" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="B" RecordedValue="B" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam39.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam40.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M8" RecordedValue="Tag_M8" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="PackageID" RecordedValue="PackageID" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam41.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam42.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M18" RecordedValue="Tag_M18" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="A&#x99;Tag_M18&#x99;0&#x99;C&#x99;!@#$%^&amp;*()_+-=~`|\:&quot;;'&lt;&gt;?,./" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="DRCR" RecordedValue="DRCR" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam43.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam44.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="!@#$%^&amp;*()_+-=~`|\:&quot;;'&lt;&gt;?,./" RecordedValue="!@#$%^&amp;*()_+-=~`|\:&quot;;'&lt;&gt;?,./" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ListActionPage" Value="ViewDocsList.asp" RecordedValue="ViewDocsList.asp" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Comment CommentText="Search Cheque DRCR &amp;*()_+" />
+    <Request Method="POST" Version="1.1" Url="{{WebServer}}/Web/View/ViewDocsList.asp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="Windows-1252" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="">
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="&lt;span class=&quot;path&quot;&gt;Batch Portfolio&lt;/span&gt;" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="&lt;span class=&quot;path&quot;&gt;Cheque&lt;/span&gt;" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value=" Result for search criteria: [DRCR  Contains &amp;*()_+ ]" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="Total: 25" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="CMD" Value="AdvancedSearch" RecordedValue="AdvancedSearch" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ID" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam9.ID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ListID" Value="{{ListGridID}}" RecordedValue="0AC59|ListGrid" CorrelationBinding="{{QueryStringParam10.ListID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ACMD" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="FieldID" Value="DocTitle" RecordedValue="DocTitle" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Trans #" RecordedValue="Trans #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam23.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam24.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Author" RecordedValue="Author" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="TransitRoute" RecordedValue="TransitRoute" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam25.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam26.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M1" RecordedValue="Tag_M1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Account #" RecordedValue="Account #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam27.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam28.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M3" RecordedValue="Tag_M3" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Amount" RecordedValue="Amount" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="C" RecordedValue="C" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam29.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam30.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M5" RecordedValue="Tag_M5" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Item #" RecordedValue="Item #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="I" RecordedValue="I" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam31.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam32.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M2" RecordedValue="Tag_M2" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="ClearingDate" RecordedValue="ClearingDate" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="D" RecordedValue="D" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam35.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam36.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M7" RecordedValue="Tag_M7" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="ImageOK" RecordedValue="ImageOK" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="B" RecordedValue="B" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam37.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam38.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M6" RecordedValue="Tag_M6" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Error" RecordedValue="Error" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="B" RecordedValue="B" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam39.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam40.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M8" RecordedValue="Tag_M8" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="PackageID" RecordedValue="PackageID" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam41.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam42.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M18" RecordedValue="Tag_M18" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="A&#x99;Tag_M18&#x99;0&#x99;C&#x99;!@#$%^&amp;*()_+-=~`|\:&quot;;'&lt;&gt;?,./" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="DRCR" RecordedValue="DRCR" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam43.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam44.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="&amp;*()_+" RecordedValue="!@#$%^&amp;*()_+-=~`|\:&quot;;'&lt;&gt;?,./" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ListActionPage" Value="ViewDocsList.asp" RecordedValue="ViewDocsList.asp" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Comment CommentText="Search Cheque DRCR ©®@€£¥âçC°«»† (MS issue here)" />
+    <Request Method="POST" Version="1.1" Url="{{WebServer}}/Web/View/ViewDocsList.asp" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="Windows-1252" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="">
+      <ValidationRules>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="&lt;span class=&quot;path&quot;&gt;Batch Portfolio&lt;/span&gt;" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="&lt;span class=&quot;path&quot;&gt;Cheque&lt;/span&gt;" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="  Result for search criteria: [DRCR  Contains ©®@£¥âçC°«» ]" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+        <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleFindText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Find Text" Description="Verifies the existence of the specified text in the response." Level="High" ExectuionOrder="BeforeDependents">
+          <RuleParameters>
+            <RuleParameter Name="FindText" Value="Total: 2" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="PassIfTextFound" Value="True" />
+          </RuleParameters>
+        </ValidationRule>
+      </ValidationRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="CMD" Value="AdvancedSearch" RecordedValue="AdvancedSearch" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ID" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam9.ID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ListID" Value="{{ListGridID}}" RecordedValue="0AC59|ListGrid" CorrelationBinding="{{QueryStringParam10.ListID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ACMD" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="FieldID" Value="DocTitle" RecordedValue="DocTitle" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Trans #" RecordedValue="Trans #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam23.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam24.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Author" RecordedValue="Author" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="TransitRoute" RecordedValue="TransitRoute" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam25.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam26.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M1" RecordedValue="Tag_M1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Account #" RecordedValue="Account #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam27.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam28.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M3" RecordedValue="Tag_M3" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Amount" RecordedValue="Amount" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="C" RecordedValue="C" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam29.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam30.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M5" RecordedValue="Tag_M5" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Item #" RecordedValue="Item #" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="I" RecordedValue="I" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam31.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam32.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M2" RecordedValue="Tag_M2" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="ClearingDate" RecordedValue="ClearingDate" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="D" RecordedValue="D" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam35.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam36.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M7" RecordedValue="Tag_M7" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="ImageOK" RecordedValue="ImageOK" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="B" RecordedValue="B" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam37.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam38.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M6" RecordedValue="Tag_M6" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="Error" RecordedValue="Error" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="B" RecordedValue="B" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam39.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="=" RecordedValue="=" CorrelationBinding="{{FormPostParam40.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M8" RecordedValue="Tag_M8" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="PackageID" RecordedValue="PackageID" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam41.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam42.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldID" Value="Tag_M18" RecordedValue="Tag_M18" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldCriteria" Value="" RecordedValue="A&#x99;Tag_M18&#x99;0&#x99;C&#x99;!@#$%^&amp;*()_+-=~`|\:&quot;;'&lt;&gt;?,./" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Alias" Value="DRCR" RecordedValue="DRCR" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldType" Value="T" RecordedValue="T" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldNot" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam43.FieldNot}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldCondition" Value="C" RecordedValue="C" CorrelationBinding="{{FormPostParam44.FieldCondition}}" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue" Value="©®@€£¥âçC°«»†" RecordedValue="!@#$%^&amp;*()_+-=~`|\:&quot;;'&lt;&gt;?,./" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FieldValue2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ListActionPage" Value="ViewDocsList.asp" RecordedValue="ViewDocsList.asp" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

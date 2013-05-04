@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionCfg_StampConfiguration_StampFileToStream_EmptyStampURL" xml:space="preserve">
+    <value>[ßäşįč şŧämp ūřľ päŧĥ čäŉ ŉőŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="Composite_AccessPath_Url" xml:space="preserve">
+    <value>[Ĩŉŧęřŉäľ ŮŖĨ ƒőřmäŧ įş įŉčőřřęčŧ, pľęäşę řęčőŉƒįģ įŧ įŉ čőmpäŉy şęŧŧįŉģ! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Composite_FormFill2Stream_Config" xml:space="preserve">
+    <value>[Pľęäşę čőŉƒįģ ŧęmpľäŧę ƒįľę ƒįřşŧ. !!! !!!]</value>
+  </data>
+  <data name="Composite_FormFill2Stream_Template" xml:space="preserve">
+    <value>[Cäŉ'ŧ ƒįŉđ ŧęmpľäŧę ƒįľę: {0} !!! !!!]</value>
+  </data>
+  <data name="Composite_MergeFlySheet_FlySheet" xml:space="preserve">
+    <value>[FľyŜĥęęŧ: {0} ŉőŧ ƒőūŉđ, Pľęäşę čőŉŧäčŧ yőūř şyşŧęm Åđmįŉįşŧřäŧőř. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Configuration_DBConnectionString_Error" xml:space="preserve">
+    <value>[Øľđ čőđę ĥäş þęęŉ őþşőľęŧęđ:đþčőŉŉęčŧįőŉşŧřįŉģ=Ŝyşŧęm.Cőŉƒįģūřäŧįőŉ.CőŉƒįģūřäŧįőŉŜęŧŧįŉģş.ÅppŜęŧŧįŉģş[\"ĐØXĨM Đß CØŃŃĒCŦĨØŃ\"] !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DocStream_DocStream_Null" xml:space="preserve">
+    <value>[Cäŉ'ŧ ŵřäp ŉūľľ şŧřęäm !!! !!!]</value>
+  </data>
+  <data name="EventLogUtility_CompareCollection_Key" xml:space="preserve">
+    <value>[{0} mūşŧ đęčľäřę ĸęy přőpęřŧy !!! !!!]</value>
+  </data>
+  <data name="EventLogUtility_PropertiesEqual_Comparison" xml:space="preserve">
+    <value>[Cőmpäřįşőŉ őþĵęčŧ mūşŧ þę őƒ ŧĥę şämę ŧypę. !!! !!!]</value>
+  </data>
+  <data name="Helper_BindToType_NotSupport" xml:space="preserve">
+    <value>[Ńőŧ şūppőřŧ --- {0} !!! !!!]</value>
+  </data>
+  <data name="Logger_Log_Fail" xml:space="preserve">
+    <value>[Fäįľ ŧő ŵřįŧę męşşäģę įŉŧő ľőģ ƒįľę !!! !!!]</value>
+  </data>
+  <data name="Logger_Open_Fail" xml:space="preserve">
+    <value>[Cäŉ ŉőŧ őpęŉ ľőģ ƒįľę! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_BatchesDocumentTypeID" xml:space="preserve">
+    <value>[Ĩŉväľįđ ßäŧčĥęşĐőčūmęŉŧŦypę Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_BatchID" xml:space="preserve">
+    <value>[Ĩŉväľįđ ßäŧčĥ Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_CompanyBatchesID" xml:space="preserve">
+    <value>[Ĩŉväľįđ Cőmpäŉyßäŧčĥęş Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_CompanyCustomFieldsID" xml:space="preserve">
+    <value>[Ĩŉväľįđ CőmpäŉyCūşŧőmFįęľđş Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř !!! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_CompanyDocumentTypesID" xml:space="preserve">
+    <value>[Ĩŉväľįđ CőmpäŉyĐőčūmęŉŧŦypęş Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_CompanyFoldersID" xml:space="preserve">
+    <value>[Ĩŉväľįđ CőmpäŉyFőľđęřş Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_CompanyGroupsID" xml:space="preserve">
+    <value>[Ĩŉväľįđ CőmpäŉyĞřőūpş Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_CompanyID" xml:space="preserve">
+    <value>[Ĩŉväľįđ Cőmpäŉy Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_CompanyPortfoliosID" xml:space="preserve">
+    <value>[Ĩŉväľįđ CőmpäŉyPőřŧƒőľįőş Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_CustomFieldID" xml:space="preserve">
+    <value>[Ĩŉväľįđ CūşŧőmFįęľđ Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_DocumentTypeID" xml:space="preserve">
+    <value>[Ĩŉväľįđ ĐőčūmęŉŧŦypę Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_FolderAdminID" xml:space="preserve">
+    <value>[Ĩŉväľįđ FőľđęřÅđmįŉ Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_FolderID" xml:space="preserve">
+    <value>[Ĩŉväľįđ Főľđęř Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_GroupID" xml:space="preserve">
+    <value>[Ĩŉväľįđ Ğřőūp Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_MetaTagID" xml:space="preserve">
+    <value>[Ĩŉväľįđ MęŧäŦäģ Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_OrganizationID" xml:space="preserve">
+    <value>[Ĩŉväľįđ Øřģäŉįžäŧįőŉ Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_PortfolioAdminID" xml:space="preserve">
+    <value>[Ĩŉväľįđ PőřŧƒőľįőÅđmįŉ Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_PortfolioID" xml:space="preserve">
+    <value>[Ĩŉväľįđ Pőřŧƒőľįő Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_UserID" xml:space="preserve">
+    <value>[Ĩŉväľįđ Ůşęř Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_ViewAdminID" xml:space="preserve">
+    <value>[Ĩŉväľįđ VįęŵÅđmįŉ Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetInfo_ViewID" xml:space="preserve">
+    <value>[Ĩŉväľįđ Vįęŵ Ĩđ, ūŉäþľę ŧő čőŉvęřŧ ŧő įŉŧęģęř! !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetPageItem_Type" xml:space="preserve">
+    <value>[Ĩŉväľįđ ŧypę {0} !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetPageItem_User" xml:space="preserve">
+    <value>[Ĩŉväľįđ ūşęř !!! !!!]</value>
+  </data>
+  <data name="PageItem_GetUrl_Invalid" xml:space="preserve">
+    <value>[Ĩŉväľįđ įŧęmŦypę őř äčŧįőŉ! {0} !!! !!!]</value>
+  </data>
+  <data name="Progress_ID" xml:space="preserve">
+    <value>[PřőģřęşşĨĐ įş mőřę ŧĥäŉ Mäχįmūm đęƒįŉäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Progress_Occupied" xml:space="preserve">
+    <value>[Åľľ PřőģřęşşĨĐş ĥävę þęęŉ őččūpįęđ !!! !!!]</value>
+  </data>
+</root>

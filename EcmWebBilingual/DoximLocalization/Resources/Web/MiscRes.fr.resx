@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alt_Search" xml:space="preserve">
+    <value>[Cľįčĸ ŧő şęäřčĥ !!! !!!]</value>
+  </data>
+  <data name="Button_Apply" xml:space="preserve">
+    <value>[Åppľy !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>[Cäŉčęľ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Button_Clear" xml:space="preserve">
+    <value>[Cľęäř !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Button_Delete" xml:space="preserve">
+    <value>[Đęľęŧę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Button_Ok" xml:space="preserve">
+    <value>[ØĶ !!! !!!]</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>[Ŝävę !!! !!! !!!]</value>
+  </data>
+  <data name="Button_Search" xml:space="preserve">
+    <value>[Ŝęäřčĥ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="ComboBox_AllFields" xml:space="preserve">
+    <value>[-- Åľľ Fįęľđş -- !!! !!!]</value>
+  </data>
+  <data name="ComboBox_PleaseSelect" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ... !!! !!!]</value>
+  </data>
+  <data name="Label_Account" xml:space="preserve">
+    <value>[Åččőūŉŧ# !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Action" xml:space="preserve">
+    <value>[Åčŧįőŉ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Active" xml:space="preserve">
+    <value>[Åčŧįvę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Add" xml:space="preserve">
+    <value>[Åđđ !!! !!!]</value>
+  </data>
+  <data name="Label_AddActions" xml:space="preserve">
+    <value>[Åđđ Åčŧįőŉş !!! !!!]</value>
+  </data>
+  <data name="Label_AddAll" xml:space="preserve">
+    <value>[Åđđ ÅĿĿ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_AlterMessage" xml:space="preserve">
+    <value>[Åľŧęř Męşşäģę !!! !!!]</value>
+  </data>
+  <data name="Label_Approved" xml:space="preserve">
+    <value>[Åppřővęđ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Ascending" xml:space="preserve">
+    <value>[Åşčęŉđįŉģ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_AssociateView" xml:space="preserve">
+    <value>[Åşşőčįäŧę Cūřřęŉŧ Vįęŵ !!! !!!]</value>
+  </data>
+  <data name="Label_Basic" xml:space="preserve">
+    <value>[ßäşįč !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Category" xml:space="preserve">
+    <value>[Cäŧęģőřy !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_ChangeEmail" xml:space="preserve">
+    <value>[Cĥäŉģę Ēmäįľ !!! !!!]</value>
+  </data>
+  <data name="Label_ChangePassword" xml:space="preserve">
+    <value>[Cĥäŉģę Päşşŵőřđ !!! !!!]</value>
+  </data>
+  <data name="Label_Close" xml:space="preserve">
+    <value>[Cľőşę !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Code" xml:space="preserve">
+    <value>[Cőđę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_CommonFields" xml:space="preserve">
+    <value>[Cőmmőŉ Fįęľđş !!! !!!]</value>
+  </data>
+  <data name="Label_Company" xml:space="preserve">
+    <value>[Cőmpäŉy !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_CompletedSuccessfully" xml:space="preserve">
+    <value>[Cőmpľęŧęđ Ŝūččęşşƒūľľy !!! !!!]</value>
+  </data>
+  <data name="Label_Condition" xml:space="preserve">
+    <value>[Cőŉđįŧįőŉ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Configuration" xml:space="preserve">
+    <value>[Cőŉƒįģūřäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Label_Confirm" xml:space="preserve">
+    <value>[Cőŉƒįřm !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Create" xml:space="preserve">
+    <value>[Cřęäŧę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_CreateCommonField" xml:space="preserve">
+    <value>[Cřęäŧę Cőmmőŉ Fįęľđ !!! !!!]</value>
+  </data>
+  <data name="Label_CreateCompany" xml:space="preserve">
+    <value>[Cřęäŧę Cőmpäŉy !!! !!!]</value>
+  </data>
+  <data name="Label_CreateMetaTag" xml:space="preserve">
+    <value>[Cřęäŧę MęŧäŦäģ !!! !!!]</value>
+  </data>
+  <data name="Label_CreateOrganization" xml:space="preserve">
+    <value>[Cřęäŧę Øřģäŉįžäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Label_CreatePrintJob" xml:space="preserve">
+    <value>[Cřęäŧę Přįŉŧ Ĵőþ !!! !!!]</value>
+  </data>
+  <data name="Label_CreateSub" xml:space="preserve">
+    <value>[Cřęäŧę Ŝūþ !!! !!!]</value>
+  </data>
+  <data name="Label_Criteria" xml:space="preserve">
+    <value>[Cřįŧęřįä !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_CustomField" xml:space="preserve">
+    <value>[Cūşŧőm Fįęľđ Ŀįşŧ Väľūęş !!! !!!]</value>
+  </data>
+  <data name="Label_Date" xml:space="preserve">
+    <value>[Đäŧę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_DefaultPageSize" xml:space="preserve">
+    <value>[Đęƒäūľŧ Päģę Ŝįžę: !!! !!!]</value>
+  </data>
+  <data name="Label_Del" xml:space="preserve">
+    <value>[Đęľ !!! !!!]</value>
+  </data>
+  <data name="Label_DelAll" xml:space="preserve">
+    <value>[Đęľ ÅĿĿ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Descending" xml:space="preserve">
+    <value>[Đęşčęŉđįŉģ !!! !!!]</value>
+  </data>
+  <data name="Label_Description" xml:space="preserve">
+    <value>[Đęşčřįpŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Label_Display" xml:space="preserve">
+    <value>[Đįşpľäy !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Document" xml:space="preserve">
+    <value>[Đőčūmęŉŧ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_DocumentMissing" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Mįşşįŉģ !!! !!!]</value>
+  </data>
+  <data name="Label_DocumentType" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Ŧypę !!! !!!]</value>
+  </data>
+  <data name="Label_Download" xml:space="preserve">
+    <value>[Pľęäşę čľįčĸ [ĥęřę] őř [Ğęŧ Cőpy] þūŧŧőŉ ŧő đőŵŉľőäđ įŧ. !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Download1" xml:space="preserve">
+    <value>[Pľęäşę čľįčĸ {0} őř {1} þūŧŧőŉ ŧő đőŵŉľőäđ įŧ. !!! !!!]</value>
+  </data>
+  <data name="Label_Email" xml:space="preserve">
+    <value>[Ēmäįľ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>[Ēŉäþľę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_EnableChangeDisplay" xml:space="preserve">
+    <value>[Ēŉäþľę Cĥäŉģę Đįşpľäy Fįęľđş !!! !!!]</value>
+  </data>
+  <data name="Label_EnableChangePageSize" xml:space="preserve">
+    <value>[Ēŉäþľę Cĥäŉģę Päģę Ŝįžę !!! !!!]</value>
+  </data>
+  <data name="Label_EnableChangeSort" xml:space="preserve">
+    <value>[Ēŉäþľę Cĥäŉģę Ŝőřŧ Fįęľđş !!! !!!]</value>
+  </data>
+  <data name="Label_EnableDefaultSort" xml:space="preserve">
+    <value>[Ēŉäþľę Đęƒäūľŧ Ŝőřŧįŉģ !!! !!!]</value>
+  </data>
+  <data name="Label_EnableHeader" xml:space="preserve">
+    <value>[Ēŉäþľę Ħęäđęř !!! !!!]</value>
+  </data>
+  <data name="Label_EnableTree" xml:space="preserve">
+    <value>[Ēŉäþľę Ŧřęę !!! !!!]</value>
+  </data>
+  <data name="Label_Enhanced" xml:space="preserve">
+    <value>[Ēŉĥäŉčęđ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Equals" xml:space="preserve">
+    <value>[Ēqūäľş !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_ErrorMessage" xml:space="preserve">
+    <value>[Ēřřőř Męşşäģę !!! !!!]</value>
+  </data>
+  <data name="Label_Expired" xml:space="preserve">
+    <value>[Ēχpįřęđ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_File" xml:space="preserve">
+    <value>[Fįľę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Filename" xml:space="preserve">
+    <value>[Fįľęŉämę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_FileName2" xml:space="preserve">
+    <value>[Fįľę Ńämę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_First" xml:space="preserve">
+    <value>[Fįřşŧ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_FirstName" xml:space="preserve">
+    <value>[Fįřşŧ Ńämę !!! !!!]</value>
+  </data>
+  <data name="Label_FlySheet" xml:space="preserve">
+    <value>[FľyŜĥęęŧ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Folder" xml:space="preserve">
+    <value>[Főľđęř !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_ForAllUsers" xml:space="preserve">
+    <value>[Főř Åľľ Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="Label_FormFill" xml:space="preserve">
+    <value>[FőřmFįľľ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_ForNewUsers" xml:space="preserve">
+    <value>[Főř Ńęŵ Ůşęřş !!! !!!]</value>
+  </data>
+  <data name="Label_From" xml:space="preserve">
+    <value>[Fřőm !!! !!! !!!]</value>
+  </data>
+  <data name="Label_FromFileFolder" xml:space="preserve">
+    <value>[ƒřőm ƒįľę ƒőľđęř !!! !!!]</value>
+  </data>
+  <data name="Label_FromQueue" xml:space="preserve">
+    <value>[đőčūmęŉŧ ƒřőm ŧĥę qūęūę !!! !!!]</value>
+  </data>
+  <data name="Label_FullName" xml:space="preserve">
+    <value>[Fūľľ Ńämę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Generate" xml:space="preserve">
+    <value>[Ğęŉęřäŧę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_GetCopy" xml:space="preserve">
+    <value>[[ĞęŧCőpy] !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Group" xml:space="preserve">
+    <value>[Ğřőūp !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Header" xml:space="preserve">
+    <value>[Ħęäđęř !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Height" xml:space="preserve">
+    <value>[Ħęįģĥŧ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Here" xml:space="preserve">
+    <value>[[ĥęřę] !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Home" xml:space="preserve">
+    <value>[Ħőmę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Icon" xml:space="preserve">
+    <value>[Ĩčőŉ !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Impress" xml:space="preserve">
+    <value>[Ĩmpřęşş# !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_InActive" xml:space="preserve">
+    <value>[ĨŉÅčŧįvę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Insert" xml:space="preserve">
+    <value>[Ĩŉşęřŧ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Invalid" xml:space="preserve">
+    <value>[Ĩŉväľįđ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_InvalidTab" xml:space="preserve">
+    <value>[Ĩŉväľįđ ŧäþ! !!! !!!]</value>
+  </data>
+  <data name="Label_IsValueList" xml:space="preserve">
+    <value>[Ĩş Väľūę Ŀįşŧ !!! !!!]</value>
+  </data>
+  <data name="Label_IsValueMultiple" xml:space="preserve">
+    <value>[Ĩş Väľūę Mūľŧįpľę !!! !!!]</value>
+  </data>
+  <data name="Label_IsValueRequired" xml:space="preserve">
+    <value>[Ĩş Väľūę Ŗęqūįřęđ !!! !!!]</value>
+  </data>
+  <data name="Label_Language" xml:space="preserve">
+    <value>[Ŀäŉģūäģę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Last" xml:space="preserve">
+    <value>[Ŀäşŧ !!! !!! !!!]</value>
+  </data>
+  <data name="Label_LastAction" xml:space="preserve">
+    <value>[ĿäşŧÅčŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Label_LastName" xml:space="preserve">
+    <value>[Ŀäşŧ Ńämę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_LeftChars" xml:space="preserve">
+    <value>[ĿęƒŧCĥäřş !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Level" xml:space="preserve">
+    <value>[Ŀęvęľ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Line" xml:space="preserve">
+    <value>[Ŀįŉę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_List" xml:space="preserve">
+    <value>[Ŀįşŧ !!! !!! !!!]</value>
+  </data>
+  <data name="Label_ListSettingTitle" xml:space="preserve">
+    <value>[Ŀįşŧ Ŝęŧŧįŉģş !!! !!!]</value>
+  </data>
+  <data name="Label_LocalAddress" xml:space="preserve">
+    <value>[Ŀőčäľ Åđđřęşş !!! !!!]</value>
+  </data>
+  <data name="Label_Logout" xml:space="preserve">
+    <value>[Ŀőģőūŧ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_MasterDetail" xml:space="preserve">
+    <value>[MäşŧęřĐęŧäįľ !!! !!!]</value>
+  </data>
+  <data name="Label_MemberSelect" xml:space="preserve">
+    <value>[Męmþęř Ŝęľęčŧ !!! !!!]</value>
+  </data>
+  <data name="Label_Message" xml:space="preserve">
+    <value>[Męşşäģę !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_MetaTag" xml:space="preserve">
+    <value>[MęŧäŦäģ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Name" xml:space="preserve">
+    <value>[Ńämę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_NewGroup" xml:space="preserve">
+    <value>[Ńęŵ Ğřőūp !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Next" xml:space="preserve">
+    <value>[Ńęχŧ !!! !!! !!!]</value>
+  </data>
+  <data name="Label_No" xml:space="preserve">
+    <value>[Ńő !!! !!!]</value>
+  </data>
+  <data name="Label_NoDocument" xml:space="preserve">
+    <value>[Ńő đőčūmęŉŧ įŉ přįŉŧ qūęūę. !!! !!!]</value>
+  </data>
+  <data name="Label_None" xml:space="preserve">
+    <value>[Ńőŉę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Number" xml:space="preserve">
+    <value>[Ńūmþęř !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Of" xml:space="preserve">
+    <value>[őƒ !!! !!!]</value>
+  </data>
+  <data name="Label_OnField" xml:space="preserve">
+    <value>[őŉ ƒįęľđ: !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Open" xml:space="preserve">
+    <value>[Øpęŉ !!! !!! !!!]</value>
+  </data>
+  <data name="Label_OpenInCurrentWindow" xml:space="preserve">
+    <value>[Øpęŉ įŉ čūřřęŉŧ ŵįŉđőŵ !!! !!!]</value>
+  </data>
+  <data name="Label_OpenInNewWindow" xml:space="preserve">
+    <value>[Øpęŉ įŉ ŉęŵ ŵįŉđőŵ !!! !!!]</value>
+  </data>
+  <data name="Label_Order" xml:space="preserve">
+    <value>[Øřđęř !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Organization" xml:space="preserve">
+    <value>[Øřģäŉįžäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="Label_Page" xml:space="preserve">
+    <value>[Päģę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Password" xml:space="preserve">
+    <value>[Päşşŵőřđ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Pending" xml:space="preserve">
+    <value>[Pęŉđįŉģ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Pixel" xml:space="preserve">
+    <value>[Pįχęľ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Portfolio" xml:space="preserve">
+    <value>[Pőřŧƒőľįő !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_PortfolioFields" xml:space="preserve">
+    <value>[PőřŧƒőľįőFįęľđş !!! !!!]</value>
+  </data>
+  <data name="Label_Previous" xml:space="preserve">
+    <value>[Přęvįőūş !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Print" xml:space="preserve">
+    <value>[Přįŉŧ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Processing" xml:space="preserve">
+    <value>[Přőčęşşįŉģ ... !!! !!!]</value>
+  </data>
+  <data name="Label_Profile" xml:space="preserve">
+    <value>[Přőƒįľę !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_RemoteAddress" xml:space="preserve">
+    <value>[Ŗęmőŧę Åđđřęşş !!! !!!]</value>
+  </data>
+  <data name="Label_RemoteHost" xml:space="preserve">
+    <value>[Ŗęmőŧę Ħőşŧ !!! !!!]</value>
+  </data>
+  <data name="Label_Remove" xml:space="preserve">
+    <value>[Ŗęmővę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Report" xml:space="preserve">
+    <value>[Ŗępőřŧ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Requested" xml:space="preserve">
+    <value>[Ŗęqūęşŧęđ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Required" xml:space="preserve">
+    <value>[Ŗęqūįřęđ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Send" xml:space="preserve">
+    <value>[Ŝęŉđ !!! !!! !!!]</value>
+  </data>
+  <data name="Label_SentOut" xml:space="preserve">
+    <value>[Ŝęŉŧ őūŧ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Settings" xml:space="preserve">
+    <value>[Ŝęŧŧįŉģş !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Size" xml:space="preserve">
+    <value>[Ŝįžę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_SortBy" xml:space="preserve">
+    <value>[Ŝőřŧ ßy !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_SortViewBy" xml:space="preserve">
+    <value>[Ŝőřŧ Vįęŵ ßy !!! !!!]</value>
+  </data>
+  <data name="Label_Source" xml:space="preserve">
+    <value>[Ŝőūřčę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Status" xml:space="preserve">
+    <value>[Ŝŧäŧūş !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Style" xml:space="preserve">
+    <value>[Ŝŧyľę !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Styles" xml:space="preserve">
+    <value>[Ŝŧyľęş !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_SubFolder" xml:space="preserve">
+    <value>[Ŝūþƒőľđęř !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Suspended" xml:space="preserve">
+    <value>[Ŝūşpęŉđęđ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_System" xml:space="preserve">
+    <value>[Ŝyşŧęm !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Then_By" xml:space="preserve">
+    <value>[Ŧĥęŉ ßy !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Thumbnail" xml:space="preserve">
+    <value>[Ŧĥūmþŉäįľ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_To" xml:space="preserve">
+    <value>[Ŧő !!! !!!]</value>
+  </data>
+  <data name="Label_TotalNo" xml:space="preserve">
+    <value>[Ŧőŧäľ: {0} !!! !!!]</value>
+  </data>
+  <data name="Label_Type" xml:space="preserve">
+    <value>[Ŧypę !!! !!! !!!]</value>
+  </data>
+  <data name="Label_UnableDeleteAction" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő đęľęŧę ŧĥįş äčŧįőŉ äş įŧ įş řęƒęřřęđ þy vįęŵş! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_URL" xml:space="preserve">
+    <value>[ŮŖĿ !!! !!!]</value>
+  </data>
+  <data name="Label_User" xml:space="preserve">
+    <value>[Ůşęř !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Value" xml:space="preserve">
+    <value>[Väľūę !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Version" xml:space="preserve">
+    <value>[Vęřşįőŉ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_View" xml:space="preserve">
+    <value>[Vįęŵ !!! !!! !!!]</value>
+  </data>
+  <data name="Label_ViewCriteria" xml:space="preserve">
+    <value>[Vįęŵ Cřįŧęřįä !!! !!!]</value>
+  </data>
+  <data name="Label_Waiting" xml:space="preserve">
+    <value>[Pľęäşę Ŵäįŧ... !!! !!!]</value>
+  </data>
+  <data name="Label_Width" xml:space="preserve">
+    <value>[Ŵįđŧĥ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_WithView" xml:space="preserve">
+    <value>[ŵįŧĥ vįęŵ: !!! !!!]</value>
+  </data>
+  <data name="Label_Workflow" xml:space="preserve">
+    <value>[Ŵőřĸƒľőŵ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_XMLID" xml:space="preserve">
+    <value>[XMĿ ĨĐ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Label_Yes" xml:space="preserve">
+    <value>[Ÿęş !!! !!!]</value>
+  </data>
+  <data name="Label__EnablePath" xml:space="preserve">
+    <value>[Ēŉäþľę Päŧĥ !!! !!!]</value>
+  </data>
+  <data name="View_ErrorMessage" xml:space="preserve">
+    <value>[pľęäşę čőřřęčŧ äľľ įŉväľįđ įŉpūŧ įŉ řęđ. ŧő şęę ęřřőř đęşčřįpŧįőŉ, mővę mőūşę ővęř řęđ įŉpūŧ þőχ. !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+</root>

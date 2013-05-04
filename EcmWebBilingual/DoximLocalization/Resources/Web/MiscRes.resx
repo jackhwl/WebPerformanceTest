@@ -1,0 +1,811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alt_Search" xml:space="preserve">
+    <value>Click to search</value>
+    <comment>common\control\SimpleSearch 76</comment>
+  </data>
+  <data name="Button_Apply" xml:space="preserve">
+    <value>Apply</value>
+    <comment>common\FieldSelect 61,Web_Portfolio_PortfolioViewsListView_ 25</comment>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>common\FieldSelect 62 common\ConfirmWindow 33, admin\user\PasswordGenerator.asp 106, web\printqueue\job\PrintJob.view 77</comment>
+  </data>
+  <data name="Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+    <comment>common\control\AdvancedSearchView 113 common\MemberSelector.view 31,Web_Portfolio_PortfolioViewsListView_ 25</comment>
+  </data>
+  <data name="Button_Delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>common\PermissionMemberView 42,admin\Action_ActionProfileView 145, admin\Batch_BatchProfileView 226,admin\Company_CompanyProfileView_ 54,56, admin\customfield\CustomFieldGeneral.view.asp 180, admin\doctype\DocumentTypeGeneral.view 127, admin\folder\FolderGeneral.view 102,Admin/Group/GroupGeneralView 159, admin\MetaTag_MetaTagGeneralView 179, admin\Organization\OrganizationProfileView 66,68, admin\Portfolio_PortfolioGeneralView_135, Admin_PortfolioField_PortfolioFieldView_131, admin\User\UserProfile.view.asp 112,View_ViewGeneralControl_142,Web_Doc_DocNoteView_86, web\folder\FolderProfile.view 81,web\User_PrintQueue.view 15</comment>
+  </data>
+  <data name="Button_Ok" xml:space="preserve">
+    <value>OK</value>
+    <comment>common\ConfirmWindow 32 common\MemberSelector.view 31</comment>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>Save</value>
+    <comment>Common\MasterPageConfig 221, common\control\DocEditView 201 common\PermissionMemberView 41 Common\Control\RequriedActionsControl 96, 121,admin\Action_ActionProfileView 144 admin\Batch_BatchProfileView 223,admin\Company_CompanyProfileView_ 52,59, admin\customfield\CustomFieldGeneral.view.asp 179,182,Admin_CustomField_CustomFieldValuesView_ 81, admin\doctype\DocumentTypeActionsAdd.view.asp 56, admin\doctype\DocumentTypeGeneral.view 126,129, admin\folder\FolderGeneral.view 100, 105,Admin/Group/GroupGeneralView 158, 161, admin\MetaTag_MetaTagGeneralView 178, 181, admin\MetaTag\MetaTagValues.view.asp 107, admin\Organization\OrganizationProfileView 63,71, admin\PortfolioActionsAdd.view.asp\PortfolioActionsAdd.view.asp 56, admin\Portfolio_PortfolioGeneralView_ 134,137,Admin_PortfolioField_PortfolioFieldView_130,133, admin\system\SystemSetting.view 30, admin\system\SystemStyleInfo.View.asp 52, admin\User\UserProfile.view.asp 110, admin\view\ViewActionsAdd.view.asp 60, Admin_View_ViewDetailView_156,View_ViewGeneralControl_141,144,View_ViewNavigationView_88, web\doc\DocFlysheet.View 14,Web_Doc_DocNoteView_84, web\folder\FolderProfile.view 58,84,Web_PrintQueue_Job_PrintJobView_18,User_MyProfileEmailView_61,web\User_MyProfilePasswordView_86</comment>
+  </data>
+  <data name="Button_Search" xml:space="preserve">
+    <value>Search</value>
+    <comment>common\control\AdvancedSearchView 112 common\MemberSelector.view 25, admin\company\UserList.view.asp 25,Admin_DocType_DocumentTypeBatchListView 25</comment>
+  </data>
+  <data name="ComboBox_AllFields" xml:space="preserve">
+    <value>-- All Fields --</value>
+    <comment>common\control\SimpleSearch 70</comment>
+  </data>
+  <data name="ComboBox_PleaseSelect" xml:space="preserve">
+    <value>Please select...</value>
+    <comment>common\control\ConfigurationClass 52, common\DoximLib 554,568, 577, common\control\DocEditView 279,Admin\Action\FileSelectionConfig.control 85, admin\PortfolioField\PortfolioField.view.asp 52, Admin_User_UserProfileSettingView_211</comment>
+  </data>
+  <data name="Label_Action" xml:space="preserve">
+    <value>Action</value>
+    <comment>admin\Action_ActionProfileView 81</comment>
+  </data>
+  <data name="Label_Add" xml:space="preserve">
+    <value>Add</value>
+    <comment>, admin\company\CompanyProfileWelcome.view.asp 31, Admin_Group_GroupManualView_ 67, admin\user\UserProfileCustomField.view.asp 230</comment>
+  </data>
+  <data name="Label_AlterMessage" xml:space="preserve">
+    <value>Alter Message</value>
+    <comment>common\DoximLib 905</comment>
+  </data>
+  <data name="Label_Ascending" xml:space="preserve">
+    <value>Ascending</value>
+    <comment>common\DoximHead 96</comment>
+  </data>
+  <data name="Label_AssociateView" xml:space="preserve">
+    <value>Associate Current View</value>
+    <comment>admin\action\Control_ConfigurationClass_Source  169,  admin\action\FileSelectionConfig.control 155 ListSettingConfig.control.asp</comment>
+  </data>
+  <data name="Label_Basic" xml:space="preserve">
+    <value>Basic</value>
+    <comment>admin\action\Control_ConfigurationClass_Source 148, admin\action\FileSelectionConfig.control 130, 137</comment>
+  </data>
+  <data name="Label_Category" xml:space="preserve">
+    <value>Category</value>
+    <comment>admin\Action_ActionProfileView 85</comment>
+  </data>
+  <data name="Label_Close" xml:space="preserve">
+    <value>Close</value>
+    <comment>common\DoximPopup 17 common\ConfirmWindow 22</comment>
+  </data>
+  <data name="Label_Code" xml:space="preserve">
+    <value>Code</value>
+    <comment>common\AspError 132</comment>
+  </data>
+  <data name="Label_Company" xml:space="preserve">
+    <value>Company</value>
+    <comment>admin\Company\CompanyProfileGeneral.view.asp 58, admin\company\CompanyProfileSetting.view.asp 154, admin\company\CompanyProfileWelcome.view.asp 26</comment>
+  </data>
+  <data name="Label_Configuration" xml:space="preserve">
+    <value>Configuration</value>
+    <comment>admin\Action_ActionProfileView 134,136, admin\doctype\Actions.view.asp 43</comment>
+  </data>
+  <data name="Label_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+    <comment>common\ConfirmWindow 19</comment>
+  </data>
+  <data name="Label_CreateCommonField" xml:space="preserve">
+    <value>Create Common Field</value>
+    <comment>admin\Action_PortfolioFieldsView_CreateCommonField 28, 64, admin\action\PortfolioViews.view 7</comment>
+  </data>
+  <data name="Label_DefaultPageSize" xml:space="preserve">
+    <value>Default Page Size:</value>
+    <comment>admin\action\Control_ConfigurationClass 390, admin\Action_ListSettingConfigControl 66</comment>
+  </data>
+  <data name="Label_Descending" xml:space="preserve">
+    <value>Descending</value>
+    <comment>common\DoximHead 96, admin\system\SystemStyleInfo.View.asp 39</comment>
+  </data>
+  <data name="Label_Description" xml:space="preserve">
+    <value>Description</value>
+    <comment>common\DoximLib 792, 801 common\AspError 99, 110, 115, admin\action\PortfolioViews.Control 17,19,admin\Action_ActionProfileView 121,admin\Batch_BatchProfileView 109,admin\Company\CompanyProfileGeneral.view.asp 68, admin\customfield\CustomFieldGeneral.view.asp 97,Admin_DocType_DocumentTypeBatchListView 34, admin\doctype\DocumentTypeGeneral.view 103, admin\folder\FolderGeneral.view 90,Admin/Group/GroupGeneralView 138, admin\MetaTag_MetaTagGeneralView 108, admin\Organization\OrganizationProfileView 53, admin\Portfolio\PortfolioFields.view.asp 13, admin\Portfolio_PortfolioGeneralView_ 106,Admin_PortfolioField_PortfolioFieldView_123,69,View_ViewGeneralControl_124, web\folder\FolderProfile.view 47,web\PrintQueue_Job_PrintJobQControl_63,,web\PrintQueue_Queue_PrintQueueAdminControl 14,web\User_PrintQueue.control 15,web\invalid 44</comment>
+  </data>
+  <data name="Label_Display" xml:space="preserve">
+    <value>Display</value>
+    <comment>admin\action\PortfolioViewsConfig.control 44</comment>
+  </data>
+  <data name="Label_DocumentType" xml:space="preserve">
+    <value>Document Type</value>
+    <comment>admin\Batch_BatchProfileView 157,Admin_DocType_DocumentTypeGeneralView_78,View_ViewGeneralControl_91,95,web\Doc_DocDeleteView_23,web\doc\DocDetail.View 15</comment>
+  </data>
+  <data name="Label_Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>admin\Company_CompanyProfileGeneralView_Email 104, admin\company\CompanyProfileSetting.view.asp 273, admin\User_UserProfileGeneralView_Email 163, web\doc\DocEmail.View 23, web\User\MyProfile.view 31</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Enable</value>
+    <comment>admin\action\PortfolioViewsConfig.control 41</comment>
+  </data>
+  <data name="Label_EnableChangeDisplay" xml:space="preserve">
+    <value>Enable Change Display Fields</value>
+    <comment>admin\action\Control_ConfigurationClass 371, admin\Action_ListSettingConfigControl 47</comment>
+  </data>
+  <data name="Label_EnableChangePageSize" xml:space="preserve">
+    <value>Enable Change Page Size</value>
+    <comment>admin\action\Control_ConfigurationClass 389, admin\Action_ListSettingConfigControl 65</comment>
+  </data>
+  <data name="Label_EnableChangeSort" xml:space="preserve">
+    <value>Enable Change Sort Fields</value>
+    <comment>admin\action\Control_ConfigurationClass 370, admin\Action_ListSettingConfigControl 46</comment>
+  </data>
+  <data name="Label_EnableDefaultSort" xml:space="preserve">
+    <value>Enable Default Sorting</value>
+    <comment>admin\action\Control_ConfigurationClass 374, admin\Action_ListSettingConfigControl 50</comment>
+  </data>
+  <data name="Label_Enhanced" xml:space="preserve">
+    <value>Enhanced</value>
+    <comment>admin\action\Control_ConfigurationClass_Source 152, admin\action\FileSelectionConfig.control 133, 138</comment>
+  </data>
+  <data name="Label_ErrorMessage" xml:space="preserve">
+    <value>Error Message</value>
+    <comment>common\DoximLib 776 common\AspError 91,web\invalid 37</comment>
+  </data>
+  <data name="Label_File" xml:space="preserve">
+    <value>File</value>
+    <comment>common\AspError 128, admin\action\Control_ConfigurationClass_Source 157, admin\action\FileSelectionConfig.control 144</comment>
+  </data>
+  <data name="Label_FromFileFolder" xml:space="preserve">
+    <value>from file folder</value>
+    <comment>admin\action\Control_ConfigurationClass_Source 161, admin\action\FileSelectionConfig.control 148</comment>
+  </data>
+  <data name="Label_Group" xml:space="preserve">
+    <value>Group</value>
+    <comment>common\MemberSelector.view 21,Admin/Group/GroupGeneralView 123</comment>
+  </data>
+  <data name="Label_Height" xml:space="preserve">
+    <value>Height</value>
+    <comment>admin\Action_ImageConvertConfigControl 71 admin\action\MasterDetailConfig.control 88, 99</comment>
+  </data>
+  <data name="Label_Icon" xml:space="preserve">
+    <value>Icon</value>
+    <comment>admin\Action_ActionProfileView 106</comment>
+  </data>
+  <data name="Label_Line" xml:space="preserve">
+    <value>Line</value>
+    <comment>common\AspError 136</comment>
+  </data>
+  <data name="Label_ListSettingTitle" xml:space="preserve">
+    <value>List Settings</value>
+    <comment>common\Control_ConfigurationClass_ListSettingTitle 311 admin\action\ListSettingConfig.control 17 admin\action\PortfolioViewsConfig.control 9</comment>
+  </data>
+  <data name="Label_LocalAddress" xml:space="preserve">
+    <value>Local Address</value>
+    <comment>common\DoximLib 843 common\AspError 148, web\invalid 56</comment>
+  </data>
+  <data name="Label_Message" xml:space="preserve">
+    <value>Message</value>
+    <comment>common\DoximLib 783, 928 common\MasterPageMain 123 common\AspError 95, 106, admin\User\UserProfile.view.asp 132,web\doc\DocEmail.View 46,web\invalid 40</comment>
+  </data>
+  <data name="Label_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>common\MemberSelector.view 25, admin\Action_FieldsConfigCcontrol_Name 56,58, admin\action\PortfolioViews.Control 17,19, admin\action\PortfolioViewsConfig.control 51,admin\Action_ActionProfileView 115,admin\Batch_BatchProfileView 100, admin\company\UserList.view.asp 23, admin\customfield\CustomFieldGeneral.view.asp 90,Admin_DocType_DocumentTypeBatchListView 22,34, admin\doctype\DocumentTypeGeneral.view 96, admin\folder\FolderGeneral.view 84,Admin/Group/GroupGeneralView 132, admin\MetaTag_MetaTagGeneralView 102, admin\Organization\OrganizationProfileView 47, admin\Portfolio\PortfolioFields.view.asp 13, admin\Portfolio_PortfolioGeneralView_ 102, Admin_PortfolioField_PortfolioFieldView_ 122, admin\system\SystemStyleInfo.View.asp 39,View_ViewGeneralControl_117, web\folder\FolderProfile.view 38,web\PrintQueue_Job_PrintJobControl_15</comment>
+  </data>
+  <data name="Label_None" xml:space="preserve">
+    <value>None</value>
+    <comment>common\DoximDictionary 20</comment>
+  </data>
+  <data name="Label_Number" xml:space="preserve">
+    <value>Number</value>
+    <comment>common\DoximLib 811  common\AspError 120</comment>
+  </data>
+  <data name="Label_OnField" xml:space="preserve">
+    <value>on field:</value>
+    <comment>admin\action\Control_ConfigurationClass_Source 171,185, admin\action\FileSelectionConfig.control 157, 171</comment>
+  </data>
+  <data name="Label_OpenInCurrentWindow" xml:space="preserve">
+    <value>Open in current window</value>
+    <comment>admin\action\ListSettingConfig.control 70, admin\action\OpenConfigControl 25,ListSettingConfig.control.asp</comment>
+  </data>
+  <data name="Label_OpenInNewWindow" xml:space="preserve">
+    <value>Open in new window</value>
+    <comment>admin\action\ListSettingConfig.control 70  admin\action\OpenConfigControl 24, ListSettingConfig.control.asp</comment>
+  </data>
+  <data name="Label_Order" xml:space="preserve">
+    <value>Order</value>
+    <comment>admin\action\PortfolioViews.Control 17, admin\action\PortfolioViewsConfig.control 52, admin\customfield\customfieldgeneralview.asp 15, admin\MetaTag_MetaTagValuesControl 10,View_ViewNavigationControl_19</comment>
+  </data>
+  <data name="Label_Pixel" xml:space="preserve">
+    <value>Pixel</value>
+    <comment>Action_ImageConvertConfigControl 67, 72</comment>
+  </data>
+  <data name="Label_Processing" xml:space="preserve">
+    <value>Processing ...</value>
+    <comment>common\MasterPageMain 130</comment>
+  </data>
+  <data name="Label_Profile" xml:space="preserve">
+    <value>Profile</value>
+    <comment>admin\company\CompanyAdmin.view.asp 13, admin\Organization\OrganizationAdmin.asp 41, admin\Portfolio\PortfolioAdmin.view.asp 5</comment>
+  </data>
+  <data name="Label_RemoteAddress" xml:space="preserve">
+    <value>Remote Address</value>
+    <comment>common\DoximLib 827 common\AspError 140, web\invalid 48</comment>
+  </data>
+  <data name="Label_RemoteHost" xml:space="preserve">
+    <value>Remote Host</value>
+    <comment>common\DoximLib 835 common\AspError 144, web\invalid 52</comment>
+  </data>
+  <data name="Label_Report" xml:space="preserve">
+    <value>Report</value>
+    <comment>admin\company\CompanyAdmin.view.asp 14,admin\Administration\Administration.View.asp 19</comment>
+  </data>
+  <data name="Label_Size" xml:space="preserve">
+    <value>Size</value>
+    <comment>Action_ImageConvertConfigControl 64</comment>
+  </data>
+  <data name="Label_SortBy" xml:space="preserve">
+    <value>Sort By</value>
+    <comment>common\DoximHead 94, common\Control_ConfigurationClass_SortBy 377 admin\action\ListSettingConfig.control 53,View_ViewNavigationControl_19</comment>
+  </data>
+  <data name="Label_SortViewBy" xml:space="preserve">
+    <value>Sort View By</value>
+    <comment>admin\action\PortfolioViewsConfig.control 49</comment>
+  </data>
+  <data name="Label_Source" xml:space="preserve">
+    <value>Source</value>
+    <comment>common\control\ConfigurationClass 141, common\DoximLib 819 common\AspError 124, Admin\Action\FileSelectionConfig.control 123, admin\action\Control_ConfigurationClass_Source 141, admin\action\FileSelectionConfig.control 123</comment>
+  </data>
+  <data name="Label_Style" xml:space="preserve">
+    <value>Style</value>
+    <comment>, admin\company\CompanyProfileSetting.view.asp 177,Admin_User_UserProfileSettingView_125</comment>
+  </data>
+  <data name="Label_Then_By" xml:space="preserve">
+    <value>Then By</value>
+    <comment>common\DoximHead 94, common\Control_ConfigurationClass_SortBy 382 admin\action\ListSettingConfig.control 58</comment>
+  </data>
+  <data name="Label_TotalNo" xml:space="preserve">
+    <value>Total: {0}</value>
+    <comment>common\control\DocListControl 246, admin\company\UserList.Control.asp 34, admin\customfield\CustomFieldException.asp 28, admin\customfield\CustomFieldReference.asp 28,Admin_DocType_DocumentTypeBatchListView 36, admin\GroupCustomControl 11, admin\group\GroupManual.Control.asp 33, admin\system\SystemCheckingReport.view.asp 14,web\PrintQueue_Job_PrintJobControl_16, PrintQueue_Queue_PrintQueueAdminControl_15,web\User_PrintQueue.control 15</comment>
+  </data>
+  <data name="Label_Type" xml:space="preserve">
+    <value>Type</value>
+    <comment>common\MemberSelector.view 20</comment>
+  </data>
+  <data name="Label_UnableDeleteAction" xml:space="preserve">
+    <value>Unable to delete this action as it is referred by views!</value>
+    <comment>admin\action\Action_ActionProfile_Delete 38, admin\action\Action_ActionProfile 38</comment>
+  </data>
+  <data name="Label_URL" xml:space="preserve">
+    <value>URL</value>
+    <comment>, admin\company\CompanyProfileSetting.view.asp 274</comment>
+  </data>
+  <data name="Label_User" xml:space="preserve">
+    <value>User</value>
+    <comment>common\MemberSelector.view 22</comment>
+  </data>
+  <data name="Label_Value" xml:space="preserve">
+    <value>Value</value>
+    <comment>, admin\customfield\customfieldgeneralview.asp 15, admin\MetaTag_MetaTagValuesControl_ 10, admin\PortfolioField\PortfolioField.view.asp 31</comment>
+  </data>
+  <data name="Label_Waiting" xml:space="preserve">
+    <value>Please Wait...</value>
+    <comment>common\DoximProgress 56, 98 common\MasterPageMain 132</comment>
+  </data>
+  <data name="Label_Width" xml:space="preserve">
+    <value>Width</value>
+    <comment>admin\Action_FieldsConfigCcontrol 56, Action_ImageConvertConfigControl 66</comment>
+  </data>
+  <data name="Label_WithView" xml:space="preserve">
+    <value>with view:</value>
+    <comment>admin\action\Control_ConfigurationClass_Source 179, admin\action\FileSelectionConfig.control 165</comment>
+  </data>
+  <data name="Label_Yes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>common\control\DocEditView 280, common\DoximDictionary 10,, admin\company\CompanyProfileSetting.view.asp 241, admin\Portfolio_PortfolioGeneralView_ 112, Admin_User_UserProfileSettingView_260,263</comment>
+  </data>
+  <data name="View_ErrorMessage" xml:space="preserve">
+    <value>please correct all invalid input in red. to see error description, move mouse over red input box.</value>
+    <comment>common\control\DocEditView 159  common\PermissionMemberView 60</comment>
+  </data>
+  <data name="Label_Folder" xml:space="preserve">
+    <value>Folder</value>
+    <comment>admin\folder\FolderGeneral.view 75, web\folder\FolderProfile.view 33,web\folder\FolderTabs.Control 40,73,79</comment>
+  </data>
+  <data name="Label_List" xml:space="preserve">
+    <value>List</value>
+    <comment>admin\doctype\DocumentTypeMetaTagList.view 14,45</comment>
+  </data>
+  <data name="Label_Required" xml:space="preserve">
+    <value>Required</value>
+    <comment>, admin\User\UserProfile.view.asp 19</comment>
+  </data>
+  <data name="Label_XMLID" xml:space="preserve">
+    <value>XML ID</value>
+    <comment>admin\CustomField_CustomFieldGeneralView_81, admin\doctype\DocumentTypeGeneral.view 87, admin\MetaTag_MetaTagGeneralView 96</comment>
+  </data>
+  <data name="Label_Active" xml:space="preserve">
+    <value>Active</value>
+    <comment>, admin\Portfolio_PortfolioGeneralView_ 127,, admin\system\CompanyReport.view.asp 41,49,View_ViewGeneralControl_134</comment>
+  </data>
+  <data name="Label_AddActions" xml:space="preserve">
+    <value>Add Actions</value>
+    <comment>admin\PortfolioActions.view.asp 12, admin\view\ViewActions.view.asp 9</comment>
+  </data>
+  <data name="Label_AddAll" xml:space="preserve">
+    <value>Add ALL</value>
+    <comment>admin\user\UserProfileCustomField.view.asp 234</comment>
+  </data>
+  <data name="Label_CommonFields" xml:space="preserve">
+    <value>Common Fields</value>
+    <comment>admin\Portfolio\PortfolioFields.view.asp 11</comment>
+  </data>
+  <data name="Label_Create" xml:space="preserve">
+    <value>Create</value>
+    <comment>, admin\User\UserProfile.view.asp 47</comment>
+  </data>
+  <data name="Label_CreateCompany" xml:space="preserve">
+    <value>Create Company</value>
+    <comment>, admin\Organization\OrganizationAdmin.asp 43, 43</comment>
+  </data>
+  <data name="Label_CreateOrganization" xml:space="preserve">
+    <value>Create Organization</value>
+    <comment>admin\Organization_OrganizationProfileView_CreateOrganization 41, admin\Administration\Administration.View.asp 5</comment>
+  </data>
+  <data name="Label_Criteria" xml:space="preserve">
+    <value>Criteria</value>
+    <comment>,Admin/Group/GroupGeneralView 169</comment>
+  </data>
+  <data name="Label_Del" xml:space="preserve">
+    <value>Del</value>
+    <comment>admin\user\UserProfileCustomField.view.asp 324</comment>
+  </data>
+  <data name="Label_DelAll" xml:space="preserve">
+    <value>Del ALL</value>
+    <comment>admin\user\UserProfileCustomField.view.asp 235,239</comment>
+  </data>
+  <data name="Label_Document" xml:space="preserve">
+    <value>Document</value>
+    <comment>admin\system\SystemStyleInfo.View.asp 39,40,41,42,web\doc\DocDetail.View 11,web\folder\FolderTabs.Control 39,72,78</comment>
+  </data>
+  <data name="Label_EnableHeader" xml:space="preserve">
+    <value>Enable Header</value>
+    <comment>, admin\Portfolio_PortfolioGeneralView_ 110, Admin_User_UserProfileSettingView_240,244</comment>
+  </data>
+  <data name="Label_EnableTree" xml:space="preserve">
+    <value>Enable Tree</value>
+    <comment>, Admin_User_UserProfileSettingView_238,242</comment>
+  </data>
+  <data name="Label_Expired" xml:space="preserve">
+    <value>Expired</value>
+    <comment>, admin\system\CompanyReport.view.asp 35, 96</comment>
+  </data>
+  <data name="Label_ForAllUsers" xml:space="preserve">
+    <value>For All Users</value>
+    <comment>, Admin_User_UserProfileSettingView_249,253</comment>
+  </data>
+  <data name="Label_ForNewUsers" xml:space="preserve">
+    <value>For New Users</value>
+    <comment>, Admin_User_UserProfileSettingView_250,254</comment>
+  </data>
+  <data name="Label_FullName" xml:space="preserve">
+    <value>Full Name</value>
+    <comment>admin\CustomField_CustomFieldUserListControl_FullName 6, admin\GroupCustomControl 11, admin\group\GroupManual.Control.asp 35</comment>
+  </data>
+  <data name="Label_Generate" xml:space="preserve">
+    <value>Generate</value>
+    <comment>admin\user\UserProfilePassword.view.asp 90</comment>
+  </data>
+  <data name="Label_Header" xml:space="preserve">
+    <value>Header</value>
+    <comment>, admin\Portfolio_PortfolioGeneralView_ 116</comment>
+  </data>
+  <data name="Label_InActive" xml:space="preserve">
+    <value>InActive</value>
+    <comment>, admin\system\CompanyReport.view.asp 43,51</comment>
+  </data>
+  <data name="Label_Invalid" xml:space="preserve">
+    <value>Invalid</value>
+    <comment>admin\system\SystemSetting.Control.asp 52</comment>
+  </data>
+  <data name="Label_InvalidTab" xml:space="preserve">
+    <value>Invalid tab!</value>
+    <comment>admin\Company_CompanyProfileView_InvalidTab 76, admin\User\UserProfile.view.asp 19</comment>
+  </data>
+  <data name="Label_IsValueList" xml:space="preserve">
+    <value>Is Value List</value>
+    <comment>admin\CustomField_CustomFieldGeneralView_IsValueList 138, admin\MetaTag_MetaTagGeneralView 153</comment>
+  </data>
+  <data name="Label_IsValueMultiple" xml:space="preserve">
+    <value>Is Value Multiple</value>
+    <comment>admin\CustomField_CustomFieldGeneralView_IsValueList 123, admin\MetaTag_MetaTagGeneralView 136</comment>
+  </data>
+  <data name="Label_IsValueRequired" xml:space="preserve">
+    <value>Is Value Required</value>
+    <comment>admin\CustomField_CustomFieldGeneralView 104, admin\MetaTag_MetaTagGeneralView 122</comment>
+  </data>
+  <data name="Label_Level" xml:space="preserve">
+    <value>Level</value>
+    <comment>, admin\group\GroupCustomControl 11, admin\group\GroupManual.Control.asp 35</comment>
+  </data>
+  <data name="Label_CreateMetaTag" xml:space="preserve">
+    <value>Create MetaTag</value>
+    <comment>admin\DocType_DocumentTypeMetaTagListView_CreateMetaTag 6, admin\MetaTag_MetaTagGeneralView 91</comment>
+  </data>
+  <data name="Label_Next" xml:space="preserve">
+    <value>Next</value>
+    <comment>, admin\User\UserProfile.view.asp 44,web\doc\DocMenuDocumentNavigation.Control 37, 41, 43</comment>
+  </data>
+  <data name="Label_No" xml:space="preserve">
+    <value>No</value>
+    <comment>, Admin_User_UserProfileSettingView_251,255,261,264</comment>
+  </data>
+  <data name="Label_Organization" xml:space="preserve">
+    <value>Organization</value>
+    <comment>, admin\Organization\OrganizationProfileView 38</comment>
+  </data>
+  <data name="Label_Password" xml:space="preserve">
+    <value>Password</value>
+    <comment>admin\user\UserProfilePassword.view.asp 86,web\LoginView_56</comment>
+  </data>
+  <data name="Label_Pending" xml:space="preserve">
+    <value>Pending</value>
+    <comment>admin\DocType_DocumentTypeGeneralView_Pending 117, admin\system\CompanyReport.view.asp 33,94</comment>
+  </data>
+  <data name="Label_Portfolio" xml:space="preserve">
+    <value>Portfolio</value>
+    <comment>admin\Portfolio\PortfolioGeneral.view.asp 96, admim\system\SystemStyleInfo.View.asp 21, Admin_User_UserProfileSettingView_212,web\View_ViewDocsListView_46</comment>
+  </data>
+  <data name="Label_Previous" xml:space="preserve">
+    <value>Previous</value>
+    <comment>, admin\User\UserProfile.view.asp 41,web\doc\DocMenuDocumentNavigation.Control 17, 21, 23</comment>
+  </data>
+  <data name="Label_Print" xml:space="preserve">
+    <value>Print</value>
+    <comment>, admin\system\CompanyReport.view.asp 131, admin\system\SystemCheckingReport.view.asp 68</comment>
+  </data>
+  <data name="Label_Remove" xml:space="preserve">
+    <value>Remove</value>
+    <comment>, Admin_Group_GroupManualView 68</comment>
+  </data>
+  <data name="Label_Settings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>admin\System\Administration.View.asp 23</comment>
+  </data>
+  <data name="Label_Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>, admin\group\GroupCustomControl 11, admin\group\GroupManual.Control.asp 35, admin\Portfolio_PortfolioGeneralView_ 126,admin\User_UserProfileGeneralView_119,View_ViewGeneralControl_131,web\doc\DocDetail.View 47, web\PrintQueue_Job_PrintJobControl_15,web\PrintQueue_Job_PrintJobQControl_63,PrintQueue_Queue_PrintQueueAdminControl 14</comment>
+  </data>
+  <data name="Label_Styles" xml:space="preserve">
+    <value>Styles</value>
+    <comment>admin\System\Administration.View.asp 27</comment>
+  </data>
+  <data name="Label_System" xml:space="preserve">
+    <value>System</value>
+    <comment>admin\System\Administration.View.asp 12</comment>
+  </data>
+  <data name="Label_View" xml:space="preserve">
+    <value>View</value>
+    <comment>, Admin_User_UserProfileSettingView_213,View_ViewGeneralControl_82,web\Portfolio/PortfolioViewsList.Control 36</comment>
+  </data>
+  <data name="Label__EnablePath" xml:space="preserve">
+    <value>Enable Path</value>
+    <comment>, Admin_User_UserProfileSettingView_239,243</comment>
+  </data>
+  <data name="Label_Download" xml:space="preserve">
+    <value>Please click [here] or [Get Copy] button to download it.</value>
+    <comment>web\Doc_DocCheckOutView_Download 22,web\doc\DocDetail.View 6, web\doc\DocHorizontalDetail.View 6</comment>
+  </data>
+  <data name="Label_Filename" xml:space="preserve">
+    <value>Filename</value>
+    <comment>web\Doc_DocDeleteView_25</comment>
+  </data>
+  <data name="Label_First" xml:space="preserve">
+    <value>First</value>
+    <comment>web\doc\DocMenuDocumentNavigation.Control 15, 19, 20</comment>
+  </data>
+  <data name="Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+    <comment>admin\User_UserProfileGeneralView_ 147, web\User\MyProfile.view 19</comment>
+  </data>
+  <data name="Label_From" xml:space="preserve">
+    <value>From</value>
+    <comment>web\doc\DocEmail.View 26</comment>
+  </data>
+  <data name="Label_Last" xml:space="preserve">
+    <value>Last</value>
+    <comment>web\doc\DocMenuDocumentNavigation.Control 39, 44, 46</comment>
+  </data>
+  <data name="Label_LastAction" xml:space="preserve">
+    <value>LastAction</value>
+    <comment>Doc_DocDetailView_LastAction 55, DocHistory.Control 35</comment>
+  </data>
+  <data name="Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+    <comment>admin\User_UserProfileGeneralView 156, web\User\MyProfile.view 25</comment>
+  </data>
+  <data name="Label_LeftChars" xml:space="preserve">
+    <value>LeftChars</value>
+    <comment>View_ViewNavigationControl_19</comment>
+  </data>
+  <data name="Label_MetaTag" xml:space="preserve">
+    <value>MetaTag</value>
+    <comment>View_ViewNavigationControl_19</comment>
+  </data>
+  <data name="Label_Of" xml:space="preserve">
+    <value>of</value>
+    <comment>web\doc\DocMenuDocumentNavigation.Control 34</comment>
+  </data>
+  <data name="Label_Send" xml:space="preserve">
+    <value>Send</value>
+    <comment>web\doc\DocEmail.View 64</comment>
+  </data>
+  <data name="Label_To" xml:space="preserve">
+    <value>To</value>
+    <comment>web\doc\DocEmail.View 38</comment>
+  </data>
+  <data name="Label_Account" xml:space="preserve">
+    <value>Account#</value>
+    <comment>PrintQueue_Job_PrintJobQControl_Account 63,PrintQueue_Queue_PrintQueueAdminControl 14,web\User_PrintQueue.control 15</comment>
+  </data>
+  <data name="Label_ChangeEmail" xml:space="preserve">
+    <value>Change Email</value>
+    <comment>User_MyProfileView 5,web\User_MyProfileEmailView_33.39,Web_User_MyProfilePasswordView_35</comment>
+  </data>
+  <data name="Label_ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+    <comment>User_MyProfileView_ 6,web\User_MyProfileEmailView_34,Web_User_MyProfilePasswordView_36.42</comment>
+  </data>
+  <data name="Label_Date" xml:space="preserve">
+    <value>Date</value>
+    <comment>PrintQueue_Job_PrintJobQControl_63,PrintQueue_Queue_PrintQueueAdminControl 14,web\User_PrintQueue.control 15</comment>
+  </data>
+  <data name="Label_DocumentMissing" xml:space="preserve">
+    <value>Document Missing</value>
+    <comment>PrintQueue_Job_PrintJobQControl 38,PrintQueue_Job_PrintJobQView_ 70,User_MyProfileView_70</comment>
+  </data>
+  <data name="Label_FileName2" xml:space="preserve">
+    <value>File Name</value>
+    <comment>Doc_DocHistoryControl_35, ,web\PrintQueue_Job_PrintJobQControl_63,PrintQueue_Queue_PrintQueueAdminControl 14,web\User_PrintQueue.control 15</comment>
+  </data>
+  <data name="Label_Home" xml:space="preserve">
+    <value>Home</value>
+    <comment>User_HeaderView 85,85, web\invalid 16</comment>
+  </data>
+  <data name="Label_Impress" xml:space="preserve">
+    <value>Impress#</value>
+    <comment>PrintQueue_Job_PrintJobControl 15 , PrintQueue_Job_PrintJobQView_93</comment>
+  </data>
+  <data name="Label_Logout" xml:space="preserve">
+    <value>Logout</value>
+    <comment>User_HeaderView_122, website\redirect 38</comment>
+  </data>
+  <data name="Label_NoDocument" xml:space="preserve">
+    <value>No document in print queue.</value>
+    <comment>PrintQueue_Job_PrintJobControl 16, PrintQueue_Queue_PrintQueueAdminControl_15,web\User_PrintQueue.control 15</comment>
+  </data>
+  <data name="Label_Version" xml:space="preserve">
+    <value>Version</value>
+    <comment>Doc_DocHistoryControl_35,,web\PrintQueue_Job_PrintJobQControl_63,PrintQueue_Queue_PrintQueueAdminControl 14,web\User_PrintQueue.control 15</comment>
+  </data>
+  <data name="Label_Workflow" xml:space="preserve">
+    <value>Workflow</value>
+    <comment>Doc_DocWorkFlow 26,Doc\DocWorkFlow.Control 64</comment>
+  </data>
+  <data name="Label_Approved" xml:space="preserve">
+    <value>Approved</value>
+    <comment>web\PrintQueue\queue\PrintQueueAdmin.view 81</comment>
+  </data>
+  <data name="Label_Download1" xml:space="preserve">
+    <value>Please click {0} or {1} button to download it.</value>
+    <comment>web\Doc_DocCheckOutView_Download 22,web\doc\DocDetail.View 6, web\doc\DocHorizontalDetail.View 6</comment>
+  </data>
+  <data name="Label_GetCopy" xml:space="preserve">
+    <value>[GetCopy]</value>
+    <comment>web\Doc_DocCheckOutView_Download 22,web\doc\DocDetail.View 6, web\doc\DocHorizontalDetail.View 6</comment>
+  </data>
+  <data name="Label_Here" xml:space="preserve">
+    <value>[here]</value>
+    <comment>web\Doc_DocCheckOutView_Download 22,web\doc\DocDetail.View 6, web\doc\DocHorizontalDetail.View 6</comment>
+  </data>
+  <data name="Label_Requested" xml:space="preserve">
+    <value>Requested</value>
+    <comment>web\PrintQueue\queue\PrintQueueAdmin.view 80</comment>
+  </data>
+  <data name="Label_Suspended" xml:space="preserve">
+    <value>Suspended</value>
+    <comment>web\PrintQueue\queue\PrintQueueAdmin.view 73,82</comment>
+  </data>
+  <data name="Label_Condition" xml:space="preserve">
+    <value>Condition</value>
+    <comment>AdvancedSearch.control 59</comment>
+  </data>
+  <data name="Label_CustomField" xml:space="preserve">
+    <value>Custom Field List Values</value>
+    <comment>admin\cusotmfield\CustomFieldValues.Control 9</comment>
+  </data>
+  <data name="Label_FlySheet" xml:space="preserve">
+    <value>FlySheet</value>
+    <comment>FileSelectionConfig.control 12</comment>
+  </data>
+  <data name="Label_FormFill" xml:space="preserve">
+    <value>FormFill</value>
+    <comment>FormFillConfig.control 12</comment>
+  </data>
+  <data name="Label_Insert" xml:space="preserve">
+    <value>Insert</value>
+    <comment>InsertConfig.control 11</comment>
+  </data>
+  <data name="Label_MasterDetail" xml:space="preserve">
+    <value>MasterDetail</value>
+    <comment>MasterDetailConfig.control 27</comment>
+  </data>
+  <data name="Label_Open" xml:space="preserve">
+    <value>Open</value>
+    <comment>OpenConfig.control 11</comment>
+  </data>
+  <data name="Label_PortfolioFields" xml:space="preserve">
+    <value>PortfolioFields</value>
+    <comment>PortfolioFieldsConfig.control 22</comment>
+  </data>
+  <data name="Label_SubFolder" xml:space="preserve">
+    <value>Subfolder</value>
+    <comment>common\control\SubFolderList.control 10</comment>
+  </data>
+  <data name="Label_ViewCriteria" xml:space="preserve">
+    <value>View Criteria</value>
+    <comment>admin\view\ViewDetail.Control 14</comment>
+  </data>
+  <data name="Label_CompletedSuccessfully" xml:space="preserve">
+    <value>Completed Successfully</value>
+    <comment>DoximLib.asp 944</comment>
+  </data>
+  <data name="Label_CreatePrintJob" xml:space="preserve">
+    <value>Create Print Job</value>
+    <comment>printqueue\queue\PrintQueueAdmin.view 23</comment>
+  </data>
+  <data name="Label_CreateSub" xml:space="preserve">
+    <value>Create Sub</value>
+    <comment>admin\folder\FolderGeneral.view 105</comment>
+  </data>
+  <data name="Label_Equals" xml:space="preserve">
+    <value>Equals</value>
+    <comment>folder\GroupGeneral.view 182</comment>
+  </data>
+  <data name="Label_FromQueue" xml:space="preserve">
+    <value>document from the queue</value>
+  </data>
+  <data name="Label_Language" xml:space="preserve">
+    <value>Language</value>
+    <comment>CompanyProfileSetting.view.asp 185</comment>
+  </data>
+  <data name="Label_Page" xml:space="preserve">
+    <value>Page</value>
+    <comment>common\DoximPage.asp 78</comment>
+  </data>
+  <data name="Label_SentOut" xml:space="preserve">
+    <value>Sent out</value>
+    <comment>admin\batch\BatchProfile.view 162</comment>
+  </data>
+  <data name="Label_Thumbnail" xml:space="preserve">
+    <value>Thumbnail</value>
+    <comment>Common\DoximHead 50</comment>
+  </data>
+  <data name="Label_MemberSelect" xml:space="preserve">
+    <value>Member Select</value>
+    <comment>common\memberselectview.asp 10</comment>
+  </data>
+  <data name="Label_NewGroup" xml:space="preserve">
+    <value>New Group</value>
+    <comment>admin group\groupgeneral.control.asp</comment>
+  </data>
+</root>

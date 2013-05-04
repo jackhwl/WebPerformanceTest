@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Doc_DocCheckBackIn" xml:space="preserve">
+    <value>[CĥęčĸßäčĸĨŉ đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="Doc_DocCheckOutControl_Cancel" xml:space="preserve">
+    <value>[Cĥęčĸőūŧ äčŧįőŉ įş čäŉčęľęđ !!! !!!]</value>
+  </data>
+  <data name="Doc_DocCheckOutView_AreYouSure" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő čĥęčĸőūŧ ŧĥįş đőčūmęŉŧ? !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocCheckOutView_DocumentCheckout" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Cĥęčĸőūŧ !!! !!!]</value>
+  </data>
+  <data name="Doc_DocCheckOutView_Error" xml:space="preserve">
+    <value>[Đőčūmęŉŧ ĥäş þęęŉ ƒľäģģęđ äş čĥęčĸęđ őūŧ şūččęşşƒūľľy! þūŧ ŧĥęřę įş ęřřőř đūřįŉģ đőŵŉľőäđįŉģ ƒįľę. !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocCheckOutView_Succeed" xml:space="preserve">
+    <value>[Cĥęčĸ őūŧ Đőčūmęŉŧ şūččęşşƒūľľy! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocCheckOut_CheckoutAlready" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő čĥęčĸőūŧ đőčūmęŉŧ äş įŧ įş čĥęčĸęđ őūŧ äľřęäđy! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocDeleteView_AreYouSure" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő đęľęŧę ŧĥįş đőčūmęŉŧ? !!! !!!]</value>
+  </data>
+  <data name="Doc_DocDeleteView_Ignore" xml:space="preserve">
+    <value>[Ĩģŉőřę ƒįľę mįşşįŉģ ęřřőř? !!! !!!]</value>
+  </data>
+  <data name="Doc_DocDelete_Cancel" xml:space="preserve">
+    <value>[Đęľęŧę äčŧįőŉ įş čäŉčęľęđ! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocEmailControl_OverSize" xml:space="preserve">
+    <value>[Fäįľęđ: Fįľę şįžę ővęř ľįmįŧ, Cäŉ'ŧ þę äŧŧäčĥęđ. Ŧĥę ƒįľę şįžę mūşŧ ľęşş ŧĥęŉ 2Mß. !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocEmailView_Attach" xml:space="preserve">
+    <value>[Åŧŧäčĥ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocEmailView_EmailEmpty" xml:space="preserve">
+    <value>[Ē-mäįľ Åđđřęşş čäŉ'ŧ ľęävę þľäŉĸ. !!! !!!]</value>
+  </data>
+  <data name="Doc_DocEmailView_EmailEmpty2" xml:space="preserve">
+    <value>[Ŧĥę şęŉđęř ęmäįľ äđđřęşş įş ęmpŧy, mäy čäūşę şęŉđįŉģ ęřřőř !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocEmailView_InvalidEmail" xml:space="preserve">
+    <value>[Ĩŉväľįđ Ē-mäįľ Åđđřęşş! Pľęäşę řę-ęŉŧęř. !!! !!!]</value>
+  </data>
+  <data name="Doc_DocEmailView_NoReply" xml:space="preserve">
+    <value>[Ŧĥįş ę-mäįľ ĥäş þęęŉ ģęŉęřäŧęđ ƒőř įŉƒőřmäŧįőŉ pūřpőşęş őŉľy. Pľęäşę đő ŉőŧ řępľy. !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocEmailView_Subject" xml:space="preserve">
+    <value>[Ŝūþĵęčŧ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocFlysheetControl_PDFRequire" xml:space="preserve">
+    <value>[Ĩŉväľįđ ƒįľę ƒőřmäŧ.  Fľyşĥęęŧ řęqūįřęş PĐF ƒįľę ŧypę. !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocFlysheetView_Address" xml:space="preserve">
+    <value>[Åđđřęşş !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocFlysheetView_FlySheet" xml:space="preserve">
+    <value>[Fľy Ŝĥęęŧ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocHistoryControl_OverwriteDateTime" xml:space="preserve">
+    <value>[Øvęřŵřįŧę ĐäŧęŦįmę !!! !!!]</value>
+  </data>
+  <data name="Doc_DocHistoryControl_Title" xml:space="preserve">
+    <value>[Ŧįŧľę !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocMenuActionsControl_CheckBackIn" xml:space="preserve">
+    <value>[Cĥęčĸ ßäčĸ Ĩŉ !!! !!!]</value>
+  </data>
+  <data name="Doc_DocMenuActionsControl_CheckOut" xml:space="preserve">
+    <value>[Cĥęčĸ Øūŧ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocMenuActionsControl_UndoCheckOut" xml:space="preserve">
+    <value>[Ůŉđő Cĥęčĸ Øūŧ !!! !!!]</value>
+  </data>
+  <data name="Doc_DocMenuBackToListControl_Backtolist" xml:space="preserve">
+    <value>[ßäčĸ ŧő ľįşŧ !!! !!!]</value>
+  </data>
+  <data name="Doc_DocNoteView_ByUser" xml:space="preserve">
+    <value>[ßy Ůşęř !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocNoteView_CreateNewNote" xml:space="preserve">
+    <value>[Cřęäŧę Ńęŵ Ńőŧę !!! !!!]</value>
+  </data>
+  <data name="Doc_DocNoteView_DocumentNote" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Ńőŧę !!! !!!]</value>
+  </data>
+  <data name="Doc_DocNoteView_EditNote" xml:space="preserve">
+    <value>[Ēđįŧ Ńőŧę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocNoteView_Maximum" xml:space="preserve">
+    <value>[--- Mäχįmūm 2000 čĥäřäčŧęřş --- !!! !!!]</value>
+  </data>
+  <data name="Doc_DocNoteView_NoNotes" xml:space="preserve">
+    <value>[Ńő Ńőŧęş ƒőř ŧĥįş đőčūmęŉŧ! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocNoteView_Note" xml:space="preserve">
+    <value>[Ńőŧę !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocNoteView_TimeCreated" xml:space="preserve">
+    <value>[Ŧįmę Cřęäŧęđ !!! !!!]</value>
+  </data>
+  <data name="Doc_DocOpenPageControl_OpenNewWindow" xml:space="preserve">
+    <value>[Cľįčĸ ĥęřę ŧő őpęŉ įŉ ä ŉęŵ ŵįŉđőŵ !!! !!!]</value>
+  </data>
+  <data name="Doc_DocOpenPageControl_PrintImage" xml:space="preserve">
+    <value>[Cľįčĸ ĥęřę ŧő přįŉŧ ŧĥįş įmäģę !!! !!!]</value>
+  </data>
+  <data name="Doc_DocOpenTiff_FileNotFound" xml:space="preserve">
+    <value>[Fįľę ŉőŧ ƒőūŉđ, Pľęäşę čőŉŧäčŧ yőūř şyşŧęm Åđmįŉįşŧřäŧőř! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocPrintQueueAddView_AreYouSure" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő äđđ ŧĥįş đőčūmęŉŧ ŧő qūęūę? !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocPrintQueueAddView_Cancel" xml:space="preserve">
+    <value>[Ŧĥę ŧő qūęūę őpęřäŧįőŉ čäŉčęľęđ! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocWorkFlowControl_Configure" xml:space="preserve">
+    <value>[Ŧĥę ŵőřĸƒľőŵ įş ŉőŧ čőŉƒįģūřęđ yęŧ, pľęäşę čőŉŧäčŧ äđmįŉįşŧřäŧőř !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Doc_DocWorkFlowControl_NoAction" xml:space="preserve">
+    <value>[Ńő äčŧįőŉ đęƒįŉęđ őŉ ŧĥįş đőčūmęŉŧ! !!! !!!]</value>
+  </data>
+  <data name="Doc_MasterDetailsView_NoDocument" xml:space="preserve">
+    <value>[Ńő mäŧčĥįŉģ đőčūmęŉŧ ƒőūŉđ! !!! !!!]</value>
+  </data>
+  <data name="DssoAuthenticate_Authenticate" xml:space="preserve">
+    <value>[Åūŧĥęŉŧįčäŧįŉģ ƒäįľęđ. Pľęäşę čőŉŧäčŧ yőūř äđmįŉįşŧřäŧőř !!! !!! !!!]</value>
+  </data>
+  <data name="DssoAuthenticate_Custom" xml:space="preserve">
+    <value>[Cūşŧőm ƒįęľđş äřę ŉőŧ čőřřęčŧľľy čőŉƒįģūřęđ !!! !!!]</value>
+  </data>
+  <data name="DssoAuthenticate_Login" xml:space="preserve">
+    <value>[yőūř äřę ŉőŧ äľľőŵęđ ľőģįŉ ŧęmpőřäřįľy !!! !!!]</value>
+  </data>
+  <data name="DssoAuthenticate_Remote" xml:space="preserve">
+    <value>[Ēřřőř: Ŗęmőŧę äččęşş ƒäįľęđ. Pľęäşę čőŉŧäčŧ yőūř äđmįŉįşŧřäŧőř !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderAdminControl_CreateFolder" xml:space="preserve">
+    <value>[Cřęäŧę Főľđęř !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderAdminControl_CreateNewSubFolder" xml:space="preserve">
+    <value>[Cřęäŧę ŉęŵ şūþ ƒőľđęř !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderAdminControl_FolderPermission" xml:space="preserve">
+    <value>[Főľđęř Pęřmįşşįőŉ !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderAdminControl_FolderProfile" xml:space="preserve">
+    <value>[Főľđęř přőƒįľę !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderAdminControl_Permission" xml:space="preserve">
+    <value>[Pęřmįşşįőŉ !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderAdminControl_Profile" xml:space="preserve">
+    <value>[Přőƒįľę !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderPermissionView_CreatePermission" xml:space="preserve">
+    <value>[Cřęäŧę Pęřmįşşįőŉ !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderProfileControl_" xml:space="preserve">
+    <value>[Ŗőőŧ ƒőľđęř přőƒįľę įş ŉőŧ äľľőŵ ŧő čĥäŉģę, pľęäşę čőŉŧäčŧ şyşŧęm äđmįŉįşŧřäŧőř! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderProfileControl_NewFolder" xml:space="preserve">
+    <value>[Ńęŵ ƒőľđęř !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderProfileControl_Passed" xml:space="preserve">
+    <value>[päşşęđ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderProfileView_DeleteAll" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő đęľęŧę ŧĥę Főľđęř äş ŵęľľ äş ŧĥę đőčūmęŉŧş? !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderProfileView_DeleteCurrentFolder" xml:space="preserve">
+    <value>[Đęľęŧę Cūřřęŉŧ Főľđęř !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderProfileView_DeleteFolder" xml:space="preserve">
+    <value>[Åřę yőū şūřę yőū ŵäŉŧ ŧő đęľęŧę ŧĥįş Főľđęř? !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderProfileView_DocumentCount" xml:space="preserve">
+    <value>[Ŧĥęřę äřę {0} đőčūmęŉŧ(ş) ūŉđęř ŧĥįş ƒőľđęř. !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderProfileView_ForceDelete" xml:space="preserve">
+    <value>[Ĩģŉőřę ęřřőřş äŉđ ƒőřčę đęľęŧę !!! !!!]</value>
+  </data>
+  <data name="Folder_FolderSubfolders_CreateSubfolder" xml:space="preserve">
+    <value>[Cřęäŧę Ŝūþƒőľđęř !!! !!!]</value>
+  </data>
+  <data name="Invalid_Permission" xml:space="preserve">
+    <value>[Ĩŉväľįđ Pęřmįşşįőŉ! !!! !!!]</value>
+  </data>
+  <data name="Invalid_PermissionOnCurrentPage" xml:space="preserve">
+    <value>[Ÿőū đőŉ'ŧ ĥävę pęřmįşşįőŉ őŉ čūřřęŉŧ päģę !!! !!!]</value>
+  </data>
+  <data name="LoginView_Login" xml:space="preserve">
+    <value>[Ŀ Ø Ğ Ĩ Ń !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="LoginView_UserLogin" xml:space="preserve">
+    <value>[Ůşęř Ŀőģįŉ !!! !!!]</value>
+  </data>
+  <data name="Navigate_Portfolio_InvalidSetting" xml:space="preserve">
+    <value>[Ĩŉväľįđ pőřŧƒőľįő đęƒäūľŧ päģę şęŧŧįŉģ, pľęäşę čőŉŧäčŧ şyşŧęm äđmįŉįşŧřäŧőř! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Navigate_View_InvalidSetting" xml:space="preserve">
+    <value>[Ĩŉväľįđ vįęŵ đęƒäūľŧ päģę şęŧŧįŉģ, pľęäşę čőŉŧäčŧ şyşŧęm äđmįŉįşŧřäŧőř! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Portfolio_PortfolioViewsListControl_CommonFilter" xml:space="preserve">
+    <value>[Cőmmőŉ Fįľŧęř !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobControl_CancelPJRequest" xml:space="preserve">
+    <value>[Cäŉčęľ PĴ Ŗęqūęşŧ !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobControl_DateTime" xml:space="preserve">
+    <value>[Đäŧę/Ŧįmę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobControl_Doc" xml:space="preserve">
+    <value>[Đőč# !!! !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobControl_PrintJobs" xml:space="preserve">
+    <value>[Přįŉŧ Ĵőþş &lt;b&gt;Ĩmpřęşşįőŉ#: {0} &lt;b&gt; !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobQControl_Back" xml:space="preserve">
+    <value>[ßäčĸ ŧő Přįŉŧ Ĵőþ !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobQControl_Download" xml:space="preserve">
+    <value>[Cľįčĸ Ħęřę Ŧő Ğęŧ Ÿőūř Přįŉŧ Ĵőþ !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobQControl_Merged" xml:space="preserve">
+    <value>[Męřģęđ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobQControl_MergedFailed" xml:space="preserve">
+    <value>[Fäįľęđ ŧő męřģę ƒįľęş đūę ŧő đőčūmęŉŧ mįşşįŉģ. !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobQControl_MergedSuccessfully" xml:space="preserve">
+    <value>[Męřģęđ Ŝūččęşşƒūľľy! !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobQControl_PrintJob" xml:space="preserve">
+    <value>[Přįŉŧ Ĵőþş: {0} Đőč #: {1} Ĩmpřęşşįőŉ #: {2} !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobQControl_Skipped" xml:space="preserve">
+    <value>[Ŝĸįppęđ - Ńőŧ ä PĐF Fįľę !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobQView_GetPrintFile" xml:space="preserve">
+    <value>[Ğęŧ Přįŉŧ Fįľę !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobQView_Total" xml:space="preserve">
+    <value>[Ŧőŧäľ Ĵőþş: {0} !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobView_Cancelled" xml:space="preserve">
+    <value>[Cäŉčęľľęđ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobView_CancelPJRequest" xml:space="preserve">
+    <value>[Cäŉčęľ PĴ Ŗęqūęşŧ !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobView_Completed" xml:space="preserve">
+    <value>[Cőmpľęŧęđ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobView_Impression" xml:space="preserve">
+    <value>[Ĩmpřęşşįőŉ#: {0} !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobView_InProduction" xml:space="preserve">
+    <value>[Ĩŉ přőđūčŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobView_Total" xml:space="preserve">
+    <value>[Ŧőŧäľ Ĵőþş: {0} !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Job_PrintJobView_Untouched" xml:space="preserve">
+    <value>[Ůŉŧőūčĥęđ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Queue_PrintQueueAdminControl_PrintQueueManager" xml:space="preserve">
+    <value>[Přįŉŧ Qūęūę Mäŉäģęř !!! !!!]</value>
+  </data>
+  <data name="PrintQueue_Queue_PrintQueueAdminControl_Sender" xml:space="preserve">
+    <value>[Ŝęŉđęř !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_DXMMain_DoximECM" xml:space="preserve">
+    <value>[Đőχįm ĒCM !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_DXMMain_Frame" xml:space="preserve">
+    <value>[Ŧĥįş päģę ūşęş ƒřämęş, þūŧ yőūř þřőŵşęř đőęşŉ'ŧ şūppőřŧ ŧĥęm. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_Administration" xml:space="preserve">
+    <value>[Åđmįŉįşŧřäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_Feedback" xml:space="preserve">
+    <value>[Fęęđþäčĸ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_Help" xml:space="preserve">
+    <value>[Ħęľp !!! !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_Hide" xml:space="preserve">
+    <value>[Ħįđę !!! !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_HideNavigator" xml:space="preserve">
+    <value>[Ħįđę Ńävįģäŧőř !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_LogoutDoximECM" xml:space="preserve">
+    <value>[Ŀőģőūŧ Đőχįm ĒCM !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_MyProfile" xml:space="preserve">
+    <value>[My Přőƒįľę !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_Refresh" xml:space="preserve">
+    <value>[Ŗęƒřęşĥ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_Show" xml:space="preserve">
+    <value>[Ŝĥőŵ !!! !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_ShowNavigator" xml:space="preserve">
+    <value>[Ŝĥőŵ Ńävįģäŧőř !!! !!!]</value>
+  </data>
+  <data name="User_HeaderView_WelcomeToDoxim" xml:space="preserve">
+    <value>[Ŵęľčőmę ŧő Đőχįm, {0} !!! !!!]</value>
+  </data>
+  <data name="User_HomeView_PrintJobs" xml:space="preserve">
+    <value>[Přįŉŧ Ĵőþş !!! !!!]</value>
+  </data>
+  <data name="User_HomeView_PrintQueueManager" xml:space="preserve">
+    <value>[Přįŉŧ Qūęūę Mäŉäģęř !!! !!!]</value>
+  </data>
+  <data name="User_MyProfileEmailView_NewEmail" xml:space="preserve">
+    <value>[Ńęŵ Ēmäįľ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_MyProfileEmailView_OldEmail" xml:space="preserve">
+    <value>[Øľđ Ēmäįľ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_MyProfilePasswordView_ConfirmPassword" xml:space="preserve">
+    <value>[Cőŉƒįřm Päşşŵőřđ !!! !!!]</value>
+  </data>
+  <data name="User_MyProfilePasswordView_NewPassword" xml:space="preserve">
+    <value>[Ńęŵ Päşşŵőřđ !!! !!!]</value>
+  </data>
+  <data name="User_MyProfilePasswordView_OldPassword" xml:space="preserve">
+    <value>[Øľđ Päşşŵőřđ !!! !!!]</value>
+  </data>
+  <data name="User_MyProfilePasswordView_PasswordRule" xml:space="preserve">
+    <value>[Päşşŵőřđ Ŗūľę !!! !!!]</value>
+  </data>
+  <data name="User_MyProfileView_UserID" xml:space="preserve">
+    <value>[Ůşęř ĨĐ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="User_MyProfileView_UserProfile" xml:space="preserve">
+    <value>[Ůşęř Přőƒįľę !!! !!!]</value>
+  </data>
+  <data name="User_PrintQueueControl_PrintQueue" xml:space="preserve">
+    <value>[Přįŉŧ Qūęūę !!! !!!]</value>
+  </data>
+  <data name="View_ViewDocsListView_And" xml:space="preserve">
+    <value>[ÅŃĐ !!! !!!]</value>
+  </data>
+  <data name="View_ViewDocsListView_Applied" xml:space="preserve">
+    <value>[Åppľįęđ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="View_ViewDocsListView_Equal" xml:space="preserve">
+    <value>[Ēqūäľ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="View_ViewDocsListView_Filter" xml:space="preserve">
+    <value>[Fįľŧęř !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Website_BulletinBoard_Browsers" xml:space="preserve">
+    <value>[Ŝūppőřŧęđ ßřőŵşęřş ŉőŵ įŉčľūđę: !!! !!!]</value>
+  </data>
+  <data name="Website_BulletinBoard_Mac" xml:space="preserve">
+    <value>[Főř Mäč ØŜ: Ŝäƒäřį v5.0+ !!! !!!]</value>
+  </data>
+  <data name="Website_BulletinBoard_Windows" xml:space="preserve">
+    <value>[Főř Ŵįŉđőŵş ØŜ: ĨĒ v8+, Fįřęƒőχ v3.6+ !!! !!!]</value>
+  </data>
+  <data name="WebSite_Main_DoximECM" xml:space="preserve">
+    <value>[Đőχįm ĒCM !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Web_LoginView_UserID" xml:space="preserve">
+    <value>[Ůşęř ĨĐ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+</root>

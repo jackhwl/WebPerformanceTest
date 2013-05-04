@@ -1,0 +1,12 @@
+Date,FieldName,Message
+abc,Tag_M27,Input string was not in a correct format.
+"2a.5",Tag_M27,Input string was not in a correct format.
+"2E5",Tag_M27,Input string was not in a correct format.
+"92233720368547892233720368547.5807",Tag_M27,Value was either too large or too small for a Decimal.
+"-92233720368547892233720368547.5808",Tag_M27,Value was either too large or too small for a Decimal.
+"922337203685477.5807",,
+"100",,
+"100.0",,
+"0",,
+"-100",,
+"-100.5",,

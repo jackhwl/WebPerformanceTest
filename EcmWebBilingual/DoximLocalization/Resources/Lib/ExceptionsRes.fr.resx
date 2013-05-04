@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionPermissionException_errMsgs_NoAccessAction" xml:space="preserve">
+    <value>[Ńő přįvįľęģę ŧő äččęşş ŧĥę äčŧįőŉ:{0} !!! !!!]</value>
+  </data>
+  <data name="CustomFieldException_errMsgs_CustomFieldNameExisted" xml:space="preserve">
+    <value>[Cūşŧőm Fįęľđ Ńämę Øř XMĿ ĨĐ äľřęäđy ęχįşŧęđ! !!! !!!]</value>
+  </data>
+  <data name="CustomFieldException_errMsgs_DeleteCutomFieldError" xml:space="preserve">
+    <value>[Đęľęŧįŉģ Cūşŧőm Fįęľđ őččūřęş äŉ ęřřőř: įŧ įş şŧįľľ řęƒęřęŉčęđ þy őŧĥęř őþĵęčŧş. !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CustomFieldException_errMsgs_InvalidCustomFieldID" xml:space="preserve">
+    <value>[Ĩŉväľįđ Cūşŧőm Fįęľđ ĨĐ! !!! !!!]</value>
+  </data>
+  <data name="CustomFieldException_errMsgs_InvalidName" xml:space="preserve">
+    <value>[Ĩŉväľįđ ŉämę, ŉämę čäŉ ŉőŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="CustomFieldException_errMsgs_InvalidXmlID" xml:space="preserve">
+    <value>[Ĩŉväľįđ XmľĨĐ, XmľĨĐ čäŉ ŉőŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="CustomFieldException_errMsgs_UnableChangeIsValueListFalse" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő čĥäŉģę 'ĨşVäľūęĿįşŧ' ŧő ƒäľşę þęčäūşę ŧĥęřę äřę ľįşŧ väľūęş đęƒįŉęđ! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CustomFieldException_errMsgs_UnableChangeIsValueListTrue" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő čĥäŉģę 'ĨşVäľūęĿįşŧ' ŧő ŧřūę þęčäūşę ŧĥęřę įş ūşęř řęƒęřęŉčįŉģ ŧĥįş čūşŧőm ƒįęľđ! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CustomFieldException_errMsgs_UnableChangeIsValueMultiple" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő čĥäŉģę 'Ĩş Väľūę Mūľŧįpľę' þęčäūşę ŧĥęřę äřę mőřę ŧĥäŉ őŉę väľūę řęƒ þy ūşęřş. !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="CustomFieldException_errMsgs_UnableDeleteCustomField" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő đęľęŧę ŧĥįş čūşŧőm ƒįęľđ þęčäūşę ŧĥęřę äřę čūşŧőm ģřőūp řęƒęřęŉčįŉģ įŧ! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DataAccessException_errMsgFormats_01AlreadyExisted" xml:space="preserve">
+    <value>[{0} {1} äľřęäđy ęχįşŧęđ! !!! !!!]</value>
+  </data>
+  <data name="DataAccessException_errMsgFormats_0AlreadyExisted" xml:space="preserve">
+    <value>[{0} äľřęäđy ęχįşŧęđ! !!! !!!]</value>
+  </data>
+  <data name="DataAccessException_errMsgFormats_InvalidID" xml:space="preserve">
+    <value>[Ĩŉväľįđ {0} ĨĐ! !!! !!!]</value>
+  </data>
+  <data name="DataAccessException_errMsgFormats_UnableToDo" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő {2} ŧĥįş {0}. Pľęäşę {2} äľľ {1} ūŉđęř ŧĥįş {0} !!! !!! !!!]</value>
+  </data>
+  <data name="DataAccessException_GetFormatException_UnhandledDBError" xml:space="preserve">
+    <value>[Ůŉĥäŉđľęđ Đß ęřřőř !!! !!!]</value>
+  </data>
+  <data name="DocuBinException_errMsgs_FailedCreateFolder" xml:space="preserve">
+    <value>[Fäįľęđ ŧő čřęäŧę ä Đőčūßįŉ ƒőľđęř. !!! !!!]</value>
+  </data>
+  <data name="DocuBinException_errMsgs_FailedCreateInstance" xml:space="preserve">
+    <value>[Fäįľęđ ŧő čřęäŧę ä ŉęŵ įŉşŧäŉčę őƒ Đőčūßįŉ őþĵęčŧ. !!! !!! !!!]</value>
+  </data>
+  <data name="DocuBinException_errMsgs_FailedDeleteFolder" xml:space="preserve">
+    <value>[Fäįľęđ ŧő đęľęŧę ä Đőčūßįŉ ƒőľđęř. !!! !!!]</value>
+  </data>
+  <data name="DocuBinException_errMsgs_FailedRemoveFolder" xml:space="preserve">
+    <value>[Fäįľęđ ŧő řęmővę ä Đőčūßįŉ ƒőľđęř. !!! !!!]</value>
+  </data>
+  <data name="DocuBinException_errMsgs_FolderAlreadyExists" xml:space="preserve">
+    <value>[Đőčūßįŉ ƒőľđęř äľřęäđy ęχįşŧş. !!! !!!]</value>
+  </data>
+  <data name="DocuBinException_errMsgs_FolderNotExist" xml:space="preserve">
+    <value>[Đőčūßįŉ ƒőľđęř đőęş ŉőŧ ęχįşŧ. !!! !!!]</value>
+  </data>
+  <data name="DocuTypeException_errMsgs_DocTypeExisted" xml:space="preserve">
+    <value>[Đőčūmęŉŧ ŧypę Ńämę Øř XmľĨĐ äľřęäđy ęχįşŧęđ! !!! !!!]</value>
+  </data>
+  <data name="DocuTypeException_errMsgs_InvalidDocumentTypeID" xml:space="preserve">
+    <value>[Ĩŉväľįđ đőčūmęŉŧ ŧypę ĨĐ! !!! !!!]</value>
+  </data>
+  <data name="DocuTypeException_errMsgs_UnableDeleteDocType" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő đęľęŧę ŧĥįş đőčūmęŉŧ ŧypę. Pľęäşę đęľęŧę řęľäŧęđ þäŧčĥęş\\vįęŵş\\męŧäŧäģş\\đőčūmęŉŧş !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="EmptyException_errMsgs_CantEmpty" xml:space="preserve">
+    <value>[{0}{1} čäŉ ŉőŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="EmptyException_errMsgs_InvalidValue" xml:space="preserve">
+    <value>[Ĩŉväľįđ väľūę, !!! !!!]</value>
+  </data>
+  <data name="FolderException_errMsgs_ContainsDocuments" xml:space="preserve">
+    <value>[Főľđęř şŧįľľ čőŉŧäįŉş đőčūmęŉŧş! !!! !!!]</value>
+  </data>
+  <data name="FolderException_errMsgs_ContainsSubfolders" xml:space="preserve">
+    <value>[Főľđęř şŧįľľ čőŉŧäįŉş şūþƒőľđęřş! !!! !!!]</value>
+  </data>
+  <data name="MetaTagException_errMsgs_HasListDefined" xml:space="preserve">
+    <value>[Ħäş męŧäŧäģ ľįşŧ đęƒįŉęđ! !!! !!!]</value>
+  </data>
+  <data name="MetaTagException_errMsgs_HasReferenceMoreThanOnce" xml:space="preserve">
+    <value>[Ħäş đőčūmęŉŧ řęƒęřęŉčę ŧĥįş męŧäŧäģ mőřę ŧĥäŉ őŉčę! !!! !!! !!!]</value>
+  </data>
+  <data name="MetaTagException_errMsgs_InvalidMetaTagID" xml:space="preserve">
+    <value>[Ĩŉväľįđ MęŧäŦäģ ĨĐ! !!! !!!]</value>
+  </data>
+  <data name="MetaTagException_errMsgs_MetaTagExisted" xml:space="preserve">
+    <value>[MęŧäŦäģ Ńämę Øř XMĿĨĐ äľřęäđy ęχįşŧęđ! !!! !!!]</value>
+  </data>
+  <data name="MetaTagException_errMsgs_NotAllValuesProvided" xml:space="preserve">
+    <value>[Ńőŧ äľľ đőčūmęŉŧ'ş čūřřęŉŧ męŧäŧäģ väľūęş ĥäş þęęŉ přővįđęđ! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="MetaTagException_errMsgs_ReferencedByDocs" xml:space="preserve">
+    <value>[Ŧĥįş męŧäŧäģ įş řęƒęřęŉčęđ þy đőčūmęŉŧş !!! !!!]</value>
+  </data>
+  <data name="MetaTagException_errMsgs_UnableConvert" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő čőŉvęřŧ !!! !!!]</value>
+  </data>
+  <data name="PortfolioException_errMsgs_ActionCantNull" xml:space="preserve">
+    <value>[Pőřŧƒőľįő Đęƒäūľŧ Åčŧįőŉ čäŉ'ŧ þę ŉūľľ, čĥęčĸ äčŧįőŉđęƒş ŧäþľę ĥäş pőřŧƒőľįő äčŧįőŉ đęƒįŉįŧįőŉ. !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="PortfolioException_errMsgs_CantDeletePortfolio" xml:space="preserve">
+    <value>[Cäŉŉőŧ đęľęŧę pőřŧƒőľįő. Ŧĥęřę äřę vįęŵş äŧŧäčĥęđ ŧő įŧ. !!! !!! !!!]</value>
+  </data>
+  <data name="PortfolioException_errMsgs_InvalidPortfolioID" xml:space="preserve">
+    <value>[Ĩŉväľįđ pőřŧƒőľįő ĨĐ! !!! !!!]</value>
+  </data>
+  <data name="UserException_errMsgs_InvalidUser" xml:space="preserve">
+    <value>[Ĩŉväľįđ Ůşęř! !!! !!!]</value>
+  </data>
+  <data name="UserException_errMsgs_UnableDeleteUser" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő đęľęŧę ŧĥįş Ůşęř. Pľęäşę đęľęŧę äľľ Cőmpäŉįęş ūŉđęř ŧĥįş őřģäŉįžäŧįőŉ. !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="UserException_errMsgs_UserIDExisted" xml:space="preserve">
+    <value>[Ůşęř ĨĐ äľřęäđy ęχįşŧęđ! !!! !!!]</value>
+  </data>
+</root>

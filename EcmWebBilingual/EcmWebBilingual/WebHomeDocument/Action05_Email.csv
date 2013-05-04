@@ -1,0 +1,7 @@
+Sender Option name,SenderOption,EmailAddress,Change,ApplyMessage,From,To,SendMessage
+Current Setting of Sender Email Address,0,my@doxim.com,0,System Administrator [my@doxim.com],my@doxim.com,lyang@doxim.com,Completed Successfully
+Current Setting of Sender Email Address,0,my@doxim.com,1,"name=""EmailFrom"" value=""my@doxim.com"" />System Administrator [my@doxim.com]",editedmy@doxim.com,lyang@doxim.com,Completed Successfully
+User Profile Email Address,1,user@doxim.com,0,System Administrator [user@doxim.com],user@doxim.com,lyang@doxim.com,Completed Successfully
+User Profile Email Address,1,user@doxim.com,1,"name=""EmailFrom"" value=""user@doxim.com"" />System Administrator [user@doxim.com]",editeduser@doxim.com,lyang@doxim.com,Completed Successfully
+Company Profile Email Address,2,company@doxim.com,0,System Administrator [company@doxim.com],company@doxim.com,lyang@doxim.com,Completed Successfully
+Company Profile Email Address,2,company@doxim.com,1,"name=""EmailFrom"" value=""company@doxim.com"" />System Administrator [company@doxim.com]",editedcompany@doxim.com,lyang@doxim.com,Completed Successfully

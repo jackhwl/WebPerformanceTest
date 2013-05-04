@@ -1,0 +1,152 @@
+DataType,Alias,SearchField,IsOrNot,Condition,Value,Value2,Records,Header,FieldID,Not,ConditionCode
+Text,Trans #,Title (Trans #),IS,Contains,"1322",,Total: 8,Result for search criteria: [Trans #  Contains 1322 ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,"1218",,Total: 1,Result for search criteria: [Trans #  Contains 1218 ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,8_ON,,Total: 7,Result for search criteria: [Trans #  Contains 8_ON ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,8_oN,,Total: 7,Result for search criteria: [Trans #  Contains 8_oN ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,1356121_On,,Total: 1,Result for search criteria: [Trans #  Contains 1356121_On ],DocTitle,0,C
+Text,Trans #,Title (Trans #),IS,Contains,1356121_On1,,No Document,Result for search criteria: [Trans #  Contains 1356121_On1 ],DocTitle,0,C
+Text,Trans #,Title (Trans #),Not,Contains,"1322",,Total: 62,Result for search criteria: [Trans # Not Contains 1322 ],DocTitle,1,C
+Text,Trans #,Title (Trans #),Not,Contains,1356121_On1,,Total: 70,Result for search criteria: [Trans # Not Contains 1356121_On1 ],DocTitle,1,C
+Text,Trans #,Title (Trans #),IS,Equals,1356121_On,,Total: 1,Result for search criteria: [Trans #  Equals 1356121_On ],DocTitle,0,=
+Text,Trans #,Title (Trans #),IS,Equals,1356121_On1,,No Document,Result for search criteria: [Trans #  Equals 1356121_On1 ],DocTitle,0,=
+Text,Trans #,Title (Trans #),IS,Equals,"1",,No Document,Result for search criteria: [Trans #  Equals 1 ],DocTitle,0,=
+Text,Trans #,Title (Trans #),IS,Equals,N,,No Document,Result for search criteria: [Trans #  Equals N ],DocTitle,0,=
+Text,Trans #,Title (Trans #),Not,Equals,N,,Total: 70,Result for search criteria: [Trans # Not Equals N ],DocTitle,1,=
+Text,Trans #,Title (Trans #),IS,Between,"100","110",Total: 14,Result for search criteria: [Trans #  Between 100  AND 110],DocTitle,0,B
+Text,Trans #,Title (Trans #),Not,Between,"100","110",Total: 56,Result for search criteria: [Trans # Not Between 100  AND 110],DocTitle,1,B
+Text,Trans #,Title (Trans #),Is,Great Than,"110",,Total: 56,Result for search criteria: [Trans #  Greater Than 110 ],DocTitle,0,>
+Text,Trans #,Title (Trans #),Not,Great Than,"110",,Total: 14,Result for search criteria: [Trans # Not Greater Than 110 ],DocTitle,1,>
+Text,Trans #,Title (Trans #),Is,Less Than,"110",,Total: 14,Result for search criteria: [Trans #  Less Than 110 ],DocTitle,0,<
+Text,Trans #,Title (Trans #),Not,Less Than,"110",,Total: 56,Result for search criteria: [Trans # Not Less Than 110 ],DocTitle,1,<
+Text,Trans #,Title (Trans #),Is,Is Null,,,No Document,Result for search criteria: [Trans #  Is Null  ],DocTitle,0,N
+Text,Trans #,Title (Trans #),Not,Is Null,,,Total: 70,Result for search criteria: [Trans # Not Is Null  ],DocTitle,1,N
+Text,Trans #,Title (Trans #),IS,Starts With,"100",,Total: 7,Result for search criteria: [Trans #  Starts With 100 ],DocTitle,0,S
+Text,Trans #,Title (Trans #),Not,Starts With,"100",,Total: 63,Result for search criteria: [Trans # Not Starts With 100 ],DocTitle,1,S
+Text,Trans #,Title (Trans #),IS,Ends With,"100",,Total: 1,Result for search criteria: [Trans #  Ends With 100 ],DocTitle,0,E
+Text,Trans #,Title (Trans #),Not,Ends With,"100",,Total: 69,Result for search criteria: [Trans # Not Ends With 100 ],DocTitle,1,E
+Text,Account #,Metatag (Account #),IS,Contains,"34567897",,Total: 7,Result for search criteria: [Account #  Contains 34567897 ],Tag_M1,0,C
+Text,Account #,Metatag (Account #),IS,Contains,"176",,Total: 7,Result for search criteria: [Account #  Contains 176 ],Tag_M1,0,C
+Text,Account #,Metatag (Account #),IS,Contains,"6111",,Total: 7,Result for search criteria: [Account #  Contains 6111 ],Tag_M1,0,C
+Text,Account #,Metatag (Account #),Not,Contains,"6111",,Total: 63,Result for search criteria: [Account # Not Contains 6111 ],Tag_M1,1,C
+Text,Account #,Metatag (Account #),IS,Equals,"34567895111799",,Total: 1,Result for search criteria: [Account #  Equals 34567895111799 ],Tag_M1,0,=
+Text,Account #,Metatag (Account #),IS,Equals,"99",,No Document,Result for search criteria: [Account #  Equals 99 ],Tag_M1,0,=
+Text,Account #,Metatag (Account #),Not,Equals,"3456789511799",,Total: 64,Result for search criteria: [Account # Not Equals 3456789511799 ],Tag_M1,1,=
+Text,Account #,Metatag (Account #),IS,Between,"34567895","34567896",Total: 14,Result for search criteria: [Account #  Between 34567895  AND 34567896],Tag_M1,0,B
+Text,Account #,Metatag (Account #),Not,Between,"34567895","34567896",Total: 56,Result for search criteria: [Account # Not Between 34567895  AND 34567896],Tag_M1,1,B
+Text,Account #,Metatag (Account #),IS,Great Than,"34567899",,Total: 6,Result for search criteria: [Account #  Greater Than 34567899 ],Tag_M1,0,>
+Text,Account #,Metatag (Account #),IS,Less Than,"34567899",,Total: 64,Result for search criteria: [Account #  Less Than 34567899 ],Tag_M1,0,<
+Text,Account #,Metatag (Account #),IS,Is Null,,,No Document,Result for search criteria: [Account #  Is Null  ],Tag_M1,0,N
+Text,Account #,Metatag (Account #),IS,Starts With,"2",,Total: 2,Result for search criteria: [Account #  Starts With 2 ],Tag_M1,0,S
+Text,Account #,Metatag (Account #),IS,Ends With,"9",,Total: 7,Result for search criteria: [Account #  Ends With 9 ],Tag_M1,0,E
+DateTime,ReleaseDate,ReleaseDate,IS,Contains,"2010",,Total: 40,Result for search criteria: [ReleaseDate  Contains 2010 ],ReleaseDate,0,C
+DateTime,ReleaseDate,ReleaseDate,IS,Contains,Mar,,Total: 20,Result for search criteria: [ReleaseDate  Contains Mar ],ReleaseDate,0,C
+DateTime,ReleaseDate,ReleaseDate,IS,Contains,Mar-30,,Total: 9,Result for search criteria: [ReleaseDate  Contains Mar-30 ],ReleaseDate,0,C
+DateTime,ReleaseDate,ReleaseDate,IS,Contains,Mar 2011,,Total: 10,Result for search criteria: [ReleaseDate  Contains Mar 2011 ],ReleaseDate,0,C
+DateTime,ReleaseDate,ReleaseDate,IS,Contains,2010-03-29,,Total: 1,Result for search criteria: [ReleaseDate  Contains 2010-03-29 ],ReleaseDate,0,C
+DateTime,ReleaseDate,ReleaseDate,IS,Contains,2010-3-30,,Total: 9,Result for search criteria: [ReleaseDate  Contains 2010-3-30 ],ReleaseDate,0,C
+DateTime,ReleaseDate,ReleaseDate,IS,Contains,"20100330",,Total: 9,Result for search criteria: [ReleaseDate  Contains 20100330 ],ReleaseDate,0,C
+DateTime,ReleaseDate,ReleaseDate,IS,Contains,Now-600,,No Document,Result for search criteria: [ReleaseDate  Contains Now-600 ],ReleaseDate,0,C
+DateTime,ReleaseDate,ReleaseDate,IS,Contains,Now+2,,No Document,Result for search criteria: [ReleaseDate  Contains Now+2 ],ReleaseDate,0,C
+DateTime,ReleaseDate,ReleaseDate,IS,Equals,2010-03-29,,Total: 1,Result for search criteria: [ReleaseDate  Equals 2010-03-29 ],ReleaseDate,0,=
+DateTime,ReleaseDate,ReleaseDate,IS,Equals,2010-3-30,,Total: 9,Result for search criteria: [ReleaseDate  Equals 2010-3-30 ],ReleaseDate,0,=
+DateTime,ReleaseDate,ReleaseDate,IS,Equals,"20100330",,Total: 9,Result for search criteria: [ReleaseDate  Equals 20100330 ],ReleaseDate,0,=
+DateTime,ReleaseDate,ReleaseDate,IS,Equals,Now-600,,No Document,Result for search criteria: [ReleaseDate  Equals Now-600 ],ReleaseDate,0,=
+DateTime,ReleaseDate,ReleaseDate,IS,Equals,Now+2,,No Document,Result for search criteria: [ReleaseDate  Equals Now+2 ],ReleaseDate,0,=
+DateTime,ReleaseDate,ReleaseDate,IS,Between,2010-03-29,,No Document,Result for search criteria: [ReleaseDate  Between 2010-03-29  AND ],ReleaseDate,0,B
+DateTime,ReleaseDate,ReleaseDate,IS,Between,2010-3-30,2011-3-30,Total: 39,Result for search criteria: [ReleaseDate  Between 2010-3-30  AND 2011-3-30],ReleaseDate,0,B
+DateTime,ReleaseDate,ReleaseDate,IS,Between,"20100330",20100930,Total: 29,Result for search criteria: [ReleaseDate  Between 20100330  AND 20100930],ReleaseDate,0,B
+DateTime,ReleaseDate,ReleaseDate,IS,Great Than,2010-03-29,,Total: 69,Result for search criteria: [ReleaseDate  Greater Than 2010-03-29 ],ReleaseDate,0,>
+DateTime,ReleaseDate,ReleaseDate,IS,Great Than,2010-3-30,,Total: 60,Result for search criteria: [ReleaseDate  Greater Than 2010-3-30 ],ReleaseDate,0,>
+DateTime,ReleaseDate,ReleaseDate,IS,Great Than,"20100330",,Total: 60,Result for search criteria: [ReleaseDate  Greater Than 20100330 ],ReleaseDate,0,>
+DateTime,ReleaseDate,ReleaseDate,IS,Less Than,2010-03-30,,Total: 1,Result for search criteria: [ReleaseDate  Less Than 2010-03-30 ],ReleaseDate,0,<
+DateTime,ReleaseDate,ReleaseDate,IS,Less Than,2010-3-31,,Total: 10,Result for search criteria: [ReleaseDate  Less Than 2010-3-31 ],ReleaseDate,0,<
+DateTime,ReleaseDate,ReleaseDate,IS,Less Than,"20100331",,Total: 10,Result for search criteria: [ReleaseDate  Less Than 20100331 ],ReleaseDate,0,<
+DateTime,ReleaseDate,ReleaseDate,IS,Starts With,2010-03-30,,Total: 9,Result for search criteria: [ReleaseDate  Starts With 2010-03-30 ],ReleaseDate,0,S
+DateTime,ReleaseDate,ReleaseDate,IS,Starts With,2010-3-30,,Total: 9,Result for search criteria: [ReleaseDate  Starts With 2010-3-30 ],ReleaseDate,0,S
+DateTime,ReleaseDate,ReleaseDate,IS,Starts With,"20100330",,Total: 9,Result for search criteria: [ReleaseDate  Starts With 20100330 ],ReleaseDate,0,S
+DateTime,ReleaseDate,ReleaseDate,IS,Starts With,2010-03,,Total: 10,Result for search criteria: [ReleaseDate  Starts With 2010-03 ],ReleaseDate,0,S
+DateTime,ReleaseDate,ReleaseDate,IS,Starts With,"2010",,Total: 40,Result for search criteria: [ReleaseDate  Starts With 2010 ],ReleaseDate,0,S
+DateTime,ReleaseDate,ReleaseDate,IS,Ends With,2010-03-30,,Total: 9,Result for search criteria: [ReleaseDate  Ends With 2010-03-30 ],ReleaseDate,0,E
+DateTime,ReleaseDate,ReleaseDate,IS,Ends With,2010-3-30,,Total: 9,Result for search criteria: [ReleaseDate  Ends With 2010-3-30 ],ReleaseDate,0,E
+DateTime,ReleaseDate,ReleaseDate,IS,Ends With,"20100330",,Total: 9,Result for search criteria: [ReleaseDate  Ends With 20100330 ],ReleaseDate,0,E
+DateTime,ReleaseDate,ReleaseDate,IS,Ends With,03-30,,Total: 9,Result for search criteria: [ReleaseDate  Ends With 03-30 ],ReleaseDate,0,E
+DateTime,ReleaseDate,ReleaseDate,IS,Is Null,,,No Document,Result for search criteria: [ReleaseDate  Is Null  ],ReleaseDate,0,N
+DateTime,ReleaseDate,ReleaseDate,Not,Is Null,,,Total: 70,Result for search criteria: [ReleaseDate Not Is Null  ],ReleaseDate,1,N
+DateTime,ReleaseDate,ReleaseDate,Not,Equals,2010-03-29,,Total: 69,Result for search criteria: [ReleaseDate Not Equals 2010-03-29 ],ReleaseDate,1,=
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Contains,"2010",,Total: 40,Result for search criteria: [ClearingDate  Contains 2010 ],Tag_M2,0,C
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Contains,Mar,,Total: 20,Result for search criteria: [ClearingDate  Contains Mar ],Tag_M2,0,C
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Contains,Mar-29,,Total: 19,Result for search criteria: [ClearingDate  Contains Mar-29 ],Tag_M2,0,C
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Contains,Mar 2011,,Total: 10,Result for search criteria: [ClearingDate  Contains Mar 2011 ],Tag_M2,0,C
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Contains,2010-03-28,,Total: 1,Result for search criteria: [ClearingDate  Contains 2010-03-28 ],Tag_M2,0,C
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Contains,2010-3-29,,Total: 9,Result for search criteria: [ClearingDate  Contains 2010-3-29 ],Tag_M2,0,C
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Contains,"20100329",,Total: 9,Result for search criteria: [ClearingDate  Contains 20100329 ],Tag_M2,0,C
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Contains,Now-600,,No Document,Result for search criteria: [ClearingDate  Contains Now-600 ],Tag_M2,0,C
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Contains,Now+2,,No Document,Result for search criteria: [ClearingDate  Contains Now+2 ],Tag_M2,0,C
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Equals,2010-03-28,,Total: 1,Result for search criteria: [ClearingDate  Equals 2010-03-28 ],Tag_M2,0,=
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Equals,2010-3-29,,Total: 9,Result for search criteria: [ClearingDate  Equals 2010-3-29 ],Tag_M2,0,=
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Equals,"20100329",,Total: 9,Result for search criteria: [ClearingDate  Equals 20100329 ],Tag_M2,0,=
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Between,2010-03-28,2010-03-29,Total: 10,Result for search criteria: [ClearingDate  Between 2010-03-28  AND 2010-03-29],Tag_M2,0,B
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Between,2010-3-29,2011-6-29,Total: 59,Result for search criteria: [ClearingDate  Between 2010-3-29  AND 2011-6-29],Tag_M2,0,B
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Between,"20100329",20100329,Total: 9,Result for search criteria: [ClearingDate  Between 20100329  AND 20100329],Tag_M2,0,B
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Great Than,2010-03-28,,Total: 69,Result for search criteria: [ClearingDate  Greater Than 2010-03-28 ],Tag_M2,0,>
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Great Than,2010-3-29,,Total: 60,Result for search criteria: [ClearingDate  Greater Than 2010-3-29 ],Tag_M2,0,>
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Great Than,"20100329",,Total: 60,Result for search criteria: [ClearingDate  Greater Than 20100329 ],Tag_M2,0,>
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Less Than,2010-03-29,,Total: 1,Result for search criteria: [ClearingDate  Less Than 2010-03-29 ],Tag_M2,0,<
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Less Than,2010-3-30,,Total: 10,Result for search criteria: [ClearingDate  Less Than 2010-3-30 ],Tag_M2,0,<
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Less Than,"20100330",,Total: 10,Result for search criteria: [ClearingDate  Less Than 20100330 ],Tag_M2,0,<
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Starts With,2010-03-28,,Total: 1,Result for search criteria: [ClearingDate  Starts With 2010-03-28 ],Tag_M2,0,S
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Starts With,2010-3-29,,Total: 9,Result for search criteria: [ClearingDate  Starts With 2010-3-29 ],Tag_M2,0,S
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Starts With,"20100329",,Total: 9,Result for search criteria: [ClearingDate  Starts With 20100329 ],Tag_M2,0,S
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Starts With,2010-03,,Total: 10,Result for search criteria: [ClearingDate  Starts With 2010-03 ],Tag_M2,0,S
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Starts With,"2010",,Total: 40,Result for search criteria: [ClearingDate  Starts With 2010 ],Tag_M2,0,S
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Ends With,2010-03-28,,Total: 1,Result for search criteria: [ClearingDate  Ends With 2010-03-28 ],Tag_M2,0,E
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Ends With,2010-3-29,,Total: 9,Result for search criteria: [ClearingDate  Ends With 2010-3-29 ],Tag_M2,0,E
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Ends With,"20100329",,Total: 9,Result for search criteria: [ClearingDate  Ends With 20100329 ],Tag_M2,0,E
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Ends With,03-29,,Total: 19,Result for search criteria: [ClearingDate  Ends With 03-29 ],Tag_M2,0,E
+DateTime,ClearingDate,Metatag (ClearingDate ),IS,Is Null,,,No Document,Result for search criteria: [ClearingDate  Is Null  ],Tag_M2,0,N
+DateTime,ClearingDate,Metatag (ClearingDate ),Not,Is Null,,,Total: 70,Result for search criteria: [ClearingDate Not Is Null  ],Tag_M2,1,N
+DateTime,ClearingDate,Metatag (ClearingDate ),Not,Equals,2010-03-29,,Total: 61,Result for search criteria: [ClearingDate Not Equals 2010-03-29 ],Tag_M2,1,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"16980.97",,Total: 1,Result for search criteria: [Amount  Equals 16980.97 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"0",,Total: 1,Result for search criteria: [Amount  Equals 0 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"-120.97",,Total: 1,Result for search criteria: [Amount  Equals -120.97 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"922337203685477.5807",,Total: 1,Result for search criteria: [Amount  Equals 922337203685477.5807 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"-922337203685477.5808",,No Document,Result for search criteria: [Amount  Equals -922337203685477.5808 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"922337203685478.5807",,Error Message,Arithmetic overflow error converting,Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Not,Equals,"16980.97",,Total: 69,Result for search criteria: [Amount Not Equals 16980.97 ],Tag_M3,1,=
+Money,Amount,Metatag (Amount  ),Is,Between,"500","600",Total: 2,Result for search criteria: [Amount  Between 500  AND 600],Tag_M3,0,B
+Money,Amount,Metatag (Amount  ),Not,Between,"500","600",Total: 68,Result for search criteria: [Amount Not Between 500  AND 600],Tag_M3,1,B
+Money,Amount,Metatag (Amount  ),Is,Greate Than,"50000",,Total: 16,Result for search criteria: [Amount  Greater Than 50000 ],Tag_M3,0,>
+Money,Amount,Metatag (Amount  ),Is,Less Than,"100",,Total: 9,Result for search criteria: [Amount  Less Than 100 ],Tag_M3,0,<
+Integer,Version,Version,Is,Equals,"2",,Total: 3,Result for search criteria: [Version  Equals 2 ],Version,0,=
+Integer,Version,Version,Is,Equals,"0",,No Document,Result for search criteria: [Version  Equals 0 ],Version,0,=
+Integer,Version,Version,Is,Equals,"-1",,No Document,Result for search criteria: [Version  Equals -1 ],Version,0,=
+Integer,Version,Version,Is,Between,"1","2",Total: 70,Result for search criteria: [Version  Between 1  AND 2],Version,0,B
+Integer,Version,Version,Is,Greate Than,"1",,Total: 3,Result for search criteria: [Version  Greater Than 1 ],Version,0,>
+Integer,Version,Version,Is,less Than,"2",,Total: 67,Result for search criteria: [Version  Less Than 2 ],Version,0,<
+Integer,Version,Version,Not,Between,"1","2",No Document,Result for search criteria: [Version Not Between 1  AND 2],Version,1,B
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"2177",,Total: 7,Result for search criteria: [Cheque Serial Number  Equals 2177 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"002177",,Total: 7,Result for search criteria: [Cheque Serial Number  Equals 002177 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"-1",,Total: 1,Result for search criteria: [Cheque Serial Number  Equals -1 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"2147483647",,Total: 1,Result for search criteria: [Cheque Serial Number  Equals 2147483647 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"-2147483648",,Total: 1,Result for search criteria: [Cheque Serial Number  Equals -2147483648 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"2147483648",,Exception,Maximum integer value exceeded,Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Between,"2176","2177",Total: 14,Result for search criteria: [Cheque Serial Number  Between 2176  AND 2177],Tag_M4,0,B
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Greate Than,"2178",,Total: 8,Result for search criteria: [Cheque Serial Number  Greater Than 2178 ],Tag_M4,0,>
+Integer,Cheque Serial Number,Cheque Serial Number,Is,less Than,"2171",,Total: 9,Result for search criteria: [Cheque Serial Number  Less Than 2171 ],Tag_M4,0,<
+Integer,Cheque Serial Number,Cheque Serial Number,Not,Greate Than,"2178",,Total: 62,Result for search criteria: [Cheque Serial Number Not Greater Than 2178 ],Tag_M4,1,>
+Boolean,ImageOK,ImageOK,Is,Equals,"1",,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,YES,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,Yes,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,True,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,Y,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,y,,Total: 59,Result for search criteria: [ImageOK  Equals Yes ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,"0",,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,NO,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,No,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,False,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,N,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,n,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Equals,abc,,Total: 7,Result for search criteria: [ImageOK  Equals No ],Tag_M7,0,=
+Boolean,ImageOK,ImageOK,Is,Is Null,,,Total: 4,Result for search criteria: [ImageOK  Is Null  ],Tag_M7,0,N
+Boolean,ImageOK,ImageOK,Not,Equals,"0",,Total: 59,Result for search criteria: [ImageOK Not Equals No ],Tag_M7,1,=
+Boolean,ImageOK,ImageOK,Not,Is Null,,,Total: 66,Result for search criteria: [ImageOK Not Is Null  ],Tag_M7,1,N

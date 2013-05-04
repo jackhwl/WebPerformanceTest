@@ -1,0 +1,29 @@
+DataType,Alias,SearchField,IsOrNot,Condition,Value,Value2,Records,Header,FieldID,Not,ConditionCode
+Money,Amount,Metatag (Amount  ),Is,Equals,"16980.97",,Total: 1,Result for search criteria: [Amount  Equals 16980.97 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"0",,Total: 1,Result for search criteria: [Amount  Equals 0 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"-120.97",,Total: 1,Result for search criteria: [Amount  Equals -120.97 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"922337203685477.5807",,Total: 1,Result for search criteria: [Amount  Equals 922337203685477.5807 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"-922337203685477.5808",,No Document,Result for search criteria: [Amount  Equals -922337203685477.5808 ],Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Is,Equals,"922337203685478.5807",,Error Message,Arithmetic overflow error converting,Tag_M3,0,=
+Money,Amount,Metatag (Amount  ),Not,Equals,"16980.97",,Total: 69,Result for search criteria: [Amount Not Equals 16980.97 ],Tag_M3,1,=
+Money,Amount,Metatag (Amount  ),Is,Between,"500","600",Total: 2,Result for search criteria: [Amount  Between 500  AND 600],Tag_M3,0,B
+Money,Amount,Metatag (Amount  ),Not,Between,"500","600",Total: 68,Result for search criteria: [Amount Not Between 500  AND 600],Tag_M3,1,B
+Money,Amount,Metatag (Amount  ),Is,Greate Than,"50000",,Total: 16,Result for search criteria: [Amount  Greater Than 50000 ],Tag_M3,0,>
+Money,Amount,Metatag (Amount  ),Is,Less Than,"100",,Total: 9,Result for search criteria: [Amount  Less Than 100 ],Tag_M3,0,<
+Integer,Version,Version,Is,Equals,"2",,Total: 3,Result for search criteria: [Version  Equals 2 ],Version,0,=
+Integer,Version,Version,Is,Equals,"0",,No Document,Result for search criteria: [Version  Equals 0 ],Version,0,=
+Integer,Version,Version,Is,Equals,"-1",,No Document,Result for search criteria: [Version  Equals -1 ],Version,0,=
+Integer,Version,Version,Is,Between,"1","2",Total: 70,Result for search criteria: [Version  Between 1  AND 2],Version,0,B
+Integer,Version,Version,Is,Greate Than,"1",,Total: 3,Result for search criteria: [Version  Greater Than 1 ],Version,0,>
+Integer,Version,Version,Is,less Than,"2",,Total: 67,Result for search criteria: [Version  Less Than 2 ],Version,0,<
+Integer,Version,Version,Not,Between,"1","2",No Document,Result for search criteria: [Version Not Between 1  AND 2],Version,1,B
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"2177",,Total: 7,Result for search criteria: [Cheque Serial Number  Equals 2177 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"002177",,Total: 7,Result for search criteria: [Cheque Serial Number  Equals 002177 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"-1",,Total: 1,Result for search criteria: [Cheque Serial Number  Equals -1 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"2147483647",,Total: 1,Result for search criteria: [Cheque Serial Number  Equals 2147483647 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"-2147483648",,Total: 1,Result for search criteria: [Cheque Serial Number  Equals -2147483648 ],Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Equals,"2147483648",,Error Message,The conversion of the varchar value '2147483648' overflowed an int column.,Tag_M4,0,=
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Between,"2176","2177",Total: 14,Result for search criteria: [Cheque Serial Number  Between 2176  AND 2177],Tag_M4,0,B
+Integer,Cheque Serial Number,Cheque Serial Number,Is,Greate Than,"2178",,Total: 8,Result for search criteria: [Cheque Serial Number  Greater Than 2178 ],Tag_M4,0,>
+Integer,Cheque Serial Number,Cheque Serial Number,Is,less Than,"2171",,Total: 9,Result for search criteria: [Cheque Serial Number  Less Than 2171 ],Tag_M4,0,<
+Integer,Cheque Serial Number,Cheque Serial Number,Not,Greate Than,"2178",,Total: 62,Result for search criteria: [Cheque Serial Number Not Greater Than 2178 ],Tag_M4,1,>

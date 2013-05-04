@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{918F8AFB-2E6C-4D33-918A-3B0A9D354145}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EcmWebBilingual</RootNamespace>
+    <AssemblyName>EcmWebBilingual</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TestProjectType>WebTest</TestProjectType>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EditMyProfile_8USRUser.webtest" />
+    <None Include="GetCompanyID.webtest" />
+    <None Include="Login.webtest" />
+    <None Include="SetEcmSite.webtest" />
+    <None Include="UserLevelCheck_8USRUser.webtest" />
+    <None Include="WebAdminActionConfig\WT_DT_ActionAddAll.webtest" />
+    <None Include="WebAdminActionConfig\WT_DT_ActionConfig01_List.webtest" />
+    <None Include="WebAdminActionConfig\WT_DT_ActionConfig02_ListThumbnail.webtest" />
+    <None Include="WebAdminActionConfig\WT_DT_ActionConfig03_AdvancedSearch.webtest" />
+    <None Include="WebHomeDocumentModify\Action24_Modify_AllFieldData.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_Config_Customize.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_Config_Inherit_DV.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_HiddenField.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_TextLongString.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_ValidateCurrency.csv" />
+    <None Include="WebHomeDocumentModify\Action24_Modify_ValidateCurrency.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_ValidateDate.csv" />
+    <None Include="WebHomeDocumentModify\Action24_Modify_ValidateDate.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_ValidateInteger.csv" />
+    <None Include="WebHomeDocumentModify\Action24_Modify_ValidateInteger.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_ValidateMultipleValue.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_ValidateRequiredField.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action24_Modify_VerifyValueList.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action25_NoteCRUD.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action26_Workflow.csv" />
+    <None Include="WebHomeDocumentModify\Action26_Workflow.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action26_Workflow_Faild.csv" />
+    <None Include="WebHomeDocumentModify\Action26_Workflow_Faild.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action26_Workflow_MultipleMetaTag.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action26_Workflow_SpicialChar.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action27_DeleteDocument.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action27_DeleteDocument_Faild.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action28_CheckinNewDocument.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action28_CheckinNewDocument_LicenseCheck.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action28_CheckinNewDocument_LicenseFaild.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action28_CheckOut_BackIn_Document_1.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action28_CheckOut_BackIn_Document_2.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\Action28_VersionControl_Customize.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocumentModify\DoximECM60_Setup.pdf" />
+    <None Include="WebHomeDocumentModify\DoximECM_3.pdf" />
+    <None Include="WebHomeDocumentModify\Duplicate.pdf" />
+    <None Include="WebHomeDocumentModify\HomeMainHeader.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action04_Detail_Config_Customize.webtest" />
+    <None Include="WebHomeDocument\Action04_Detail_Config_Inherit_DV.webtest" />
+    <None Include="WebHomeDocument\Action05_Email.csv" />
+    <None Include="WebHomeDocument\Action05_Email.webtest" />
+    <None Include="WebHomeDocument\Action05_Email_500.csv" />
+    <None Include="WebHomeDocument\Action05_Email_500.webtest" />
+    <None Include="WebHomeDocument\Action05_Email_BasicSetting.webtest" />
+    <None Include="WebHomeDocument\Action05_Email_BasicSettingWithDongle.webtest" />
+    <None Include="WebHomeDocument\Action06_GetCopy.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action14_HorizontalDetail.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action15_MasterDetail_ActionPermission.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action15_MasterDetail_Case1.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action15_MasterDetail_Case2.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action15_MasterDetail_Case3.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action15_MasterDetail_CustomizeAction.csv" />
+    <None Include="WebHomeDocument\Action15_MasterDetail_CustomizeAction.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action16_Open_Config+List_WindowOption.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action16_Open_Config_WindowOption.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action16_Open_Faild.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action16_Open_FileType.csv" />
+    <None Include="WebHomeDocument\Action16_Open_FileType.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action17_OpenTiff_NotTiffFileType.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action17_OpenTiff_Size.csv" />
+    <None Include="WebHomeDocument\Action17_OpenTiff_Size.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action18_OpenTiffAsPdf.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action19_OpenFormFillBasic.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action20_OpenInsert.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action21_OpenStamp.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action22_ToQueue.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Action22_ToQueue_AddDelete.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentActionList.csv" />
+    <None Include="WebHomeDocument\DocumentActionPermission.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentActionPermissionReset.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentAction_ValidateURL.csv" />
+    <None Include="WebHomeDocument\DocumentAction_ValidateURLPrep.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentAction_ValidateURL_Folder.csv" />
+    <None Include="WebHomeDocument\DocumentAction_ValidateURL_Permission.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentAction_ValidateURL_Permission_Detail.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentAction_ValidateURL_Permission_Detail1Fail.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentAction_ValidateURL_Permission_Folder.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentAction_ValidateURL_Permission_FolderPre.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentAction_ValidateURL_Permission_FolderReset.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\DocumentAction_ValidateURL_Permission_GetFormFill.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\MenuOnOff_View_Document.csv" />
+    <None Include="WebHomeDocument\MenuOnOff_View_Document.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Menu_DocumentAction1CustomSetting.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Menu_DocumentAction2CheckImageName.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Menu_DocumentAction3SetBack.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeDocument\Menu_DocumentActionSetup.csv" />
+    <None Include="WebHomeDocument\Menu_Navigation_BackToList_ViewList.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch.csv" />
+    <None Include="WebHomeViewSearch\AdvancedSearch.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_3F.csv" />
+    <None Include="WebHomeViewSearch\AdvancedSearch_3Fields_1499.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_CommonFilter+Navigation_1499.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_CommonFilter_1499.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_Criteria+CommonFilter+Navigation_1499.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_Criteria+CommonFilter_1499.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_Criteria+Navigation_1499.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_Criteria_1499.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_Navigation_1499.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_SpecialCharacter_1499.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_vBoolean.csv" />
+    <None Include="WebHomeViewSearch\AdvancedSearch_vBoolean.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_vDate.csv" />
+    <None Include="WebHomeViewSearch\AdvancedSearch_vDate.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_vNumber.csv" />
+    <None Include="WebHomeViewSearch\AdvancedSearch_vNumber.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\AdvancedSearch_vText.csv" />
+    <None Include="WebHomeViewSearch\AdvancedSearch_vText.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\Search_UserValueCriteria.csv" />
+    <None Include="WebHomeViewSearch\Search_UserValueCriteria.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\Search_UserValueCriteria_Faild.csv" />
+    <None Include="WebHomeViewSearch\Search_UserValueCriteria_Faild.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\SimpleSearch_Criteria+CommonFilter+Navigation.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\SimpleSearch_DifferentField_AllFields.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\SimpleSearch_DifferentField_DocuType.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="WebHomeViewSearch\SimpleSearch_DifferentField_MetaTag.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebHomeDocumentModify\Action24_Modify_ValidateCurrency.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomValidationRuleSelectedValue\CustomValidationRuleSelectedValue.csproj">
+      <Project>{312d2716-bf6f-48f5-9163-4dc977bcf877}</Project>
+      <Name>CustomValidationRuleSelectedValue</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

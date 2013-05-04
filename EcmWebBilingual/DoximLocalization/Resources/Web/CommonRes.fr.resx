@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPError_500" xml:space="preserve">
+    <value>[500 Ĩŉŧęřŉäľ Ŝęřvęř Ēřřőř !!! !!!]</value>
+  </data>
+  <data name="ASPError_DuplicateKey" xml:space="preserve">
+    <value>[Ĩŉväľįđ įŉpūŧ, Đūpľįčäŧę Ķęy įş ŉőŧ äľľőŵęđ. !!! !!!]</value>
+  </data>
+  <data name="ASPError_NoCodeAvailable" xml:space="preserve">
+    <value>[Ńő čőđę äväįľäþľę !!! !!!]</value>
+  </data>
+  <data name="Control_ConfigurationClass_ActionInfoFieldsTitle" xml:space="preserve">
+    <value>[{0} Fįęľđş !!! !!!]</value>
+  </data>
+  <data name="Control_DocEditControl_ReachMaximumFileSize" xml:space="preserve">
+    <value>[Fįľę čäŉŉőŧ þę ūpľőäđęđ.  Mäχįmūm ƒįľę şįžę ľįmįŧ įş {0} Mß. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Control_DocEditControl_ScriptUtilsASPFormUploadFail" xml:space="preserve">
+    <value>[Fįľę čäŉŉőŧ þę ūpľőäđęđ.  ŜčřįpŧŮŧįľş.ÅŜPFőřm čőmpőŉęŉŧ ĥäş přőþľęm, pľęäşę ŧřy äģäįŉ. !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Control_DocEditView_CheckInNewDoc" xml:space="preserve">
+    <value>[Cĥęčĸ įŉ ŉęŵ đőčūmęŉŧ: !!! !!!]</value>
+  </data>
+  <data name="Control_DocEditView_DocType" xml:space="preserve">
+    <value>[Đőčūmęŉŧ Ŧypę: !!! !!!]</value>
+  </data>
+  <data name="Control_DocEditView_EmptyValue" xml:space="preserve">
+    <value>[Väľūę čäŉ ŉőŧ þę ęmpŧy! !!! !!!]</value>
+  </data>
+  <data name="Control_DocEditView_FileName" xml:space="preserve">
+    <value>[Fįľę Ńämę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Control_DocEditView_LimitFileSize" xml:space="preserve">
+    <value>[Pľęäşę şęľęčŧ ä ƒįľę ŃØŦ mőřę ŧĥäŉ 50Mß įŉ ƒįľę şįžę; Cĥęčĸ įŉ přőčęşş ŵįľľ ƒäįľ
+            įƒ ūpľőäđįŉģ ƒįľę ŧäĸęş mőřę ŧĥäŉ 1 ĥőūř ūpőŉ yőūř įŉŧęřŉęŧ čőŉŉęčŧįőŉ! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Control_DocEditView_SelectDate" xml:space="preserve">
+    <value>[Ŝęľęčŧ Đäŧę !!! !!!]</value>
+  </data>
+  <data name="Control_DocListControl_ChangeDisplayField" xml:space="preserve">
+    <value>[Cĥäŉģę đįşpľäy ƒįęľđş įş ŉőŧ äľľőŵęđ! !!! !!!]</value>
+  </data>
+  <data name="Control_DocListControl_ChangeSortField" xml:space="preserve">
+    <value>[Cĥäŉģę şőřŧ ƒįęľđş įş ŉőŧ äľľőŵęđ! !!! !!!]</value>
+  </data>
+  <data name="Control_DocListControl_NoDocument" xml:space="preserve">
+    <value>[Ńő Đőčūmęŉŧ !!! !!!]</value>
+  </data>
+  <data name="Control_DocListControl_NoListSettingFound" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő ƒįŉđ ľįşŧ şęŧŧįŉģ! !!! !!!]</value>
+  </data>
+  <data name="Control_DocListControl_SearchResult" xml:space="preserve">
+    <value>[Ŗęşūľŧ ƒőř şęäřčĥ čřįŧęřįä: {0} !!! !!!]</value>
+  </data>
+  <data name="Control_DocListControl_TooManyRecord" xml:space="preserve">
+    <value>[Ēχčęęđ şyşŧęm mäχįmūm ŉūmþęř,ƒįřşŧ 500 đőčūmęŉŧş řęŧūřŉęđ, pľęäşę äppľy/řęƒįŉę şęäřčĥ čřįŧęřįä! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Control_PermissionControl_AddAction" xml:space="preserve">
+    <value>[Pľęäşę äđđ äčŧįőŉ ƒįřşŧ !!! !!!]</value>
+  </data>
+  <data name="Control_PermissionControl_FullName" xml:space="preserve">
+    <value>[Fūľľ Ńämę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Control_PermissionControl_LackOfPermission" xml:space="preserve">
+    <value>[Ńőŧ äľľ męmþęř ĥävę pęřmįşşįőŉ ƒőř řęqūįřęđ äčŧįőŉş, pľęäşę äşşįģŉ pęřmįşşįőŉ ŧő ŧĥőşę męmþęř ŵįŧĥ * şĥőŵŉ þęľőŵ! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="Control_PermissionMemberControl_RequiredAction" xml:space="preserve">
+    <value>[Ŗęqūįřęđ äčŧįőŉ! !!! !!!]</value>
+  </data>
+  <data name="Control_PermissionMemberView_Apply" xml:space="preserve">
+    <value>[Åppľy ŧő äľľ şūþ ƒőľđęřş !!! !!!]</value>
+  </data>
+  <data name="Control_PermissionMemberView_Permissions" xml:space="preserve">
+    <value>[Pęřmįşşįőŉ ƒőř {0}: {1} !!! !!!]</value>
+  </data>
+  <data name="Control_RequriedActionsControl_AdvancedSearchAction" xml:space="preserve">
+    <value>[(Főř Đęƒäūľŧ Vįęŵ Åčŧįőŉ = Åđväŉčęđ Ŝęäřčĥ) !!! !!!]</value>
+  </data>
+  <data name="Control_RequriedActionsControl_DefaultDocAction" xml:space="preserve">
+    <value>[Đęƒäūľŧ Đőčūmęŉŧ Åčŧįőŉ: !!! !!!]</value>
+  </data>
+  <data name="Control_RequriedActionsControl_DefaultViewAction" xml:space="preserve">
+    <value>[Đęƒäūľŧ Vįęŵ Åčŧįőŉ: !!! !!!]</value>
+  </data>
+  <data name="Control_RequriedActionsControl_SearchResultDisplayAction" xml:space="preserve">
+    <value>[Ŝęäřčĥ Ŗęşūľŧ Đįşpľäy Åčŧįőŉ: !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Active" xml:space="preserve">
+    <value>[Åčŧįvę !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_AllUser" xml:space="preserve">
+    <value>[ÅľľŮşęř !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Ascend" xml:space="preserve">
+    <value>[Åşčęŉđ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Branding" xml:space="preserve">
+    <value>[Đőχįm ßřäŉđįŉģ Ĩŉƒőřmäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Center" xml:space="preserve">
+    <value>[Cęŉŧęř !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_CompanyName" xml:space="preserve">
+    <value>[Đőχįm Cőmpäŉy Ńämę !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Completed" xml:space="preserve">
+    <value>[Cőmpľęŧęđ !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Descend" xml:space="preserve">
+    <value>[Đęşčęŉđ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_FirstName" xml:space="preserve">
+    <value>[Đőχįm Ůşęř Fįřşŧ Ńämę !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Is" xml:space="preserve">
+    <value>[Ĩş !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_LastName" xml:space="preserve">
+    <value>[Đőχįm Ůşęř Ŀäşŧ Ńämę !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Left" xml:space="preserve">
+    <value>[Ŀęƒŧ !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Locked" xml:space="preserve">
+    <value>[Ŀőčĸęđ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_NewUser" xml:space="preserve">
+    <value>[ŃęŵŮşęř !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_None" xml:space="preserve">
+    <value>[Ńőŉę !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_NoRule" xml:space="preserve">
+    <value>[Ńő Ŗūľę (Ńő Ŗęqūįřęmęŉŧ) !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Not" xml:space="preserve">
+    <value>[Ńőŧ !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Pending" xml:space="preserve">
+    <value>[Pęŉđįŉģ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Required" xml:space="preserve">
+    <value>[Ŗęqūįřęđ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Right" xml:space="preserve">
+    <value>[Ŗįģĥŧ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_StandardRule" xml:space="preserve">
+    <value>[Ŝŧäŉđäřđ Ŗūľę (Å mįŉįmūm őƒ 8 čĥäřäčŧęřş įş řęqūįřęđ.) !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_StrongRule" xml:space="preserve">
+    <value>[Ŝŧřőŉģ Ŗūľę (Å mįŉįmūm őƒ 8 čĥäřäčŧęřş äŉđ ä čőmþįŉäŧįőŉ őƒ þőŧĥ äľpĥä äŉđ ŉūmęřįč čĥäřäčŧęřş äřę řęqūįřęđ.) !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_Suspend" xml:space="preserve">
+    <value>[Ŝūşpęŉđ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_UserID" xml:space="preserve">
+    <value>[Đőχįm Ůşęř ĨĐ !!! !!!]</value>
+  </data>
+  <data name="DoximDictionary_UserLevel" xml:space="preserve">
+    <value>[Đőχįm Ůşęř Ŀęvęľ !!! !!!]</value>
+  </data>
+  <data name="DoximEvent_NotFound" xml:space="preserve">
+    <value>[Fäįľ ŧő ƒįŉđ přőčęđūřę: {0} !!! !!!]</value>
+  </data>
+  <data name="DoximGrid_IndexExceed" xml:space="preserve">
+    <value>[Ĩŧęm įŉđęχ ęχčęęđ įŧęm ŧőŧäľ! !!! !!!]</value>
+  </data>
+  <data name="DoximGrid_NoGrid" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő ƒįŉđ ģřįđ: {0} ! !!! !!!]</value>
+  </data>
+  <data name="DoximHead_ChangeFields" xml:space="preserve">
+    <value>[Cĥäŉģę Đįşpľäy Fįęľđş !!! !!!]</value>
+  </data>
+  <data name="DoximHead_SortTitle" xml:space="preserve">
+    <value>[Cľįčĸ čőľūmŉ ŉämę ŧő şőřŧ äľpĥäþęŧįčäľľy !!! !!!]</value>
+  </data>
+  <data name="DoximLib_StyleFolderNotFound" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő ƒįŉđ şŧyľę ƒőľđęř, pľęäşę čőŉŧäčŧ şyşŧęm äđmįŉįşŧřäŧőř! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximLib_WebPathNotFound" xml:space="preserve">
+    <value>[Fäįľęđ: Ŵęþ päŧĥ ŉőŧ ęχįşŧ. !!! !!!]</value>
+  </data>
+  <data name="DoximNewItemBar_AddNewRow" xml:space="preserve">
+    <value>[Åđđ Ńęŵ Ŗőŵ !!! !!!]</value>
+  </data>
+  <data name="DoximNewItemBar_DeleteRow" xml:space="preserve">
+    <value>[Đęľęŧę Ŝęľęčŧęđ Ŗőŵş !!! !!!]</value>
+  </data>
+  <data name="DoximPage_First" xml:space="preserve">
+    <value>[Fįřşŧ !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximPage_FirstPage" xml:space="preserve">
+    <value>[Fįřşŧ Päģę !!! !!!]</value>
+  </data>
+  <data name="DoximPage_GotoPage" xml:space="preserve">
+    <value>[Ğőŧő Päģę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximPage_Last" xml:space="preserve">
+    <value>[Ŀäşŧ !!! !!! !!!]</value>
+  </data>
+  <data name="DoximPage_LastPage" xml:space="preserve">
+    <value>[Ŀäşŧ Päģę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximPage_Next" xml:space="preserve">
+    <value>[Ńęχŧ !!! !!! !!!]</value>
+  </data>
+  <data name="DoximPage_NextPage" xml:space="preserve">
+    <value>[Ńęχŧ Päģę !!! !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximPage_Previous" xml:space="preserve">
+    <value>[Přęvįőūş !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximPage_PreviousPage" xml:space="preserve">
+    <value>[Přęvįőūş Päģę !!! !!!]</value>
+  </data>
+  <data name="DoximProgress_Invalid" xml:space="preserve">
+    <value>[Ĩŉväľįđ CMĐ! !!! !!!]</value>
+  </data>
+  <data name="DoximProgress_MovingFile" xml:space="preserve">
+    <value>[Mővįŉģ ƒįľę įŉŧő Đőχįm... !!! !!!]</value>
+  </data>
+  <data name="DoximProgress_Uploading" xml:space="preserve">
+    <value>[Ůpľőäđįŉģ...{0}% !!! !!!]</value>
+  </data>
+  <data name="DoximProgress_Waiting" xml:space="preserve">
+    <value>[Pľęäşę Ŵäįŧ... !!! !!!]</value>
+  </data>
+  <data name="DoximTab_Action" xml:space="preserve">
+    <value>[Åčŧįőŉ !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximTab_CommonFields" xml:space="preserve">
+    <value>[Cőmmőŉ Fįęľđş !!! !!!]</value>
+  </data>
+  <data name="DoximTab_Criteria" xml:space="preserve">
+    <value>[Cřįŧęřįä !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximTab_Document" xml:space="preserve">
+    <value>[Đőčūmęŉŧ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximTab_General" xml:space="preserve">
+    <value>[Ğęŉęřäľ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximTab_Members" xml:space="preserve">
+    <value>[Męmþęřş !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximTab_MetaTag" xml:space="preserve">
+    <value>[MęŧäŦäģ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximTab_Navigation" xml:space="preserve">
+    <value>[Ńävįģäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="DoximTab_Password" xml:space="preserve">
+    <value>[Päşşŵőřđ !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximTab_Permission" xml:space="preserve">
+    <value>[Pęřmįşşįőŉ !!! !!!]</value>
+  </data>
+  <data name="DoximTab_Setting" xml:space="preserve">
+    <value>[Ŝęŧŧįŉģ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="DoximTab_ValueList" xml:space="preserve">
+    <value>[Väľūę Ŀįşŧ !!! !!!]</value>
+  </data>
+  <data name="DoximTab_Welcome" xml:space="preserve">
+    <value>[Ŵęľčőmę Ŝŧřįŉģ !!! !!!]</value>
+  </data>
+  <data name="MasterPageConfig_ActionConfiguration" xml:space="preserve">
+    <value>[Cőŉƒįģūřäŧįőŉ ƒőř Åčŧįőŉ: !!! !!!]</value>
+  </data>
+  <data name="MasterPageConfig_CopyDocAction" xml:space="preserve">
+    <value>[Cőpy ƒřőm đőčūmęŉŧ ŧypę äčŧįőŉş !!! !!!]</value>
+  </data>
+  <data name="MasterPageConfig_CopyViewAction" xml:space="preserve">
+    <value>[Cőpy ƒřőm äčŧįőŉş őƒ vįęŵ: {0} !!! !!!]</value>
+  </data>
+  <data name="MasterPageConfig_Inherit" xml:space="preserve">
+    <value>[Ĩŉĥęřįŧ !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="MasterPageConfig_NotInheritable" xml:space="preserve">
+    <value>[Ńőŧ įŉĥęřįŧäþľę, pľęäşę şęŧ įŧş őŵŉ čőŉƒįģūřäŧįőŉ! !!! !!! !!!]</value>
+  </data>
+  <data name="MasterPageConfig_Override" xml:space="preserve">
+    <value>[Øvęřřįđę !!! !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+  <data name="MasterPageConfig_SetConfiguration" xml:space="preserve">
+    <value>[Ŝęŧ čőŉƒįģūřäŧįőŉ !!! !!!]</value>
+  </data>
+  <data name="MasterPageDocument_EndOfList" xml:space="preserve">
+    <value>[Ÿőū ĥävę řęäčĥęđ ęŉđ őƒ ľįşŧ! !!! !!!]</value>
+  </data>
+  <data name="MasterPageMain_Waiting" xml:space="preserve">
+    <value>[Pľęäşę Ŵäįŧ... !!! !!!]</value>
+  </data>
+  <data name="MasterPage_CacheNotFound" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő ƒįŉđ đőčūmęŉŧ ľįşŧ Cäčĥę! {0} !!! !!!]</value>
+  </data>
+  <data name="MasterPage_InvalidPath" xml:space="preserve">
+    <value>[Ĩŉväľįđ Päģę Päŧĥ! {0} !!! !!!]</value>
+  </data>
+  <data name="MasterPage_InvalidPermission" xml:space="preserve">
+    <value>[Ĩŉväľįđ pęřmįşşįőŉ! !!! !!!]</value>
+  </data>
+  <data name="MasterPage_ItemNotFound" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő ƒįŉđ įŧęm: [{0}] įŉ đőčūmęŉŧ ľįşŧ čäčĥę! !!! !!! !!!]</value>
+  </data>
+  <data name="MasterPage_PrecedureNotFound" xml:space="preserve">
+    <value>[Ůŉäþľę ŧő ƒįŉđ přőčęđūřę: {0} !!! !!!]</value>
+  </data>
+  <data name="MemberSelectorView_NoUser" xml:space="preserve">
+    <value>[Ńő ūşęř įş ƒőūŉđ! !!! !!!]</value>
+  </data>
+  <data name="MemberSelectorView_Search" xml:space="preserve">
+    <value>[Pľęäşę ęŉŧęř ä ŉämę äŉđ čľįčĸ şęäřčĥ þūŧŧőŉ !!! !!!]</value>
+  </data>
+  <data name="MemberSelectorView_SelectMultiple" xml:space="preserve">
+    <value>[Ħőľđ Cŧřľ őř Ŝĥįƒŧ ĸęy ŧő şęľęčŧ mūľŧįpľę ŉämęş äŉđ čľįčĸ ØĶ þūŧŧőŉ. !!! !!! !!! !!!]</value>
+  </data>
+  <data name="MemberSelectorView_SelectUser" xml:space="preserve">
+    <value>[Ŝęľęčŧ ūşęř äŉđ čľįčĸ ØĶ þūŧŧőŉ. !!! !!!]</value>
+  </data>
+  <data name="MemberSelectorView_TooMany" xml:space="preserve">
+    <value>[Ŧőő mäŉy ūşęřş įş ƒőūŉđ, äŉđ őŉľy ƒįřşŧ 200 ūşęřş čäŉ þę đįşpľäyęđ. Pľęäşę řęƒįŉę şęäřčĥ čřįŧęřįä. !!! !!! !!! !!! !!! !!!]</value>
+  </data>
+</root>

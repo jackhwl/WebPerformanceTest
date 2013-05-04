@@ -1,0 +1,9 @@
+FieldID1,Not1,CC1,Value11,Value12,FieldID2,Not2,CC2,Value21,Value22,FieldID3,Not3,CC3,Value31,Value32,Records,Header
+DocTitle,0,C,1111,,Author,0,C,"15719255",,Version,0,=,"2",,Total: 1,Result for search criteria: [DocTitle  Contains 1111 ][Author  Contains 15719255 ][Version  Equals 2 ]
+DocTitle,1,C,1111,,Author,1,C,"15719255",,Version,1,=,"2",,Total: 61,Result for search criteria: [DocTitle Not Contains 1111 ][Author Not Contains 15719255 ][Version Not Equals 2 ]
+DocTitle,0,E,100,,Tag_M1,0,S,"34567",,Tag_M2,0,=,6/29/2011,,Total: 1,Result for search criteria: [DocTitle  Ends With 100 ][Tag_M1  Starts With 34567 ][Tag_M2  Equals 6/29/2011 ]
+DocTitle,0,C,100,,Tag_M3,1,=,"30.28",,Tag_M2,0,=,6/29/2011,,Total: 1,Result for search criteria: [DocTitle  Contains 100 ][Tag_M3 Not Equals 30.28 ][Tag_M2  Equals 6/29/2011 ]
+Tag_M3,1,=,30.28,,DocTitle,0,C,"100",,Tag_M2,0,=,6/29/2011,,Total: 1,Result for search criteria: [Tag_M3 Not Equals 30.28 ][DocTitle  Contains 100 ][Tag_M2  Equals 6/29/2011 ]
+Tag_M3,1,=,30.28,,Tag_M2,0,=,6/29/2011,,DocTitle,0,C,"100",,Total: 1,Result for search criteria: [Tag_M3 Not Equals 30.28 ][Tag_M2  Equals 6/29/2011 ][DocTitle  Contains 100 ]
+Tag_M3,0,B,10000,20000,Tag_M2,0,<,6/29/2011,,Tag_M7,0,=,"1",,Total: 4,Result for search criteria: [Tag_M3  Between 10000  AND 20000][Tag_M2  Less Than 6/29/2011 ][Tag_M7  Equals Yes ]
+Tag_M3,1,B,10000,20000,Tag_M2,0,<,6/29/2011,,Tag_M7,0,=,"1",,Total: 42,Result for search criteria: [Tag_M3 Not Between 10000  AND 20000][Tag_M2  Less Than 6/29/2011 ][Tag_M7  Equals Yes ]

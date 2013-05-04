@@ -1,0 +1,25 @@
+ID,Name,Description,Image,ASPPage,NID1,NID2,NID3
+114,Email,Email Document,ActEmailDoc,DocEmail.asp,115,116,117
+115,Email FormFill,Email With FormFill,ActEmailFormFill,DocEmailFormFill.asp,114,116,117
+116,Email Insert,Email With Insert,ActEmailInsert,DocEmailInsert.asp,114,115,117
+117,Email Stamp,Email With Stamp,ActEmailStamp,DocEmailStamp.asp,114,115,116
+118,Get Copy,Get Copy,ActGetCopy,DocGetCopy.asp,119,120,121
+119,Get FormFill,Get Copy With FormFill,ActGetCopyFormFill,DocGetCopyFormFill.asp,118,120,121
+120,Get Insert,Get Copy With Insert,ActGetCopyInsert,DocGetCopyInsert.asp,118,119,121
+121,Get Stamp,Get Copy With Stamp,ActGetCopyStamp,DocGetCopyStamp.asp,118,119,120
+122,History,Version History,ActHistory,DocHistory.asp,121,124,125
+123,Horizontal-detail,Horizontal-detail,ActDocDetail,DocHorizontalDetail.asp,122,124,125
+124,Master-Detail,Master-Detail,ActMasterDetail,MasterDetails.asp,122,121,125
+125,Open,Open Document,ActOpenDoc,DocOpen.asp,122,121,124
+126,Open FormFill,Open With FormFill,ActOpenFormFill,DocOpenFormFill.asp,127,128,129
+127,Open Insert,Open With Insert,ActOpenInsert,DocOpenInsert.asp,126,128,129
+128,Open Stamp,Open With Stamp,ActOpenStam,DocOpenStamp.asp,126,127,129
+129,Open Tiff,Open Tiff,ActOpenTif,DocOpenTiff.asp,126,127,128
+130,Open Tiff Pdf,Open Tiff As Pdf,ActOpenTifPdf,DocOpenTiffAsPdf.asp,131,132,133
+131,To Queue,Send to Print Queue,ActPrintQueue,DocPrintQueueAdd.asp,130,132,133
+132,Flysheet,Add Flysheet,ActFlysheet,DocFlySheet.asp,130,131,133
+133,Modify,Modify Document,ActModifyDoc,DocEdit.asp,130,131,132
+134,Note,Edit Note,ActNote,DocNote.asp,135,136,137
+135,Workflow,Workflow,ActWorkflow,DocWorkflow.asp,134,136,137
+136,Delete,Delete Document,ActDeleteDoc,DocDelete.asp,134,135,137
+137,Version Management,Check Out,ActCheckOut,DocCheckout.asp,134,135,136

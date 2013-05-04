@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcmWebBilingual", "EcmWebBilingual\EcmWebBilingual.csproj", "{918F8AFB-2E6C-4D33-918A-3B0A9D354145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16317B0F-4FA4-40D7-8BC8-0F65E7F68E68}"
+	ProjectSection(SolutionItems) = preProject
+		EcmWebBilingual.vsmdi = EcmWebBilingual.vsmdi
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomValidationRuleSelectedValue", "CustomValidationRuleSelectedValue\CustomValidationRuleSelectedValue.csproj", "{312D2716-BF6F-48F5-9163-4DC977BCF877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoximLocalization", "DoximLocalization\DoximLocalization.csproj", "{F8A7C45A-56DF-4EEF-8A31-F268D136D99C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://rstfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EcmWebBilingual\\EcmWebBilingual.csproj
+		SccProjectName1 = EcmWebBilingual
+		SccLocalPath1 = EcmWebBilingual
+		SccProjectUniqueName2 = CustomValidationRuleSelectedValue\\CustomValidationRuleSelectedValue.csproj
+		SccProjectName2 = CustomValidationRuleSelectedValue
+		SccLocalPath2 = CustomValidationRuleSelectedValue
+		SccProjectUniqueName3 = DoximLocalization\\DoximLocalization.csproj
+		SccProjectName3 = DoximLocalization
+		SccLocalPath3 = DoximLocalization
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EcmWebBilingual.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{918F8AFB-2E6C-4D33-918A-3B0A9D354145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918F8AFB-2E6C-4D33-918A-3B0A9D354145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918F8AFB-2E6C-4D33-918A-3B0A9D354145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918F8AFB-2E6C-4D33-918A-3B0A9D354145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312D2716-BF6F-48F5-9163-4DC977BCF877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312D2716-BF6F-48F5-9163-4DC977BCF877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312D2716-BF6F-48F5-9163-4DC977BCF877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312D2716-BF6F-48F5-9163-4DC977BCF877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A7C45A-56DF-4EEF-8A31-F268D136D99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A7C45A-56DF-4EEF-8A31-F268D136D99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A7C45A-56DF-4EEF-8A31-F268D136D99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A7C45A-56DF-4EEF-8A31-F268D136D99C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+Field,Name,DataType,CFID,CustomField,Value,Result,Total
+DocTitle,Trans#,T,2,AllowedAccount,9112196100,9112196100,Total: 1
+DocTitle,Trans#,T,2,AllowedAccount,,No Document,
+DocTitle,Trans#,T,1,UserLevel,,No Document,
+Author,TransitRoute,T,2,AllowedAccount,12517111,12517111,Total: 6
+Author,TransitRoute,T,2,AllowedAccount,,No Document,
+Author,TransitRoute,T,1,UserLevel,,No Document,
+Tag_M2,ClearingDate,D,2,AllowedAccount,2010-03-29,2010-03-29,Total: 9
+Tag_M2,ClearingDate,D,2,AllowedAccount,,No Document,
+Tag_M5,Item# MetaTag,I,2,AllowedAccount,52249141,52249141,Total: 1
+Tag_M5,Item# MetaTag,I,2,AllowedAccount,,No Document,
+Tag_M3,Amount,C,2,AllowedAccount,91919.99,91919.99,Total: 1
+Tag_M3,Amount,C,2,AllowedAccount,,No Document,

@@ -1,0 +1,8 @@
+D:\Jack\EcmTest\EcmWebBilingual\CustomValidationRuleSelectedValue\bin\Debug\CustomValidationRuleSelectedValue.dll
+D:\Jack\EcmTest\EcmWebBilingual\CustomValidationRuleSelectedValue\bin\Debug\CustomValidationRuleSelectedValue.pdb
+D:\Jack\EcmTest\EcmWebBilingual\CustomValidationRuleSelectedValue\bin\Debug\DoximLocalization.dll
+D:\Jack\EcmTest\EcmWebBilingual\CustomValidationRuleSelectedValue\bin\Debug\DoximLocalization.pdb
+D:\Jack\EcmTest\EcmWebBilingual\CustomValidationRuleSelectedValue\bin\Debug\fr\DoximLocalization.resources.dll
+D:\Jack\EcmTest\EcmWebBilingual\CustomValidationRuleSelectedValue\obj\Debug\CustomValidationRuleSelectedValue.csprojResolveAssemblyReference.cache
+D:\Jack\EcmTest\EcmWebBilingual\CustomValidationRuleSelectedValue\obj\Debug\CustomValidationRuleSelectedValue.dll
+D:\Jack\EcmTest\EcmWebBilingual\CustomValidationRuleSelectedValue\obj\Debug\CustomValidationRuleSelectedValue.pdb

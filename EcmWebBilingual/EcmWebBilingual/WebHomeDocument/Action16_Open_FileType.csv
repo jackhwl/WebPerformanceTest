@@ -1,0 +1,11 @@
+FileType,Index,Resault,FalseResault
+PDF,1,PDF-1,GIF
+JPG,11,Photoshop,PDF-1
+GIF,12,GIF,PDF-1
+XML,13,"<File version=""1.0"">",PDF-1
+Doc,14,Test doc file,PDF-1
+Txt,15,Test txt file,PDF-1
+Tif,16,tiff,PDF-1
+Png,17,PNG,PDF-1
+Fdf,18,FDF-1,PDF-1
+Eps,19,EPSF-3,PDF-1

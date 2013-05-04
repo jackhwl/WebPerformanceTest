@@ -1,0 +1,10 @@
+MasterID,MasterASPPage,DetailID,DetailASPPage,BottomID,BottomASPPage
+628,DocDetail.asp,629,DocEmail.asp,403,DocDetail.asp
+629,DocEmail.asp,630,DocGetCopy.asp,404,DocEmail.asp
+630,DocGetCopy.asp,631,DocHistory.asp,405,DocGetCopy.asp
+631,DocHistory.asp,632,DocHorizontalDetail.asp,406,DocHistory.asp
+632,DocHorizontalDetail.asp,634,DocOpen.asp,406,DocHistory.asp
+634,DocOpen.asp,636,DocOpenTiffAsPdf.asp,410,DocCheckout.asp
+636,DocOpenTiffAsPdf.asp,637,DocEdit.asp,407,DocOpen.asp
+637,DocEdit.asp,639,DocCheckout.asp,408,DocEdit.asp
+639,DocCheckout.asp,628,DocDetail.asp,408,DocEdit.asp

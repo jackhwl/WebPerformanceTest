@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_Meaning" xml:space="preserve">
+    <value>Failed login, Invalid User ID or Password, After {0} more time(s) retry, your account will be locked!  REALLY!!!</value>
+  </data>
+  <data name="Composite_Insert2File" xml:space="preserve">
+    <value>Document: {0} not found, Please contact your system Administrator.</value>
+    <comment>Composite_Insert2File 374,Insert2Stream 447, Stamp2File 500, Stamp2Stream 529, FormFill2File 585, FormFill2Stream 620, TiffAsPdf 651</comment>
+  </data>
+  <data name="ErrMsg_FailedUpdateById" xml:space="preserve">
+    <value>Failed to update by id!</value>
+    <comment>Exceptions\CustomFieldException:30, Exceptions\DataAccessException:33, Exceptions\DocuTypeException:23, Exceptions\MetaTagException:28, Exceptions\UserException:24, DataAccess\PortfolioFieldMappingData: 67</comment>
+  </data>
+  <data name="Exception_Batch" xml:space="preserve">
+    <value>Batch</value>
+    <comment>new added</comment>
+  </data>
+  <data name="Exception_CustomField" xml:space="preserve">
+    <value>CustomField</value>
+    <comment>new added</comment>
+  </data>
+  <data name="Exception_InvalidId" xml:space="preserve">
+    <value>Invalid id!</value>
+    <comment>DataAccess\ActionCategoryDefData:25; DataAccess\ActionData:(39, 53, 66, 80); DataAccess\ActionDefData:23; DataAccess\BatchData:26; DataAccess\CustomFieldData:30; DataAccess\CustomFieldListData:68; DataAccess\CustomFieldValueData: (191, 221); DataAccess\DocTypeData:55; DataAccess\EventDefData:18; DataAccess\FieldData:69; DataAccess\GetInfo:65;  DataAccess\GroupDetailData: 77; DataAccess\MetaTagListData: (22, 69); DataAccess\MetaTagValueData: 313; DataAccess\UserData: (342, 444); DataAccess\ViewDetailData:26; DataAccess\ViewTreeData:27</comment>
+  </data>
+  <data name="Exception_InvalidInfoID" xml:space="preserve">
+    <value>Invalid info ID!</value>
+    <comment>DataAccess\MetaTagListData:55; DataAccess\ViewTreeData:73</comment>
+  </data>
+  <data name="Exception_MethodNotImplemented" xml:space="preserve">
+    <value>The method or operation is not implemented.</value>
+    <comment>Security\AuthenticationType:25; Security\DoximPrincipal:49</comment>
+  </data>
+  <data name="Exception_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Model\CustomFieldInfo:51; Model\DocTypeInfo:38; Model\FolderInfo:54; Model\GroupInfo:47; Model\MetaTagInfo:53; Modle\OrganizationInfo:37; Model\PortfolioFieldInfo:35; Model\PortfolioInfo:32; Model\UserInfo:46; Model\ViewInfo:39</comment>
+  </data>
+  <data name="Exception_UnableCreateConfigInstance" xml:space="preserve">
+    <value>Unable to create action configuration instance, please contact system administrator!\r\n{0}</value>
+    <comment>BusinessLogic\Action:330, BusinessLogic\Common:41</comment>
+  </data>
+  <data name="Exception_WrongConfigurationType" xml:space="preserve">
+    <value>wrong configuration type: {0}</value>
+    <comment>BusinessLogic\Action: 322,  BusinessLogic\Common:33</comment>
+  </data>
+  <data name="Exception_XMLID" xml:space="preserve">
+    <value>XML ID</value>
+    <comment>Model\CustomFieldInfo:39; Model\MetaTagInfo: 41</comment>
+  </data>
+  <data name="Info_NotApplicable" xml:space="preserve">
+    <value>N/A</value>
+    <comment>BusinessLogic\Document: (602,649,653); Model\PrintQueueInfo:23</comment>
+  </data>
+  <data name="Info_PleaseWait" xml:space="preserve">
+    <value>Please wait...</value>
+    <comment>BusinessLogic\Batch:109, BusinessLogic\Folder:188</comment>
+  </data>
+  <data name="Label_Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Label_Author_Desc" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Label_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Label_Description_Desc" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Label_DocID" xml:space="preserve">
+    <value>DocID</value>
+  </data>
+  <data name="Label_DocID_Desc" xml:space="preserve">
+    <value>DocID</value>
+  </data>
+  <data name="Label_ExpiryDate" xml:space="preserve">
+    <value>ExpiryDate</value>
+  </data>
+  <data name="Label_ExpiryDate_Desc" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="Label_FileName" xml:space="preserve">
+    <value>FileName</value>
+  </data>
+  <data name="Label_FileName_Desc" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="Label_FileSize" xml:space="preserve">
+    <value>FileSize</value>
+  </data>
+  <data name="Label_FileSize_Desc" xml:space="preserve">
+    <value>File Size</value>
+  </data>
+  <data name="Label_FolderID" xml:space="preserve">
+    <value>FolderID</value>
+  </data>
+  <data name="Label_FolderID_Desc" xml:space="preserve">
+    <value>FolderID</value>
+  </data>
+  <data name="Label_NewCompany" xml:space="preserve">
+    <value>New Company</value>
+    <comment>17</comment>
+  </data>
+  <data name="Label_ReleaseDate" xml:space="preserve">
+    <value>ReleaseDate</value>
+  </data>
+  <data name="Label_ReleaseDate_Desc" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="Label_Shared" xml:space="preserve">
+    <value>Shared</value>
+  </data>
+  <data name="Label_SharedFolder" xml:space="preserve">
+    <value>Shared Folder</value>
+  </data>
+  <data name="Label_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Label_Title_Desc" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Label_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Label_Version_Desc" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreateConstructor_Constructor" xml:space="preserve">
+    <value>constructor</value>
+    <comment>41</comment>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreateConstructor_NotSupportConstructor" xml:space="preserve">
+    <value>Not support constructor with parameters</value>
+    <comment>43</comment>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreateFieldGetter_Field" xml:space="preserve">
+    <value>field</value>
+    <comment>213</comment>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreateMethod_Method" xml:space="preserve">
+    <value>method</value>
+    <comment>71</comment>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreatePropertyGetter_NoPublicGetAccessor" xml:space="preserve">
+    <value>Property: '{0}' of Type: '{1}' does not have a Public Get accessor</value>
+    <comment>200</comment>
+  </data>
+  <data name="Reflection_DynamicMethodHandlerFactory_CreatePropertyGetter_Property" xml:space="preserve">
+    <value>property</value>
+    <comment>192</comment>
+  </data>
+  <data name="Reflection_MethodCaller_CallMethod_Failed" xml:space="preserve">
+    <value>{0}  failed</value>
+    <comment>288</comment>
+  </data>
+  <data name="Reflection_MethodCaller_CallPropertyGetter_ArgumentNull" xml:space="preserve">
+    <value>Argument is null or empty.</value>
+    <comment>183</comment>
+  </data>
+  <data name="Reflection_MethodCaller_CallPropertyGetter_HasNoPublicGetter" xml:space="preserve">
+    <value>The property '{0}' on Type '{1}' does not have a public getter.</value>
+    <comment>190</comment>
+  </data>
+  <data name="Reflection_MethodCaller_CreateInstance_NotDefaultConstructor" xml:space="preserve">
+    <value>Not implement default constructor!</value>
+    <comment>116</comment>
+  </data>
+  <data name="Reflection_MethodCaller_GetCachedConstructor_CannotCreateInstanceType" xml:space="preserve">
+    <value>Cannot create instance of Type '{0}'. No public parameterless constructor found.</value>
+    <comment>90</comment>
+  </data>
+  <data name="Reflection_MethodCaller_GetCachedField_NotFoundField" xml:space="preserve">
+    <value>Not found field-{0}</value>
+    <comment>162</comment>
+  </data>
+  <data name="Reflection_MethodCaller_GetCachedProperty_NotFoundProperty" xml:space="preserve">
+    <value>Not found property-{0}</value>
+    <comment>139</comment>
+  </data>
+  <data name="Reflection_MethodCaller_GetPropertyValue_FailedCall" xml:space="preserve">
+    <value>Failed to call {0}</value>
+    <comment>562</comment>
+  </data>
+  <data name="Security_AppContext_User_UserInfoNoExist" xml:space="preserve">
+    <value>UserInfo doesn't exist in ASP Session.</value>
+    <comment>114</comment>
+  </data>
+</root>
